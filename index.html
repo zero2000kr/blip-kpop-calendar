@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>K-POP 스케줄 캘린더</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --bg-primary: #0a0a0f;
@@ -30,7 +33,11 @@
             --cat-sns: #8EC5FC;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Noto Sans KR', sans-serif;
@@ -241,9 +248,18 @@
             display: block;
         }
 
-        .group-dropdown::-webkit-scrollbar { width: 4px; }
-        .group-dropdown::-webkit-scrollbar-track { background: transparent; }
-        .group-dropdown::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+        .group-dropdown::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .group-dropdown::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .group-dropdown::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
 
         .group-option {
             padding: 8px 14px;
@@ -344,8 +360,13 @@
             letter-spacing: 0.05em;
         }
 
-        .weekday-header:first-child { color: #ff6b6b; }
-        .weekday-header:last-child { color: #8EC5FC; }
+        .weekday-header:first-child {
+            color: #ff6b6b;
+        }
+
+        .weekday-header:last-child {
+            color: #8EC5FC;
+        }
 
         .cal-cell {
             background: var(--bg-cell);
@@ -357,7 +378,9 @@
             overflow: hidden;
         }
 
-        .cal-cell:hover { background: var(--bg-cell-hover); }
+        .cal-cell:hover {
+            background: var(--bg-cell-hover);
+        }
 
         .cal-cell.empty {
             background: var(--bg-primary);
@@ -386,9 +409,18 @@
         }
 
         .cal-cell:first-child .day-num,
-        .cal-cell:nth-child(7n+1) .day-num { color: #ff6b6b; }
-        .cal-cell:nth-child(7n) .day-num { color: #8EC5FC; }
-        .cal-cell.empty .day-num { color: var(--text-muted); opacity: 0.4; }
+        .cal-cell:nth-child(7n+1) .day-num {
+            color: #ff6b6b;
+        }
+
+        .cal-cell:nth-child(7n) .day-num {
+            color: #8EC5FC;
+        }
+
+        .cal-cell.empty .day-num {
+            color: var(--text-muted);
+            opacity: 0.4;
+        }
 
         .event-dots {
             display: flex;
@@ -458,9 +490,18 @@
             overflow-y: auto;
         }
 
-        .detail-body::-webkit-scrollbar { width: 4px; }
-        .detail-body::-webkit-scrollbar-track { background: transparent; }
-        .detail-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+        .detail-body::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .detail-body::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .detail-body::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 2px;
+        }
 
         .detail-item {
             display: flex;
@@ -470,7 +511,9 @@
             border-bottom: 1px solid var(--border);
         }
 
-        .detail-item:last-child { border-bottom: none; }
+        .detail-item:last-child {
+            border-bottom: none;
+        }
 
         .detail-item .cat-dot {
             width: 10px;
@@ -581,7 +624,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .loading p {
@@ -591,420 +636,500 @@
 
         /* ─── Responsive ─── */
         @media (max-width: 768px) {
-            .header h1 { font-size: 1.5rem; }
-            .month-display { font-size: 1.2rem; min-width: 120px; }
-            .cal-cell { min-height: 72px; padding: 6px 4px; }
-            .day-num { font-size: 0.75rem; }
-            .event-row span { display: none; }
-            .event-row .dot { width: 5px; height: 5px; }
-            .event-dots { flex-direction: row; flex-wrap: wrap; gap: 2px; }
-            .event-row { gap: 0; }
-            .more-count { font-size: 0.6rem; }
-            .detail-body { max-height: 300px; }
-            .stats-bar { gap: 12px; font-size: 0.72rem; }
-            .group-filter-wrapper { width: 220px; }
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .month-display {
+                font-size: 1.2rem;
+                min-width: 120px;
+            }
+
+            .cal-cell {
+                min-height: 72px;
+                padding: 6px 4px;
+            }
+
+            .day-num {
+                font-size: 0.75rem;
+            }
+
+            .event-row span {
+                display: none;
+            }
+
+            .event-row .dot {
+                width: 5px;
+                height: 5px;
+            }
+
+            .event-dots {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 2px;
+            }
+
+            .event-row {
+                gap: 0;
+            }
+
+            .more-count {
+                font-size: 0.6rem;
+            }
+
+            .detail-body {
+                max-height: 300px;
+            }
+
+            .stats-bar {
+                gap: 12px;
+                font-size: 0.72rem;
+            }
+
+            .group-filter-wrapper {
+                width: 220px;
+            }
         }
 
         @media (max-width: 480px) {
-            .container { padding: 16px 8px; }
-            .cal-cell { min-height: 56px; padding: 4px 3px; }
-            .month-nav { gap: 16px; }
-            .filter-bar { gap: 4px; }
-            .filter-chip { padding: 4px 8px; font-size: 0.7rem; }
-            .group-filter-wrapper { width: 200px; }
+            .container {
+                padding: 16px 8px;
+            }
+
+            .cal-cell {
+                min-height: 56px;
+                padding: 4px 3px;
+            }
+
+            .month-nav {
+                gap: 16px;
+            }
+
+            .filter-bar {
+                gap: 4px;
+            }
+
+            .filter-chip {
+                padding: 4px 8px;
+                font-size: 0.7rem;
+            }
+
+            .group-filter-wrapper {
+                width: 200px;
+            }
         }
     </style>
 </head>
+
 <body>
 
-<div class="header">
-    <h1>K-POP SCHEDULE</h1>
-    <p>blip.kr 기반 자동 갱신 캘린더</p>
-</div>
-
-<div class="container">
-    <!-- Stats -->
-    <div class="stats-bar" id="statsBar"></div>
-
-    <!-- Month Nav -->
-    <div class="month-nav">
-        <button id="prevBtn" aria-label="이전 달">◀</button>
-        <div class="month-display" id="monthDisplay"></div>
-        <button id="nextBtn" aria-label="다음 달">▶</button>
-        <button class="today-btn" id="todayBtn">오늘</button>
+    <div class="header">
+        <h1>K-POP SCHEDULE</h1>
+        <p>blip.kr 기반 자동 갱신 캘린더</p>
     </div>
 
-    <!-- Filters -->
-    <div class="filter-section">
-        <!-- Category Filter -->
-        <div class="filter-bar" id="filterBar"></div>
+    <div class="container">
+        <!-- Stats -->
+        <div class="stats-bar" id="statsBar"></div>
 
-        <!-- Group Filter -->
-        <div class="group-filter">
-            <div class="group-filter-wrapper" id="groupFilterWrapper">
-                <input type="text"
-                       class="group-search-input"
-                       id="groupSearchInput"
-                       placeholder="그룹 검색..."
-                       autocomplete="off">
-                <span class="group-search-icon">🔍</span>
-                <div class="group-dropdown" id="groupDropdown"></div>
+        <!-- Month Nav -->
+        <div class="month-nav">
+            <button id="prevBtn" aria-label="이전 달">◀</button>
+            <div class="month-display" id="monthDisplay"></div>
+            <button id="nextBtn" aria-label="다음 달">▶</button>
+            <button class="today-btn" id="todayBtn">오늘</button>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-section">
+            <!-- Category Filter -->
+            <div class="filter-bar" id="filterBar"></div>
+
+            <!-- Group Filter -->
+            <div class="group-filter">
+                <div class="group-filter-wrapper" id="groupFilterWrapper">
+                    <input type="text" class="group-search-input" id="groupSearchInput" placeholder="그룹 검색..."
+                        autocomplete="off">
+                    <span class="group-search-icon">🔍</span>
+                    <div class="group-dropdown" id="groupDropdown"></div>
+                </div>
+            </div>
+            <div class="selected-groups" id="selectedGroups" style="margin-top: 10px;"></div>
+        </div>
+
+        <!-- Calendar -->
+        <div id="calendarContainer">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>스케줄 데이터를 불러오는 중...</p>
             </div>
         </div>
-        <div class="selected-groups" id="selectedGroups" style="margin-top: 10px;"></div>
-    </div>
 
-    <!-- Calendar -->
-    <div id="calendarContainer">
-        <div class="loading">
-            <div class="spinner"></div>
-            <p>스케줄 데이터를 불러오는 중...</p>
+        <!-- Detail Panel -->
+        <div class="detail-panel" id="detailPanel" style="display: none;">
+            <div class="detail-header">
+                <h3 id="detailTitle">일정 상세</h3>
+                <span class="event-count" id="detailCount"></span>
+            </div>
+            <div class="detail-body" id="detailBody"></div>
         </div>
     </div>
 
-    <!-- Detail Panel -->
-    <div class="detail-panel" id="detailPanel" style="display: none;">
-        <div class="detail-header">
-            <h3 id="detailTitle">일정 상세</h3>
-            <span class="event-count" id="detailCount"></span>
-        </div>
-        <div class="detail-body" id="detailBody"></div>
+    <div class="footer">
+        <p>데이터 출처: <a href="https://blip.kr/schedule" target="_blank" rel="noopener">blip.kr</a>
+            · 마지막 갱신: <span id="updateTime">-</span></p>
     </div>
-</div>
 
-<div class="footer">
-    <p>데이터 출처: <a href="https://blip.kr/schedule" target="_blank" rel="noopener">blip.kr</a>
-    · 마지막 갱신: <span id="updateTime">-</span></p>
-</div>
+    <script>
+        // ─── State ───
+        let data = null;
+        let viewYear, viewMonth;
+        let selectedDateKey = null;
+        let hiddenCategories = new Set();
+        let selectedUnitIds = new Set();  // 선택된 그룹 (비어있으면 전체 표시)
 
-<script>
-// ─── State ───
-let data = null;
-let viewYear, viewMonth;
-let selectedDateKey = null;
-let hiddenCategories = new Set();
-let selectedUnitIds = new Set();  // 선택된 그룹 (비어있으면 전체 표시)
+        const CATEGORY_COLORS = {
+            "축하": "#4ECDC4",
+            "발매": "#FF6B6B",
+            "프리오더": "#FF9F43",
+            "방송": "#FFE66D",
+            "구매": "#95E1D3",
+            "행사": "#C7CEEA",
+            "기타": "#777790",
+            "비공식": "#FFB6B9",
+            "SNS": "#8EC5FC"
+        };
 
-const CATEGORY_COLORS = {
-    "축하": "#4ECDC4",
-    "발매": "#FF6B6B",
-    "프리오더": "#FF9F43",
-    "방송": "#FFE66D",
-    "구매": "#95E1D3",
-    "행사": "#C7CEEA",
-    "기타": "#777790",
-    "비공식": "#FFB6B9",
-    "SNS": "#8EC5FC"
-};
+        const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
 
-const WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
+        // ─── Init ───
+        async function init() {
+            const today = new Date();
+            viewYear = today.getFullYear();
+            viewMonth = today.getMonth() + 1;
 
-// ─── Init ───
-async function init() {
-    const today = new Date();
-    viewYear = today.getFullYear();
-    viewMonth = today.getMonth() + 1;
+            try {
+                // Smart caching: Check version using updated_at from schedule.json
+                const lastKnownVersion = localStorage.getItem('scheduleVersion');
 
-    try {
-        const resp = await fetch('./schedule.json');
-        if (!resp.ok) throw new Error('schedule.json not found');
-        data = await resp.json();
-        console.log('Schedule loaded:', data.stats);
+                // Load with no-cache to check for updates
+                const checkResp = await fetch('./schedule.json', {
+                    cache: 'no-cache'
+                });
+                if (!checkResp.ok) throw new Error('schedule.json not found');
 
-        renderFilters();
-        renderCalendar();
-        renderStats();
-        renderUpdateTime();
-        initGroupFilter();
-    } catch (err) {
-        console.error(err);
-        document.getElementById('calendarContainer').innerHTML =
-            '<div class="loading"><p>⚠️ 데이터를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</p></div>';
-    }
-}
+                const newData = await checkResp.json();
+                const newVersion = newData.updated_at;
 
-// ─── Category Filters ───
-const DEFAULT_ACTIVE_CATEGORIES = new Set(["발매", "프리오더"]);
-let filtersInitialized = false;
+                console.log('Schedule version check:', {
+                    cached: lastKnownVersion,
+                    latest: newVersion,
+                    needsUpdate: lastKnownVersion !== newVersion
+                });
 
-function renderFilters() {
-    if (!data?.categories) return;
-    const bar = document.getElementById('filterBar');
-    bar.innerHTML = '';
+                // Update localStorage if version changed
+                if (lastKnownVersion !== newVersion) {
+                    localStorage.setItem('scheduleVersion', newVersion);
+                    console.log('Schedule updated to version:', newVersion);
+                }
 
-    // 초기화 시 기본값 외 카테고리는 숨김 처리
-    if (!filtersInitialized) {
-        data.categories.forEach(cat => {
-            if (!DEFAULT_ACTIVE_CATEGORIES.has(cat)) {
-                hiddenCategories.add(cat);
-            }
-        });
-        filtersInitialized = true;
-    }
+                data = newData;
+                console.log('Schedule loaded:', data.stats);
 
-    data.categories.forEach(cat => {
-        const isActive = !hiddenCategories.has(cat);
-        const chip = document.createElement('div');
-        chip.className = `filter-chip${isActive ? ' active' : ''}`;
-        chip.style.setProperty('--chip-color', CATEGORY_COLORS[cat] || '#777');
-        chip.innerHTML = `<span class="dot" style="background:${CATEGORY_COLORS[cat] || '#777'}"></span>${cat}`;
-
-        chip.addEventListener('click', () => {
-            if (hiddenCategories.has(cat)) {
-                hiddenCategories.delete(cat);
-                chip.classList.add('active');
-            } else {
-                hiddenCategories.add(cat);
-                chip.classList.remove('active');
-            }
-            renderCalendar();
-            if (selectedDateKey) showDetail(selectedDateKey);
-        });
-
-        bar.appendChild(chip);
-    });
-}
-
-// ─── Group Filter ───
-function initGroupFilter() {
-    if (!data?.units) return;
-
-    const input = document.getElementById('groupSearchInput');
-    const dropdown = document.getElementById('groupDropdown');
-    const wrapper = document.getElementById('groupFilterWrapper');
-
-    // 그룹별 이벤트 수 계산
-    const unitEventCounts = {};
-    for (const dateEvents of Object.values(data.events || {})) {
-        for (const ev of dateEvents) {
-            if (ev.unitId != null) {
-                unitEventCounts[ev.unitId] = (unitEventCounts[ev.unitId] || 0) + 1;
+                renderFilters();
+                renderCalendar();
+                renderStats();
+                renderUpdateTime();
+                initGroupFilter();
+            } catch (err) {
+                console.error(err);
+                document.getElementById('calendarContainer').innerHTML =
+                    '<div class="loading"><p>⚠️ 데이터를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</p></div>';
             }
         }
-    }
 
-    // 이벤트 수 기준 정렬된 유닛 목록
-    const sortedUnits = Object.entries(data.units)
-        .map(([id, info]) => ({ id: parseInt(id), ...info, count: unitEventCounts[parseInt(id)] || 0 }))
-        .sort((a, b) => b.count - a.count);
+        // ─── Category Filters ───
+        const DEFAULT_ACTIVE_CATEGORIES = new Set(["발매", "프리오더"]);
+        let filtersInitialized = false;
 
-    function renderDropdown(query) {
-        const q = query.toLowerCase().trim();
-        const filtered = q
-            ? sortedUnits.filter(u =>
-                u.ko.toLowerCase().includes(q) ||
-                u.en.toLowerCase().includes(q)
-              )
-            : sortedUnits;
+        function renderFilters() {
+            if (!data?.categories) return;
+            const bar = document.getElementById('filterBar');
+            bar.innerHTML = '';
 
-        // 이미 선택된 그룹은 제외
-        const available = filtered.filter(u => !selectedUnitIds.has(u.id));
+            // 초기화 시 기본값 외 카테고리는 숨김 처리
+            if (!filtersInitialized) {
+                data.categories.forEach(cat => {
+                    if (!DEFAULT_ACTIVE_CATEGORIES.has(cat)) {
+                        hiddenCategories.add(cat);
+                    }
+                });
+                filtersInitialized = true;
+            }
 
-        if (available.length === 0) {
-            dropdown.innerHTML = '<div class="group-option" style="color:var(--text-muted);cursor:default;">검색 결과 없음</div>';
-        } else {
-            dropdown.innerHTML = available.slice(0, 30).map(u =>
-                `<div class="group-option" data-uid="${u.id}">
+            data.categories.forEach(cat => {
+                const isActive = !hiddenCategories.has(cat);
+                const chip = document.createElement('div');
+                chip.className = `filter-chip${isActive ? ' active' : ''}`;
+                chip.style.setProperty('--chip-color', CATEGORY_COLORS[cat] || '#777');
+                chip.innerHTML = `<span class="dot" style="background:${CATEGORY_COLORS[cat] || '#777'}"></span>${cat}`;
+
+                chip.addEventListener('click', () => {
+                    if (hiddenCategories.has(cat)) {
+                        hiddenCategories.delete(cat);
+                        chip.classList.add('active');
+                    } else {
+                        hiddenCategories.add(cat);
+                        chip.classList.remove('active');
+                    }
+                    renderCalendar();
+                    if (selectedDateKey) showDetail(selectedDateKey);
+                });
+
+                bar.appendChild(chip);
+            });
+        }
+
+        // ─── Group Filter ───
+        function initGroupFilter() {
+            if (!data?.units) return;
+
+            const input = document.getElementById('groupSearchInput');
+            const dropdown = document.getElementById('groupDropdown');
+            const wrapper = document.getElementById('groupFilterWrapper');
+
+            // 그룹별 이벤트 수 계산
+            const unitEventCounts = {};
+            for (const dateEvents of Object.values(data.events || {})) {
+                for (const ev of dateEvents) {
+                    if (ev.unitId != null) {
+                        unitEventCounts[ev.unitId] = (unitEventCounts[ev.unitId] || 0) + 1;
+                    }
+                }
+            }
+
+            // 이벤트 수 기준 정렬된 유닛 목록
+            const sortedUnits = Object.entries(data.units)
+                .map(([id, info]) => ({ id: parseInt(id), ...info, count: unitEventCounts[parseInt(id)] || 0 }))
+                .sort((a, b) => b.count - a.count);
+
+            function renderDropdown(query) {
+                const q = query.toLowerCase().trim();
+                const filtered = q
+                    ? sortedUnits.filter(u =>
+                        u.ko.toLowerCase().includes(q) ||
+                        u.en.toLowerCase().includes(q)
+                    )
+                    : sortedUnits;
+
+                // 이미 선택된 그룹은 제외
+                const available = filtered.filter(u => !selectedUnitIds.has(u.id));
+
+                if (available.length === 0) {
+                    dropdown.innerHTML = '<div class="group-option" style="color:var(--text-muted);cursor:default;">검색 결과 없음</div>';
+                } else {
+                    dropdown.innerHTML = available.slice(0, 30).map(u =>
+                        `<div class="group-option" data-uid="${u.id}">
                     <span>${escapeHtml(u.ko)} <span class="en-name">${escapeHtml(u.en)}</span></span>
                     <span class="event-count">${u.count}건</span>
                 </div>`
-            ).join('');
-        }
+                    ).join('');
+                }
 
-        // 클릭 이벤트
-        dropdown.querySelectorAll('.group-option[data-uid]').forEach(opt => {
-            opt.addEventListener('click', () => {
-                const uid = parseInt(opt.dataset.uid);
-                selectGroup(uid);
-                input.value = '';
-                dropdown.classList.remove('open');
-            });
-        });
-    }
-
-    // 입력 이벤트
-    input.addEventListener('focus', () => {
-        renderDropdown(input.value);
-        dropdown.classList.add('open');
-    });
-
-    input.addEventListener('input', () => {
-        renderDropdown(input.value);
-        dropdown.classList.add('open');
-    });
-
-    // 외부 클릭 시 닫기
-    document.addEventListener('click', (e) => {
-        if (!wrapper.contains(e.target)) {
-            dropdown.classList.remove('open');
-        }
-    });
-
-    // Enter 키: 첫 번째 결과 선택
-    input.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-            const first = dropdown.querySelector('.group-option[data-uid]');
-            if (first) {
-                first.click();
+                // 클릭 이벤트
+                dropdown.querySelectorAll('.group-option[data-uid]').forEach(opt => {
+                    opt.addEventListener('click', () => {
+                        const uid = parseInt(opt.dataset.uid);
+                        selectGroup(uid);
+                        input.value = '';
+                        dropdown.classList.remove('open');
+                    });
+                });
             }
-        } else if (e.key === 'Escape') {
-            dropdown.classList.remove('open');
-            input.blur();
-        }
-    });
-}
 
-function selectGroup(unitId) {
-    selectedUnitIds.add(unitId);
-    renderSelectedGroups();
-    renderCalendar();
-    if (selectedDateKey) showDetail(selectedDateKey);
-}
-
-function deselectGroup(unitId) {
-    selectedUnitIds.delete(unitId);
-    renderSelectedGroups();
-    renderCalendar();
-    if (selectedDateKey) showDetail(selectedDateKey);
-}
-
-function clearAllGroups() {
-    selectedUnitIds.clear();
-    renderSelectedGroups();
-    renderCalendar();
-    if (selectedDateKey) showDetail(selectedDateKey);
-}
-
-function renderSelectedGroups() {
-    const container = document.getElementById('selectedGroups');
-
-    if (selectedUnitIds.size === 0) {
-        container.innerHTML = '';
-        return;
-    }
-
-    let html = '';
-    for (const uid of selectedUnitIds) {
-        const info = data.units[String(uid)] || { ko: '?', en: '?' };
-        html += `<span class="group-tag">${escapeHtml(info.ko)}<span class="remove" onclick="deselectGroup(${uid})">✕</span></span>`;
-    }
-    html += `<button class="group-clear-btn" onclick="clearAllGroups()">전체 해제</button>`;
-
-    container.innerHTML = html;
-}
-
-// ─── Calendar ───
-function renderCalendar() {
-    if (!data) return;
-
-    document.getElementById('monthDisplay').textContent =
-        `${viewYear}. ${String(viewMonth).padStart(2, '0')}`;
-
-    const firstDay = new Date(viewYear, viewMonth - 1, 1).getDay();
-    const lastDate = new Date(viewYear, viewMonth, 0).getDate();
-    const today = new Date();
-    const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-
-    let html = '<div class="calendar-grid">';
-
-    // Weekday headers
-    WEEKDAYS.forEach(d => {
-        html += `<div class="weekday-header">${d}</div>`;
-    });
-
-    // Empty cells before 1st
-    for (let i = 0; i < firstDay; i++) {
-        html += '<div class="cal-cell empty"></div>';
-    }
-
-    // Day cells
-    for (let d = 1; d <= lastDate; d++) {
-        const dateKey = `${viewYear}-${String(viewMonth).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
-        const isToday = dateKey === todayKey;
-        const isSelected = dateKey === selectedDateKey;
-        const events = getFilteredEvents(dateKey);
-
-        let cls = 'cal-cell';
-        if (isToday) cls += ' today';
-        if (isSelected) cls += ' selected';
-
-        html += `<div class="${cls}" data-date="${dateKey}" onclick="onCellClick('${dateKey}')">`;
-        html += `<div class="day-num">${d}</div>`;
-
-        if (events.length > 0) {
-            html += '<div class="event-dots">';
-            // 모바일에서는 점(dot)만 표시하므로 더 많이 표시
-            const maxVisible = window.innerWidth <= 768 ? 6 : 3;
-            const show = events.slice(0, maxVisible);
-            show.forEach(ev => {
-                const color = CATEGORY_COLORS[ev.category] || '#777';
-                html += `<div class="event-row"><span class="dot" style="background:${color}"></span><span>${escapeHtml(ev.title)}</span></div>`;
+            // 입력 이벤트
+            input.addEventListener('focus', () => {
+                renderDropdown(input.value);
+                dropdown.classList.add('open');
             });
-            if (events.length > maxVisible) {
-                html += `<div class="more-count">+${events.length - maxVisible}</div>`;
+
+            input.addEventListener('input', () => {
+                renderDropdown(input.value);
+                dropdown.classList.add('open');
+            });
+
+            // 외부 클릭 시 닫기
+            document.addEventListener('click', (e) => {
+                if (!wrapper.contains(e.target)) {
+                    dropdown.classList.remove('open');
+                }
+            });
+
+            // Enter 키: 첫 번째 결과 선택
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    const first = dropdown.querySelector('.group-option[data-uid]');
+                    if (first) {
+                        first.click();
+                    }
+                } else if (e.key === 'Escape') {
+                    dropdown.classList.remove('open');
+                    input.blur();
+                }
+            });
+        }
+
+        function selectGroup(unitId) {
+            selectedUnitIds.add(unitId);
+            renderSelectedGroups();
+            renderCalendar();
+            if (selectedDateKey) showDetail(selectedDateKey);
+        }
+
+        function deselectGroup(unitId) {
+            selectedUnitIds.delete(unitId);
+            renderSelectedGroups();
+            renderCalendar();
+            if (selectedDateKey) showDetail(selectedDateKey);
+        }
+
+        function clearAllGroups() {
+            selectedUnitIds.clear();
+            renderSelectedGroups();
+            renderCalendar();
+            if (selectedDateKey) showDetail(selectedDateKey);
+        }
+
+        function renderSelectedGroups() {
+            const container = document.getElementById('selectedGroups');
+
+            if (selectedUnitIds.size === 0) {
+                container.innerHTML = '';
+                return;
             }
+
+            let html = '';
+            for (const uid of selectedUnitIds) {
+                const info = data.units[String(uid)] || { ko: '?', en: '?' };
+                html += `<span class="group-tag">${escapeHtml(info.ko)}<span class="remove" onclick="deselectGroup(${uid})">✕</span></span>`;
+            }
+            html += `<button class="group-clear-btn" onclick="clearAllGroups()">전체 해제</button>`;
+
+            container.innerHTML = html;
+        }
+
+        // ─── Calendar ───
+        function renderCalendar() {
+            if (!data) return;
+
+            document.getElementById('monthDisplay').textContent =
+                `${viewYear}. ${String(viewMonth).padStart(2, '0')}`;
+
+            const firstDay = new Date(viewYear, viewMonth - 1, 1).getDay();
+            const lastDate = new Date(viewYear, viewMonth, 0).getDate();
+            const today = new Date();
+            const todayKey = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+
+            let html = '<div class="calendar-grid">';
+
+            // Weekday headers
+            WEEKDAYS.forEach(d => {
+                html += `<div class="weekday-header">${d}</div>`;
+            });
+
+            // Empty cells before 1st
+            for (let i = 0; i < firstDay; i++) {
+                html += '<div class="cal-cell empty"></div>';
+            }
+
+            // Day cells
+            for (let d = 1; d <= lastDate; d++) {
+                const dateKey = `${viewYear}-${String(viewMonth).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+                const isToday = dateKey === todayKey;
+                const isSelected = dateKey === selectedDateKey;
+                const events = getFilteredEvents(dateKey);
+
+                let cls = 'cal-cell';
+                if (isToday) cls += ' today';
+                if (isSelected) cls += ' selected';
+
+                html += `<div class="${cls}" data-date="${dateKey}" onclick="onCellClick('${dateKey}')">`;
+                html += `<div class="day-num">${d}</div>`;
+
+                if (events.length > 0) {
+                    html += '<div class="event-dots">';
+                    // 모바일에서는 점(dot)만 표시하므로 더 많이 표시
+                    const maxVisible = window.innerWidth <= 768 ? 6 : 3;
+                    const show = events.slice(0, maxVisible);
+                    show.forEach(ev => {
+                        const color = CATEGORY_COLORS[ev.category] || '#777';
+                        html += `<div class="event-row"><span class="dot" style="background:${color}"></span><span>${escapeHtml(ev.title)}</span></div>`;
+                    });
+                    if (events.length > maxVisible) {
+                        html += `<div class="more-count">+${events.length - maxVisible}</div>`;
+                    }
+                    html += '</div>';
+                }
+
+                html += '</div>';
+            }
+
+            // Trailing empty cells
+            const totalCells = firstDay + lastDate;
+            const remainder = totalCells % 7;
+            if (remainder > 0) {
+                for (let i = 0; i < 7 - remainder; i++) {
+                    html += '<div class="cal-cell empty"></div>';
+                }
+            }
+
             html += '</div>';
+            document.getElementById('calendarContainer').innerHTML = html;
         }
 
-        html += '</div>';
-    }
-
-    // Trailing empty cells
-    const totalCells = firstDay + lastDate;
-    const remainder = totalCells % 7;
-    if (remainder > 0) {
-        for (let i = 0; i < 7 - remainder; i++) {
-            html += '<div class="cal-cell empty"></div>';
+        function getFilteredEvents(dateKey) {
+            if (!data?.events?.[dateKey]) return [];
+            return data.events[dateKey].filter(ev => {
+                // 카테고리 필터
+                if (hiddenCategories.has(ev.category)) return false;
+                // 그룹 필터 (선택된 게 없으면 전체 표시)
+                if (selectedUnitIds.size > 0 && !selectedUnitIds.has(ev.unitId)) return false;
+                return true;
+            });
         }
-    }
 
-    html += '</div>';
-    document.getElementById('calendarContainer').innerHTML = html;
-}
+        // ─── Cell Click ───
+        function onCellClick(dateKey) {
+            selectedDateKey = dateKey;
+            renderCalendar();
+            showDetail(dateKey);
+        }
 
-function getFilteredEvents(dateKey) {
-    if (!data?.events?.[dateKey]) return [];
-    return data.events[dateKey].filter(ev => {
-        // 카테고리 필터
-        if (hiddenCategories.has(ev.category)) return false;
-        // 그룹 필터 (선택된 게 없으면 전체 표시)
-        if (selectedUnitIds.size > 0 && !selectedUnitIds.has(ev.unitId)) return false;
-        return true;
-    });
-}
+        function showDetail(dateKey) {
+            const panel = document.getElementById('detailPanel');
+            const title = document.getElementById('detailTitle');
+            const count = document.getElementById('detailCount');
+            const body = document.getElementById('detailBody');
 
-// ─── Cell Click ───
-function onCellClick(dateKey) {
-    selectedDateKey = dateKey;
-    renderCalendar();
-    showDetail(dateKey);
-}
+            const parts = dateKey.split('-');
+            const dayOfWeek = WEEKDAYS[new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2])).getDay()];
+            title.textContent = `${parts[0]}년 ${parseInt(parts[1])}월 ${parseInt(parts[2])}일 (${dayOfWeek})`;
 
-function showDetail(dateKey) {
-    const panel = document.getElementById('detailPanel');
-    const title = document.getElementById('detailTitle');
-    const count = document.getElementById('detailCount');
-    const body = document.getElementById('detailBody');
+            const events = getFilteredEvents(dateKey);
+            count.textContent = `${events.length}건`;
 
-    const parts = dateKey.split('-');
-    const dayOfWeek = WEEKDAYS[new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2])).getDay()];
-    title.textContent = `${parts[0]}년 ${parseInt(parts[1])}월 ${parseInt(parts[2])}일 (${dayOfWeek})`;
-
-    const events = getFilteredEvents(dateKey);
-    count.textContent = `${events.length}건`;
-
-    if (events.length === 0) {
-        body.innerHTML = '<div class="detail-empty">이 날짜에 등록된 일정이 없습니다.</div>';
-    } else {
-        body.innerHTML = events.map(ev => {
-            const color = CATEGORY_COLORS[ev.category] || '#777';
-            const unitInfo = data.units?.[String(ev.unitId)];
-            const groupName = unitInfo ? unitInfo.ko : '';
-            const groupEn = unitInfo ? unitInfo.en : '';
-            // 구글 검색: 영문 그룹명 + 이벤트 제목 (영문명이 검색 정확도 높음)
-            const searchQuery = (groupEn ? groupEn + ' ' : '') + ev.title;
-            const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
-            return `<div class="detail-item">
+            if (events.length === 0) {
+                body.innerHTML = '<div class="detail-empty">이 날짜에 등록된 일정이 없습니다.</div>';
+            } else {
+                body.innerHTML = events.map(ev => {
+                    const color = CATEGORY_COLORS[ev.category] || '#777';
+                    const unitInfo = data.units?.[String(ev.unitId)];
+                    const groupName = unitInfo ? unitInfo.ko : '';
+                    const groupEn = unitInfo ? unitInfo.en : '';
+                    // 구글 검색: 영문 그룹명 + 이벤트 제목 (영문명이 검색 정확도 높음)
+                    const searchQuery = (groupEn ? groupEn + ' ' : '') + ev.title;
+                    const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+                    return `<div class="detail-item">
                 <div class="cat-dot" style="background:${color}"></div>
                 <div class="info">
                     <div class="title"><a href="${googleUrl}" target="_blank" rel="noopener" class="event-link">${escapeHtml(ev.title)}</a></div>
@@ -1015,73 +1140,74 @@ function showDetail(dateKey) {
                 </div>
                 <a href="${googleUrl}" target="_blank" rel="noopener" class="detail-link-icon" title="구글에서 검색">↗</a>
             </div>`;
-        }).join('');
-    }
+                }).join('');
+            }
 
-    panel.style.display = 'block';
-}
+            panel.style.display = 'block';
+        }
 
-// ─── Stats ───
-function renderStats() {
-    if (!data?.stats) return;
-    const bar = document.getElementById('statsBar');
-    bar.innerHTML = `
+        // ─── Stats ───
+        function renderStats() {
+            if (!data?.stats) return;
+            const bar = document.getElementById('statsBar');
+            bar.innerHTML = `
         <span>수집 기간 <strong>${data.range?.start || '?'} - ${data.range?.end || '?'}</strong></span>
         <span>총 이벤트 <strong>${data.stats.total_events.toLocaleString()}</strong></span>
         <span>그룹 <strong>${data.stats.total_units || '?'}</strong></span>
     `;
-}
+        }
 
-function renderUpdateTime() {
-    if (!data?.updated_at) return;
-    const d = new Date(data.updated_at);
-    document.getElementById('updateTime').textContent = d.toLocaleString('ko-KR');
-}
+        function renderUpdateTime() {
+            if (!data?.updated_at) return;
+            const d = new Date(data.updated_at);
+            document.getElementById('updateTime').textContent = d.toLocaleString('ko-KR');
+        }
 
-// ─── Nav ───
-document.getElementById('prevBtn').addEventListener('click', () => {
-    viewMonth--;
-    if (viewMonth < 1) { viewMonth = 12; viewYear--; }
-    selectedDateKey = null;
-    document.getElementById('detailPanel').style.display = 'none';
-    renderCalendar();
-});
+        // ─── Nav ───
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            viewMonth--;
+            if (viewMonth < 1) { viewMonth = 12; viewYear--; }
+            selectedDateKey = null;
+            document.getElementById('detailPanel').style.display = 'none';
+            renderCalendar();
+        });
 
-document.getElementById('nextBtn').addEventListener('click', () => {
-    viewMonth++;
-    if (viewMonth > 12) { viewMonth = 1; viewYear++; }
-    selectedDateKey = null;
-    document.getElementById('detailPanel').style.display = 'none';
-    renderCalendar();
-});
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            viewMonth++;
+            if (viewMonth > 12) { viewMonth = 1; viewYear++; }
+            selectedDateKey = null;
+            document.getElementById('detailPanel').style.display = 'none';
+            renderCalendar();
+        });
 
-document.getElementById('todayBtn').addEventListener('click', () => {
-    const today = new Date();
-    viewYear = today.getFullYear();
-    viewMonth = today.getMonth() + 1;
-    selectedDateKey = null;
-    document.getElementById('detailPanel').style.display = 'none';
-    renderCalendar();
-});
+        document.getElementById('todayBtn').addEventListener('click', () => {
+            const today = new Date();
+            viewYear = today.getFullYear();
+            viewMonth = today.getMonth() + 1;
+            selectedDateKey = null;
+            document.getElementById('detailPanel').style.display = 'none';
+            renderCalendar();
+        });
 
-// ─── Util ───
-function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
-}
+        // ─── Util ───
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
 
-// ─── Keyboard ───
-document.addEventListener('keydown', (e) => {
-    // 검색 input 포커스 중에는 좌우 키 무시
-    if (document.activeElement?.id === 'groupSearchInput') return;
-    if (e.key === 'ArrowLeft') document.getElementById('prevBtn').click();
-    else if (e.key === 'ArrowRight') document.getElementById('nextBtn').click();
-});
+        // ─── Keyboard ───
+        document.addEventListener('keydown', (e) => {
+            // 검색 input 포커스 중에는 좌우 키 무시
+            if (document.activeElement?.id === 'groupSearchInput') return;
+            if (e.key === 'ArrowLeft') document.getElementById('prevBtn').click();
+            else if (e.key === 'ArrowRight') document.getElementById('nextBtn').click();
+        });
 
-// ─── Start ───
-window.addEventListener('load', init);
-</script>
+        // ─── Start ───
+        window.addEventListener('load', init);
+    </script>
 
 </body>
+
 </html>
