@@ -269,6 +269,9 @@ def parse_events_to_dict(events: list[dict], year: int, month: int) -> dict:
             }
             if unit_id is not None:
                 entry["unitId"] = unit_id
+            schedule_id = event.get("scheduleId")
+            if schedule_id is not None:
+                entry["scheduleId"] = schedule_id
             result[date_key].append(entry)
 
     return result
@@ -413,14 +416,8 @@ def _last_day(year: int, month: int) -> int:
 # ─── 저장 ───
 
 def save_json(data: dict, filename: str = "schedule.json"):
-    # schedule.json에서 scheduleId만 제외 (unitId는 보존)
-    clean_data = json.loads(json.dumps(data))
-    for date_key in clean_data.get("events", {}):
-        for event in clean_data["events"][date_key]:
-            event.pop("scheduleId", None)
-
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(clean_data, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"💾 {filename} 저장 완료")
 
 
