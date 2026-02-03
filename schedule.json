@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-03T05:46:37.544164",
+  "updated_at": "2026-02-03T07:33:35.576580",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -7,6 +7,7 @@
   "categories": [
     "축하",
     "발매",
+    "프리오더",
     "방송",
     "구매",
     "행사",
@@ -17,6 +18,7 @@
   "category_colors": {
     "축하": "#4ECDC4",
     "발매": "#FF6B6B",
+    "프리오더": "#FF9F43",
     "방송": "#FFE66D",
     "구매": "#95E1D3",
     "행사": "#C7CEEA",
@@ -499,7 +501,7 @@
       },
       {
         "title": "'I GOT A BOY' 발매 13주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 62
       },
       {
@@ -588,7 +590,7 @@
       },
       {
         "title": "'Ruby' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -707,7 +709,7 @@
       },
       {
         "title": "'Gee' 발매 17주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 62
       },
       {
@@ -749,7 +751,7 @@
       },
       {
         "title": "'응 그래 (Umm Great)' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 146
       },
       {
@@ -764,7 +766,7 @@
       },
       {
         "title": "‘오늘만 I love you’ 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -875,17 +877,17 @@
       },
       {
         "title": "'비밀정원' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 43
       },
       {
         "title": "<REASON> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 31
       },
       {
         "title": "<THE PIECE OF9> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 34
       },
       {
@@ -1019,7 +1021,7 @@
       },
       {
         "title": "<I burn> 앨범 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -1195,7 +1197,7 @@
       },
       {
         "title": "<Time for us> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -1257,17 +1259,17 @@
       },
       {
         "title": "<2001 대한민국 Hip Hop Flex> 발매 25주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 163
       },
       {
         "title": "<GOOD MORNING> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 93
       },
       {
         "title": "<Season of Glass> 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -1436,7 +1438,7 @@
       },
       {
         "title": "'DM' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 74
       },
       {
@@ -1649,7 +1651,7 @@
       },
       {
         "title": "<YOU MADE MY DAWN> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -1701,7 +1703,7 @@
       },
       {
         "title": "<Sparkling Blue> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -1815,7 +1817,7 @@
       },
       {
         "title": "'To Heart' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 74
       },
       {
@@ -1862,7 +1864,7 @@
       },
       {
         "title": "<SNOWFLAKE> 발매 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -1976,12 +1978,12 @@
       },
       {
         "title": "'Better Half (feat. JEONGHAN of SEVENTEEN)' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
         "title": "<The Name Chapter: TEMPTATION> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -2075,7 +2077,7 @@
       },
       {
         "title": "<2> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -2149,7 +2151,7 @@
     "2026-01-31": [
       {
         "title": "<VarioUS> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
@@ -2262,7 +2264,7 @@
       },
       {
         "title": "'Child' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -2284,7 +2286,7 @@
     "2026-02-05": [
       {
         "title": "<DIRECTOR'S CUT> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -2311,7 +2313,7 @@
     "2026-02-06": [
       {
         "title": "<SECOND WIND> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -2357,12 +2359,12 @@
       },
       {
         "title": "'마지막 첫사랑' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 152
       },
       {
         "title": "<Beam Of Prism> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
@@ -2387,7 +2389,7 @@
       },
       {
         "title": "NCT DREAM '마지막 첫사랑' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -2493,7 +2495,7 @@
     "2026-02-12": [
       {
         "title": "<달라달라> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -2520,7 +2522,7 @@
     "2026-02-13": [
       {
         "title": "'Volcano' 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2572,7 +2574,7 @@
     "2026-02-14": [
       {
         "title": "<Teddy Bear> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 56
       },
       {
@@ -2611,12 +2613,12 @@
     "2026-02-16": [
       {
         "title": "<INSIDE> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
         "title": "<별을 내어줘> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
@@ -2648,7 +2650,7 @@
       },
       {
         "title": "'뛰뛰빵빵' 발매 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 46
       },
       {
@@ -2775,12 +2777,12 @@
     "2026-02-23": [
       {
         "title": "'GingaMingaYo (the strange world)' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 97
       },
       {
         "title": "<INSERT COIN> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
@@ -2817,12 +2819,12 @@
     "2026-02-24": [
       {
         "title": "'I DO ME' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 144
       },
       {
         "title": "'다섯째 손가락' 발매 16주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
@@ -2866,7 +2868,7 @@
     "2026-02-26": [
       {
         "title": "'MAMMA MIA' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 34
       },
       {
@@ -2922,7 +2924,7 @@
     "2026-03-02": [
       {
         "title": "<My Destiny> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2963,7 +2965,7 @@
     "2026-03-05": [
       {
         "title": "'JeLLo(힘숨찐)' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 145
       },
       {
@@ -2985,17 +2987,17 @@
     "2026-03-06": [
       {
         "title": "'영웅' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 153
       },
       {
         "title": "<THE AWAKENING> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
         "title": "NCT 127 '영웅' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -3029,7 +3031,7 @@
     "2026-03-09": [
       {
         "title": "<WANNABE> 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -3051,7 +3053,7 @@
     "2026-03-10": [
       {
         "title": "'동갑내기' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -3075,7 +3077,7 @@
     "2026-03-12": [
       {
         "title": "'HICCUPS' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 145
       },
       {
@@ -3134,12 +3136,12 @@
     "2026-03-14": [
       {
         "title": "'TOUCH' 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 153
       },
       {
         "title": "<I NEVER DIE> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -3149,17 +3151,17 @@
       },
       {
         "title": "NCT 127 'TOUCH' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
         "title": "NCT 2018 <EMPATHY> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
         "title": "NCT DREAM 'GO' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -3193,7 +3195,7 @@
       },
       {
         "title": "'MANIAC' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       }
     ],
@@ -3217,12 +3219,12 @@
       },
       {
         "title": "'믿지(MIDZY)' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
         "title": "<못 죽는 기사와 비단 요람> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
@@ -3325,17 +3327,17 @@
     "2026-03-24": [
       {
         "title": "'밤편지' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
         "title": "'쉽게 쓰여진 노래 (A Song Written Easily)' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 64
       },
       {
         "title": "<RAW AND RAD> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 145
       },
       {
@@ -3357,12 +3359,12 @@
     "2026-03-25": [
       {
         "title": "'Clé 1 : MIROH' 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
         "title": "<라일락> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
@@ -3379,7 +3381,7 @@
     "2026-03-26": [
       {
         "title": "<Re:Scene> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 133
       },
       {
@@ -3428,7 +3430,7 @@
     "2026-03-28": [
       {
         "title": "<Real Love> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 43
       },
       {
@@ -3448,7 +3450,7 @@
       },
       {
         "title": "NCT DREAM '버퍼링' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -3504,7 +3506,7 @@
     "2026-03-31": [
       {
         "title": "<SIGN> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 149
       },
       {
@@ -3543,7 +3545,7 @@
       },
       {
         "title": "호시 'Spider' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       }
     ],
@@ -3584,7 +3586,7 @@
     "2026-04-05": [
       {
         "title": "'LOVE DIVE' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 85
       },
       {
@@ -3623,7 +3625,7 @@
     "2026-04-07": [
       {
         "title": "'사랑이 잘' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
@@ -3645,7 +3647,7 @@
     "2026-04-08": [
       {
         "title": "'봄 사랑 벚꽃 말고' 발매 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
@@ -3672,7 +3674,7 @@
     "2026-04-09": [
       {
         "title": "'우리 만남은 우연이었을까요 (Destiny)' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -3689,7 +3691,7 @@
     "2026-04-10": [
       {
         "title": "'I AM' 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 85
       },
       {
@@ -3804,12 +3806,12 @@
     "2026-04-15": [
       {
         "title": "<HOW?> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
         "title": "<SWICY> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 157
       },
       {
@@ -3826,7 +3828,7 @@
     "2026-04-17": [
       {
         "title": "<FLEX LINE> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 158
       },
       {
@@ -3846,7 +3848,7 @@
       },
       {
         "title": "도재정 <Perfume> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -3919,7 +3921,7 @@
     "2026-04-21": [
       {
         "title": "<TRY WITH US> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -3963,12 +3965,12 @@
     "2026-04-23": [
       {
         "title": "<Growing Up> 발매 17주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 6
       },
       {
         "title": "<와장창> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
@@ -3990,7 +3992,7 @@
     "2026-04-24": [
       {
         "title": "<FML> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -4046,7 +4048,7 @@
     "2026-04-28": [
       {
         "title": "'HANDS UP' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 148
       },
       {
@@ -4063,12 +4065,12 @@
     "2026-04-30": [
       {
         "title": "<Time for the moon night> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
         "title": "<마.피.아 in the morning> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -4099,6 +4101,11 @@
         "title": "HAPPY JUWANG DAY!",
         "category": "축하",
         "unitId": 146
+      },
+      {
+        "title": "HAPPY KIM CHAEWON DAY!",
+        "category": "축하",
+        "unitId": 130
       },
       {
         "title": "HAPPY SUNGJAE DAY!",
@@ -4194,7 +4201,7 @@
     "2026-05-08": [
       {
         "title": "'다섯 번째 계절' 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 43
       },
       {
@@ -4236,14 +4243,14 @@
     "2026-05-09": [
       {
         "title": "<Minisode 2: Thursday's Child> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
     "2026-05-10": [
       {
         "title": "'던던댄스' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 43
       }
     ],
@@ -4271,6 +4278,11 @@
     ],
     "2026-05-12": [
       {
+        "title": "HAPPY MAYU DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
         "title": "HAPPY MINJE DAY!",
         "category": "축하",
         "unitId": 146
@@ -4279,7 +4291,7 @@
     "2026-05-13": [
       {
         "title": "<No Genre> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       }
     ],
@@ -4313,7 +4325,7 @@
     "2026-05-15": [
       {
         "title": "<I feel> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -4347,19 +4359,19 @@
     "2026-05-17": [
       {
         "title": "'Next Level' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       },
       {
         "title": "'WE GO' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 74
       }
     ],
     "2026-05-18": [
       {
         "title": "<꿈의 장: ETERNITY> 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -4434,7 +4446,7 @@
     "2026-05-26": [
       {
         "title": "'THUNDER' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -4480,7 +4492,7 @@
     "2026-05-29": [
       {
         "title": "'아낀다' 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -4492,7 +4504,7 @@
     "2026-05-30": [
       {
         "title": "<WHO!> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -4524,7 +4536,7 @@
     "2026-05-31": [
       {
         "title": "<혼돈의 장: FREEZE> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -4548,7 +4560,7 @@
     "2026-06-02": [
       {
         "title": "'러브 쉿! (Love Shhh!)’ 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 92
       },
       {
@@ -4638,7 +4650,7 @@
     "2026-06-07": [
       {
         "title": "<꿈에서 또 만나> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 157
       },
       {
@@ -4660,7 +4672,7 @@
     "2026-06-09": [
       {
         "title": "<BEEP> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 149
       }
     ],
@@ -4727,7 +4739,7 @@
     "2026-06-15": [
       {
         "title": "'뚜두뚜두 (DDU-DU DDU-DU)' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 7
       },
       {
@@ -4763,7 +4775,7 @@
     "2026-06-18": [
       {
         "title": "<Your Choice> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -4809,7 +4821,7 @@
     "2026-06-22": [
       {
         "title": "<헹가래> 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -4838,7 +4850,7 @@
     "2026-06-24": [
       {
         "title": "<SUMMER BEAT!> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -4872,7 +4884,7 @@
     "2026-06-26": [
       {
         "title": "'How You Like That' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 7
       },
       {
@@ -4887,7 +4899,7 @@
       },
       {
         "title": "‘Uh-Oh' 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       }
     ],
@@ -4906,12 +4918,12 @@
     "2026-06-28": [
       {
         "title": "'Debut' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 147
       },
       {
         "title": "<Hello Future> 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -4950,17 +4962,17 @@
     "2026-07-01": [
       {
         "title": "'StIcky' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 118
       },
       {
         "title": "<Cheeky Icy Thang> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 56
       },
       {
         "title": "<Songbird> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 155
       },
       {
@@ -4989,7 +5001,7 @@
     "2026-07-03": [
       {
         "title": "<誓い (CHIKAI)> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -5013,7 +5025,7 @@
     "2026-07-05": [
       {
         "title": "<TURN OVER> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 34
       },
       {
@@ -5025,7 +5037,7 @@
     "2026-07-06": [
       {
         "title": "<Summer Vibe> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       }
     ],
@@ -5054,7 +5066,7 @@
     "2026-07-08": [
       {
         "title": "'Girls' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       },
       {
@@ -5088,7 +5100,7 @@
     "2026-07-10": [
       {
         "title": "<AND,> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -5115,7 +5127,7 @@
     "2026-07-11": [
       {
         "title": "<LOL> 발매 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       }
     ],
@@ -5136,7 +5148,7 @@
     "2026-07-14": [
       {
         "title": "<Seven> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 2
       },
       {
@@ -5158,7 +5170,7 @@
     "2026-07-15": [
       {
         "title": "'Sneakers' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -5211,14 +5223,14 @@
     "2026-07-19": [
       {
         "title": "<ATE> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       }
     ],
     "2026-07-21": [
       {
         "title": "<별의 장: TOGETHER>  발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -5242,7 +5254,7 @@
     "2026-07-23": [
       {
         "title": "<Flower Bud> 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -5283,7 +5295,7 @@
     "2026-07-26": [
       {
         "title": "'Touch' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 147
       },
       {
@@ -5319,12 +5331,12 @@
     "2026-07-29": [
       {
         "title": "<ICY> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
         "title": "‘호랑이 (Feat. Tiger JK)’ 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -5420,7 +5432,7 @@
     "2026-08-06": [
       {
         "title": "<CURIOUS> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 157
       }
     ],
@@ -5492,7 +5504,7 @@
     "2026-08-12": [
       {
         "title": "'Supersonic' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 74
       },
       {
@@ -5516,7 +5528,7 @@
     "2026-08-14": [
       {
         "title": "'한(一)' 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -5550,12 +5562,12 @@
     "2026-08-16": [
       {
         "title": "<SIS> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 147
       },
       {
         "title": "<TEENFRESH> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 56
       },
       {
@@ -5567,12 +5579,12 @@
     "2026-08-17": [
       {
         "title": "<NOT SHY> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
         "title": "<혼돈의 장: FIGHT OR ESCAPE> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -5599,17 +5611,17 @@
     "2026-08-18": [
       {
         "title": "'What You Want' 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 156
       },
       {
         "title": "<BOYLIFE> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
         "title": "<ZONE> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       },
       {
@@ -5663,7 +5675,7 @@
     "2026-08-20": [
       {
         "title": "'MORE & MORE (English Ver.)' 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       },
       {
@@ -5697,12 +5709,12 @@
     "2026-08-22": [
       {
         "title": "'After like' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 85
       },
       {
         "title": "<KARMA> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -5748,7 +5760,7 @@
       },
       {
         "title": "<BETWEEN 1&2> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       },
       {
@@ -5765,7 +5777,7 @@
     "2026-08-27": [
       {
         "title": "<Chewing Gum> 발매 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 152
       }
     ],
@@ -5779,7 +5791,7 @@
     "2026-08-30": [
       {
         "title": "'CRAZY' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 95
       },
       {
@@ -5837,7 +5849,7 @@
     "2026-09-04": [
       {
         "title": "'뭣 같아' 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -5910,12 +5922,12 @@
     "2026-09-09": [
       {
         "title": "'Dumb Dumb' 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 35
       },
       {
         "title": "<19.99> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -5927,7 +5939,7 @@
     "2026-09-10": [
       {
         "title": "'만세' 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -5980,7 +5992,7 @@
     "2026-09-14": [
       {
         "title": "<IN生> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6000,7 +6012,7 @@
       },
       {
         "title": "준호 첫 베스트 앨범 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 81
       },
       {
@@ -6029,7 +6041,7 @@
     "2026-09-16": [
       {
         "title": "'독 : Fear' 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -6090,7 +6102,7 @@
     "2026-09-19": [
       {
         "title": "'GGUM' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -6131,7 +6143,7 @@
     "2026-09-23": [
       {
         "title": "'Feel Special' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       },
       {
@@ -6148,7 +6160,7 @@
     "2026-09-24": [
       {
         "title": "<Crazy In Love> 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -6218,7 +6230,7 @@
       },
       {
         "title": "'The Feels' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       }
     ],
@@ -6271,7 +6283,7 @@
     "2026-10-05": [
       {
         "title": "'Savage' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       }
     ],
@@ -6290,7 +6302,7 @@
     "2026-10-07": [
       {
         "title": "<MAXIDENT> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       }
     ],
@@ -6321,7 +6333,7 @@
     "2026-10-10": [
       {
         "title": "<LOVE BOMB> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 74
       }
     ],
@@ -6352,7 +6364,7 @@
       },
       {
         "title": "<play hard> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -6400,7 +6412,7 @@
       },
       {
         "title": "<I love> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -6422,19 +6434,19 @@
     "2026-10-19": [
       {
         "title": "'HOME;RUN' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       }
     ],
     "2026-10-20": [
       {
         "title": "'식혀' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
         "title": "<The Action> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -6451,12 +6463,12 @@
     "2026-10-21": [
       {
         "title": "<I'LL LIKE YOU> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 143
       },
       {
         "title": "<꿈의 장: MAGIC> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -6478,7 +6490,7 @@
     "2026-10-22": [
       {
         "title": "'Rock with you' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -6495,7 +6507,7 @@
       },
       {
         "title": "'음악의 신' 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -6524,21 +6536,21 @@
       },
       {
         "title": "'I CAN'T STOP ME' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 1
       }
     ],
     "2026-10-26": [
       {
         "title": "<Minisode1: BLUE HOUR> 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
     "2026-10-27": [
       {
         "title": "<Rum Pum Pum> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
@@ -6618,7 +6630,7 @@
     "2026-11-02": [
       {
         "title": "<VERSUS> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
@@ -6654,7 +6666,7 @@
     "2026-11-06": [
       {
         "title": "'박수' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -6710,7 +6722,7 @@
     "2026-11-10": [
       {
         "title": "<樂-STAR>발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6722,12 +6734,12 @@
     "2026-11-11": [
       {
         "title": "'DREAMSCAPE' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 152
       },
       {
         "title": "<Take It Slow> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 158
       }
     ],
@@ -6763,7 +6775,7 @@
     "2026-11-14": [
       {
         "title": "<YEOP×2> 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 116
       },
       {
@@ -6787,7 +6799,7 @@
     "2026-11-16": [
       {
         "title": "'Poppy(Japanese ver.)' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 56
       },
       {
@@ -6804,7 +6816,7 @@
     "2026-11-17": [
       {
         "title": "'Black Mamba' 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       },
       {
@@ -6852,7 +6864,7 @@
     "2026-11-21": [
       {
         "title": "<DO IT> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6881,7 +6893,7 @@
     "2026-11-25": [
       {
         "title": "<Last Bell> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -6980,7 +6992,7 @@
     "2026-12-05": [
       {
         "title": "'붐붐(BOOMBOOM)' 발매 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7028,7 +7040,7 @@
     "2026-12-09": [
       {
         "title": "<Clé : LEVANTER> 발매 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -7055,7 +7067,7 @@
     "2026-12-13": [
       {
         "title": "<合 (HOP)> 발매 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       }
     ],
@@ -7093,7 +7105,7 @@
     "2026-12-18": [
       {
         "title": "<Unfair> MV 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -7105,7 +7117,7 @@
     "2026-12-19": [
       {
         "title": "'Ditto' 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 98
       },
       {
@@ -7141,7 +7153,7 @@
     "2026-12-23": [
       {
         "title": "'Black Eye'  발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7231,7 +7243,7 @@
     "2027-01-03": [
       {
         "title": "'Ruby' 발매 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7255,7 +7267,7 @@
     "2027-01-06": [
       {
         "title": "<오늘만 I love you> 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -7279,7 +7291,7 @@
     "2027-01-09": [
       {
         "title": "'비밀정원' 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 43
       }
     ],
@@ -7298,7 +7310,7 @@
     "2027-01-11": [
       {
         "title": "<I burn> 앨범 발매 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       },
       {
@@ -7339,7 +7351,7 @@
     "2027-01-14": [
       {
         "title": "<Time for us> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -7356,7 +7368,7 @@
     "2027-01-15": [
       {
         "title": "<Season of Glass> 발매 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -7441,7 +7453,7 @@
     "2027-01-21": [
       {
         "title": "<YOU MADE MY DAWN> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7458,7 +7470,7 @@
     "2027-01-22": [
       {
         "title": "<Sparkling Blue> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -7494,7 +7506,7 @@
     "2027-01-25": [
       {
         "title": "<SNOWFLAKE> 발매 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 47
       },
       {
@@ -7518,7 +7530,7 @@
     "2027-01-27": [
       {
         "title": "<The Name Chapter: TEMPTATION> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -7535,7 +7547,7 @@
     "2027-01-29": [
       {
         "title": "<2> 발매 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 39
       }
     ],
@@ -7549,7 +7561,7 @@
     "2027-01-31": [
       {
         "title": "<VarioUS> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
@@ -7599,7 +7611,7 @@
     "2027-02-05": [
       {
         "title": "<DIRECTOR'S CUT> 발매 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7621,7 +7633,7 @@
     "2027-02-06": [
       {
         "title": "<SECOND WIND> 발매 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       }
     ],
@@ -7676,7 +7688,7 @@
     "2027-02-12": [
       {
         "title": "<달라달라> 발매 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 38
       },
       {
@@ -7717,7 +7729,7 @@
     "2027-02-17": [
       {
         "title": "'뛰뛰빵빵' 발매 13주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 46
       },
       {
@@ -7784,7 +7796,7 @@
     "2027-02-24": [
       {
         "title": "'I DO ME' 발매 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 144
       },
       {
@@ -7828,7 +7840,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1315,
+    "total_events": 1317,
     "total_units": 116
   }
 }
