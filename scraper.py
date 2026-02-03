@@ -1,244 +1,340 @@
 #!/usr/bin/env python3
 """
-Blip.kr K-POP Schedule Scraper
-매일 blip.kr의 케이팝 스케줄을 수집하여 schedule.json으로 저장
+Blip.kr K-POP Schedule Scraper v3 (RSC Payload 파싱 방식)
+
+blip.kr은 Next.js App Router를 사용하며, SSR HTML 테이블에는
+셀당 최대 3개 이벤트만 표시. 전체 데이터는 React Server Component
+payload (self.__next_f.push)에 JSON으로 포함됨.
+
+스크래핑 범위: 전월 1일 ~ 실행일로부터 1년 후까지
 """
 
 import json
 import re
-from datetime import datetime
-from playwright.async_api import async_playwright
-import asyncio
+import time
+import random
+from datetime import datetime, timedelta
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
-# 일정 카테고리 매핑 (색상 코드)
-CATEGORY_MAPPING = {
-    "축하": "#4ECDC4",      # 청록색
-    "발매": "#FF6B6B",      # 빨강
-    "방송": "#FFE66D",      # 노랑
-    "구매": "#95E1D3",      # 연두
-    "행사": "#C7CEEA",      # 보라
-    "기타": "#999999",      # 회색
-    "비공식": "#FFB6B9",    # 핑크
-    "SNS": "#8EC5FC"        # 파랑
+
+# ─── 카테고리 정의 ───
+
+CATEGORIES = {
+    "축하": "#4ECDC4",
+    "발매": "#FF6B6B",
+    "방송": "#FFE66D",
+    "구매": "#95E1D3",
+    "행사": "#C7CEEA",
+    "기타": "#999999",
+    "비공식": "#FFB6B9",
+    "SNS": "#8EC5FC",
 }
 
-async def scrape_blip_schedule():
+# blip.kr typeId → 기본 카테고리 매핑
+TYPE_ID_MAP = {
+    2: "발매",    # Release, Teaser, MV, Concept Photo 등
+    4: "축하",    # 생일, 기념일, 수상, 데뷔 기념 등
+}
+
+# 제목 키워드 기반 세부 카테고리 보정
+CATEGORY_KEYWORDS = {
+    "방송": [
+        "인기가요", "Inkigayo", "음악중심", "MusicCore", "M COUNTDOWN",
+        "뮤직뱅크", "Music Bank", "SHOW CHAMPION", "음악방송", "1위",
+    ],
+    "행사": [
+        "콘서트", "Concert", "CONCERT", "팬미팅", "Fan Meeting",
+        "TOUR", "Tour", "쇼케이스", "Showcase", "LIVE",
+    ],
+    "구매": [
+        "예약", "Pre-order", "PRE-ORDER", "구매", "Purchase",
+        "티켓", "Ticket", "TICKET",
+    ],
+    "SNS": [
+        "V LIVE", "위버스", "Weverse", "인스타",
+    ],
+    "발매": [
+        "Release", "발매", "RELEASE", "MV", "Teaser", "TEASER",
+        "Concept", "CONCEPT", "Album", "ALBUM", "공개",
+    ],
+    "축하": [
+        "HAPPY", "DAY!", "생일", "birthday", "기념일",
+        "데뷔", "주년", "anniversary", "수상",
+    ],
+}
+
+
+# ─── RSC Payload 파싱 ───
+
+def extract_rsc_events(html: str) -> list[dict]:
     """
-    blip.kr/schedule에서 캘린더 데이터를 스크래핑
+    Next.js RSC payload에서 스케줄 이벤트 추출.
+    self.__next_f.push([1, "..."]) 내의 scheduleId 객체들을 파싱.
     """
-    async with async_playwright() as p:
-        # 헤드리스 모드에서도 JavaScript 렌더링이 제대로 되도록 설정
-        browser = await p.chromium.launch(
-            headless=True,
-            args=['--no-sandbox', '--disable-setuid-sandbox']
-        )
-        page = await browser.new_page()
-        
-        try:
-            print("🔄 blip.kr/schedule 접속 중...")
-            
-            # 페이지 로드 대기 (더 긴 타임아웃)
-            await page.goto(
-                'https://blip.kr/schedule',
-                wait_until='domcontentloaded',
-                timeout=30000
-            )
-            
-            # JavaScript 렌더링 완료 대기
-            print("⏳ 페이지 렌더링 대기 중...")
-            await page.wait_for_timeout(3000)
-            
-            # 캘린더 데이터가 로드될 때까지 대기
+    rsc_chunks = re.findall(
+        r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html, re.DOTALL
+    )
+
+    for chunk in rsc_chunks:
+        if "scheduleId" not in chunk:
+            continue
+
+        # JavaScript 이중 이스케이프 해제
+        raw = chunk
+        raw = raw.replace("\\\\", "\x00BS\x00")
+        raw = raw.replace('\\"', '"')
+        raw = raw.replace("\\n", "\n")
+        raw = raw.replace("\x00BS\x00", "\\")
+
+        events = []
+        pos = 0
+
+        while True:
+            obj_start = raw.find('{"scheduleId"', pos)
+            if obj_start < 0:
+                break
+
+            # 매칭되는 중괄호 끝 찾기
+            depth = 0
+            obj_end = obj_start
+            for j in range(obj_start, min(obj_start + 10000, len(raw))):
+                if raw[j] == "{":
+                    depth += 1
+                elif raw[j] == "}":
+                    depth -= 1
+                if depth == 0:
+                    obj_end = j + 1
+                    break
+
+            obj_str = raw[obj_start:obj_end]
+
+            # message 필드 내 줄바꿈 등으로 JSON 파싱 실패 방지
+            obj_str = re.sub(r'"message":"[^"]*"', '"message":""', obj_str)
+
             try:
-                await page.wait_for_selector('[role="gridcell"]', timeout=10000)
-                print("✅ 캘린더 로드 완료")
-            except:
-                print("⚠️  캘린더 선택자 찾기 실패, 계속 진행...")
-            
-            # 현재 표시 중인 월/년도 추출
-            month_text = await page.text_content('h2')
-            print(f"📅 추출 중인 월: {month_text}")
-            
-            # 모든 날짜 셀에서 이벤트 추출
-            schedule_data = {}
-            
-            # 캘린더 그리드의 모든 셀 순회
-            cells = await page.query_selector_all('[role="gridcell"]')
-            print(f"📍 총 {len(cells)}개 날짜 셀 발견")
-            
-            cell_count = 0
-            event_total = 0
-            
-            for idx, cell in enumerate(cells):
-                try:
-                    # 각 셀의 텍스트 추출
-                    cell_text = await cell.text_content()
-                    
-                    if not cell_text or not cell_text.strip():
-                        continue
-                    
-                    # 날짜 추출 (첫 번째 숫자)
-                    date_match = re.match(r'^(\d+)', cell_text.strip())
-                    
-                    if date_match:
-                        date = int(date_match.group(1))
-                        
-                        # 버튼 찾기
-                        button = await cell.query_selector('button')
-                        if button:
-                            # 버튼 내 모든 리스트 아이템 추출
-                            items = await button.query_selector_all('li')
-                            
-                            if len(items) > 0:
-                                cell_count += 1
-                                events = []
-                                
-                                for item in items:
-                                    try:
-                                        event_text = await item.text_content()
-                                        event_text = event_text.strip()
-                                        
-                                        if not event_text:
-                                            continue
-                                        
-                                        # 카테고리 판단
-                                        category = "기타"
-                                        html = await item.inner_html()
-                                        
-                                        # 이미지 alt나 class에서 카테고리 찾기
-                                        for cat in CATEGORY_MAPPING.keys():
-                                            if cat in html or cat in event_text:
-                                                category = cat
-                                                break
-                                        
-                                        events.append({
-                                            "title": event_text,
-                                            "category": category
-                                        })
-                                        event_total += 1
-                                    except Exception as e:
-                                        print(f"  ⚠️  이벤트 추출 실패: {e}")
-                                        continue
-                                
-                                if events:
-                                    schedule_data[str(date)] = events
-                except Exception as e:
-                    print(f"  ⚠️  셀 {idx} 처리 실패: {e}")
-                    continue
-            
-            print(f"📊 캘린더 추출: {cell_count}개 날짜에서 {event_total}개 이벤트 발견")
-            
-            # "오늘의 스케줄"과 "다가오는 스케줄"에서 상세 정보 추출
-            detailed_schedule = []
-            
-            # 섹션에서 리스트 아이템 찾기
-            sections = await page.query_selector_all('section')
-            print(f"📌 총 {len(sections)}개 섹션 발견")
-            
-            for section_idx, section in enumerate(sections):
-                try:
-                    # 섹션 제목 확인
-                    heading = await section.query_selector('h2, h3')
-                    if heading:
-                        heading_text = await heading.text_content()
-                        if "스케줄" in heading_text:
-                            print(f"  📋 섹션 {section_idx}: {heading_text}")
-                            
-                            # 해당 섹션의 리스트 아이템 추출
-                            list_items = await section.query_selector_all('li')
-                            print(f"    ├─ {len(list_items)}개 항목 발견")
-                            
-                            for item_idx, item in enumerate(list_items[:30]):  # 최대 30개
-                                try:
-                                    # 제목, 날짜, 아티스트명 추출
-                                    item_html = await item.inner_html()
-                                    item_text = await item.text_content()
-                                    
-                                    # generic 태그들 찾기
-                                    generics = await item.query_selector_all('generic')
-                                    
-                                    if len(generics) >= 2:
-                                        title = await generics[0].text_content() if len(generics) > 0 else ""
-                                        date_info = await generics[1].text_content() if len(generics) > 1 else ""
-                                        artist = await generics[2].text_content() if len(generics) > 2 else ""
-                                        
-                                        title = title.strip()
-                                        date_info = date_info.strip()
-                                        artist = artist.strip()
-                                        
-                                        if title and date_info:
-                                            detailed_schedule.append({
-                                                "title": title,
-                                                "date": date_info,
-                                                "artist": artist
-                                            })
-                                except Exception as e:
-                                    continue
-                except Exception as e:
-                    continue
-            
-            print(f"📝 상세 일정: {len(detailed_schedule)}개 추출")
-            
-            # 결과 컴파일
-            result = {
-                "updated_at": datetime.now().isoformat(),
-                "month": month_text.strip() if month_text else "Unknown",
-                "calendar": schedule_data,
-                "detailed": detailed_schedule[:50],  # 상위 50개
-                "categories": list(CATEGORY_MAPPING.keys()),
-                "debug": {
-                    "cells_found": len(cells),
-                    "cells_with_events": cell_count,
-                    "total_events": event_total,
-                    "detailed_count": len(detailed_schedule)
-                }
-            }
-            
-            print(f"\n✅ 스크래핑 완료!")
-            print(f"   - 캘린더: {len(schedule_data)}개 날짜")
-            print(f"   - 이벤트: {event_total}개")
-            print(f"   - 상세 일정: {len(detailed_schedule)}개")
-            
-            return result
-            
-        except Exception as e:
-            print(f"❌ 스크래핑 오류: {e}")
-            import traceback
-            traceback.print_exc()
-            return None
-        finally:
-            await browser.close()
+                obj = json.loads(obj_str)
+                events.append(obj)
+            except json.JSONDecodeError:
+                pass
+
+            pos = obj_end + 1
+
+        if events:
+            return events
+
+    return []
 
 
-def save_schedule_json(data, filename='schedule.json'):
-    """
-    추출된 데이터를 JSON 파일로 저장
-    """
-    if data:
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"💾 {filename}에 저장 완료")
-        return True
-    return False
+def classify_event(event: dict) -> str:
+    """typeId + 제목 키워드로 카테고리 결정"""
+    type_id = event.get("typeId")
+    title = event.get("title", "")
+
+    # 키워드 기반 세부 분류 (우선)
+    for category, keywords in CATEGORY_KEYWORDS.items():
+        for kw in keywords:
+            if kw in title:
+                return category
+
+    # typeId 기반 기본 분류 (fallback)
+    return TYPE_ID_MAP.get(type_id, "기타")
 
 
-async def main():
-    """
-    메인 실행 함수
-    """
-    print("🎬 Blip.kr Schedule Scraper 시작\n")
-    
-    # 1. 스크래핑 실행
-    schedule_data = await scrape_blip_schedule()
-    
-    # 2. JSON으로 저장
-    if schedule_data:
-        save_schedule_json(schedule_data)
-        print(f"\n📊 저장 위치: ./schedule.json")
-        print(f"📈 갱신 시간: {schedule_data['updated_at']}")
+def parse_events_to_dict(events: list[dict], year: int, month: int) -> dict:
+    """RSC 이벤트 리스트 → {날짜: [이벤트]} 딕셔너리 변환"""
+    result = {}
+    month_prefix = f"{year}-{month:02d}-"
+
+    for event in events:
+        start_time = event.get("startTime", "")
+        if not start_time:
+            continue
+
+        # ISO 시간 → KST 날짜 변환
+        # startTime: "2026-01-31T15:00:00.000Z" (UTC) → KST +9h → 2026-02-01
+        try:
+            utc_dt = datetime.fromisoformat(start_time.replace("Z", "+00:00"))
+            kst_dt = utc_dt + timedelta(hours=9)
+            date_key = kst_dt.strftime("%Y-%m-%d")
+        except (ValueError, AttributeError):
+            continue
+
+        # 해당 월만 필터
+        if not date_key.startswith(month_prefix):
+            continue
+
+        title = event.get("title", "").strip()
+        if not title:
+            continue
+
+        category = classify_event(event)
+
+        if date_key not in result:
+            result[date_key] = []
+
+        # 중복 제거
+        existing_titles = {e["title"] for e in result[date_key]}
+        if title not in existing_titles:
+            result[date_key].append({
+                "title": title,
+                "category": category,
+                "scheduleId": event.get("scheduleId"),
+            })
+
+    return result
+
+
+# ─── HTTP 요청 ───
+
+def fetch_month(year: int, month: int) -> dict:
+    """특정 월의 스케줄 페이지에서 RSC payload 추출"""
+    url = f"https://blip.kr/schedule?year={year}&month={month}"
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+    }
+
+    req = Request(url, headers=headers)
+
+    try:
+        with urlopen(req, timeout=20) as response:
+            html = response.read().decode("utf-8")
+
+        events = extract_rsc_events(html)
+
+        if not events:
+            print(f"  ⚠️  {year}-{month:02d}: RSC payload에 이벤트 없음")
+            return {}
+
+        return parse_events_to_dict(events, year, month)
+
+    except (URLError, HTTPError) as e:
+        print(f"  ⚠️  {year}-{month:02d} 요청 실패: {e}")
+        return {}
+    except Exception as e:
+        print(f"  ⚠️  {year}-{month:02d} 파싱 오류: {e}")
+        return {}
+
+
+# ─── 메인 스크래핑 ───
+
+def scrape_schedule() -> dict:
+    """전월 1일 ~ 실행일 기준 1년 후까지 스케줄 수집"""
+    today = datetime.now()
+
+    # 시작: 전월 1일
+    if today.month == 1:
+        start_year, start_month = today.year - 1, 12
     else:
-        print("\n❌ 데이터 수집 실패")
+        start_year, start_month = today.year, today.month - 1
+
+    # 종료: 오늘로부터 1년 후
+    end_date = today + timedelta(days=365)
+    end_year, end_month = end_date.year, end_date.month
+
+    print(f"📅 스크래핑 범위: {start_year}-{start_month:02d} ~ {end_year}-{end_month:02d}")
+
+    all_events = {}
+    total_months = 0
+
+    year, month = start_year, start_month
+    while (year, month) <= (end_year, end_month):
+        print(f"  🔄 {year}-{month:02d} 수집 중...")
+
+        month_events = fetch_month(year, month)
+
+        for date_key, event_list in month_events.items():
+            if date_key not in all_events:
+                all_events[date_key] = []
+            existing_titles = {e["title"] for e in all_events[date_key]}
+            for event in event_list:
+                if event["title"] not in existing_titles:
+                    all_events[date_key].append(event)
+                    existing_titles.add(event["title"])
+
+        total_months += 1
+
+        # 다음 월
+        if month == 12:
+            year, month = year + 1, 1
+        else:
+            month += 1
+
+        # 요청 간 간격 (1-2초)
+        time.sleep(random.uniform(1.0, 2.0))
+
+    # 날짜 순 정렬
+    sorted_events = dict(sorted(all_events.items()))
+
+    total_events = sum(len(v) for v in sorted_events.values())
+    total_days = len(sorted_events)
+
+    print(f"\n✅ 스크래핑 완료!")
+    print(f"   - 수집 월수: {total_months}개월")
+    print(f"   - 일정 있는 날: {total_days}일")
+    print(f"   - 총 이벤트: {total_events}개")
+
+    result = {
+        "updated_at": today.isoformat(),
+        "range": {
+            "start": f"{start_year}-{start_month:02d}-01",
+            "end": f"{end_year}-{end_month:02d}-{_last_day(end_year, end_month):02d}",
+        },
+        "categories": list(CATEGORIES.keys()),
+        "category_colors": CATEGORIES,
+        "events": sorted_events,
+        "stats": {
+            "months_scraped": total_months,
+            "days_with_events": total_days,
+            "total_events": total_events,
+        },
+    }
+
+    return result
+
+
+def _last_day(year: int, month: int) -> int:
+    if month == 12:
+        return 31
+    return (datetime(year, month + 1, 1) - timedelta(days=1)).day
+
+
+# ─── 저장 ───
+
+def save_json(data: dict, filename: str = "schedule.json"):
+    # schedule.json에는 scheduleId 제외 (파일 크기 절약)
+    clean_data = json.loads(json.dumps(data))
+    for date_key in clean_data.get("events", {}):
+        for event in clean_data["events"][date_key]:
+            event.pop("scheduleId", None)
+
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(clean_data, f, ensure_ascii=False, indent=2)
+    print(f"💾 {filename} 저장 완료")
+
+
+# ─── 메인 ───
+
+def main():
+    print("🎬 Blip.kr Schedule Scraper v3 (RSC Payload) 시작\n")
+
+    data = scrape_schedule()
+
+    if data and data["stats"]["total_events"] > 0:
+        save_json(data)
+        print(f"\n📊 저장: ./schedule.json")
+        print(f"📈 갱신: {data['updated_at']}")
+    else:
+        print("\n❌ 데이터 수집 실패 또는 이벤트 0건")
+        save_json(data or {"error": "no data", "updated_at": datetime.now().isoformat()})
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
