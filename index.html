@@ -136,12 +136,16 @@
         }
 
         /* ─── Filters ─── */
+        .filter-section {
+            margin-bottom: 24px;
+        }
+
         .filter-bar {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             justify-content: center;
-            margin-bottom: 24px;
+            margin-bottom: 12px;
         }
 
         .filter-chip {
@@ -171,6 +175,150 @@
             height: 8px;
             border-radius: 50%;
             flex-shrink: 0;
+        }
+
+        /* ─── Group Filter ─── */
+        .group-filter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .group-filter-wrapper {
+            position: relative;
+            width: 260px;
+        }
+
+        .group-search-input {
+            width: 100%;
+            padding: 8px 32px 8px 12px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: var(--bg-cell);
+            color: var(--text-primary);
+            font-size: 0.82rem;
+            font-family: 'Noto Sans KR', sans-serif;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .group-search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .group-search-input:focus {
+            border-color: var(--accent);
+        }
+
+        .group-search-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            pointer-events: none;
+        }
+
+        .group-dropdown {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            max-height: 240px;
+            overflow-y: auto;
+            z-index: 100;
+            display: none;
+        }
+
+        .group-dropdown.open {
+            display: block;
+        }
+
+        .group-dropdown::-webkit-scrollbar { width: 4px; }
+        .group-dropdown::-webkit-scrollbar-track { background: transparent; }
+        .group-dropdown::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+        .group-option {
+            padding: 8px 14px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: background 0.1s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .group-option:hover {
+            background: var(--bg-cell-hover);
+            color: var(--text-primary);
+        }
+
+        .group-option .en-name {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-left: 8px;
+        }
+
+        .group-option .event-count {
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        /* Selected group tags */
+        .selected-groups {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            justify-content: center;
+        }
+
+        .group-tag {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: color-mix(in srgb, var(--accent) 20%, var(--bg-cell));
+            border: 1px solid var(--accent);
+            color: var(--text-primary);
+        }
+
+        .group-tag .remove {
+            cursor: pointer;
+            opacity: 0.6;
+            font-size: 0.85rem;
+            line-height: 1;
+            transition: opacity 0.15s;
+        }
+
+        .group-tag .remove:hover {
+            opacity: 1;
+        }
+
+        .group-clear-btn {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--bg-cell);
+            transition: all 0.2s;
+        }
+
+        .group-clear-btn:hover {
+            color: var(--text-primary);
+            border-color: var(--text-muted);
         }
 
         /* ─── Calendar Grid ─── */
@@ -343,10 +491,12 @@
             word-break: keep-all;
         }
 
-        .detail-item .cat-label {
+        .detail-item .meta {
             font-size: 0.72rem;
             color: var(--text-muted);
             margin-top: 2px;
+            display: flex;
+            gap: 8px;
         }
 
         .detail-empty {
@@ -425,6 +575,7 @@
             .more-count { font-size: 0.6rem; }
             .detail-body { max-height: 300px; }
             .stats-bar { gap: 12px; font-size: 0.72rem; }
+            .group-filter-wrapper { width: 220px; }
         }
 
         @media (max-width: 480px) {
@@ -433,6 +584,7 @@
             .month-nav { gap: 16px; }
             .filter-bar { gap: 4px; }
             .filter-chip { padding: 4px 8px; font-size: 0.7rem; }
+            .group-filter-wrapper { width: 200px; }
         }
     </style>
 </head>
@@ -456,7 +608,24 @@
     </div>
 
     <!-- Filters -->
-    <div class="filter-bar" id="filterBar"></div>
+    <div class="filter-section">
+        <!-- Category Filter -->
+        <div class="filter-bar" id="filterBar"></div>
+
+        <!-- Group Filter -->
+        <div class="group-filter">
+            <div class="group-filter-wrapper" id="groupFilterWrapper">
+                <input type="text"
+                       class="group-search-input"
+                       id="groupSearchInput"
+                       placeholder="그룹 검색..."
+                       autocomplete="off">
+                <span class="group-search-icon">🔍</span>
+                <div class="group-dropdown" id="groupDropdown"></div>
+            </div>
+        </div>
+        <div class="selected-groups" id="selectedGroups" style="margin-top: 10px;"></div>
+    </div>
 
     <!-- Calendar -->
     <div id="calendarContainer">
@@ -487,6 +656,7 @@ let data = null;
 let viewYear, viewMonth;
 let selectedDateKey = null;
 let hiddenCategories = new Set();
+let selectedUnitIds = new Set();  // 선택된 그룹 (비어있으면 전체 표시)
 
 const CATEGORY_COLORS = {
     "축하": "#4ECDC4",
@@ -517,6 +687,7 @@ async function init() {
         renderCalendar();
         renderStats();
         renderUpdateTime();
+        initGroupFilter();
     } catch (err) {
         console.error(err);
         document.getElementById('calendarContainer').innerHTML =
@@ -524,7 +695,7 @@ async function init() {
     }
 }
 
-// ─── Filters ───
+// ─── Category Filters ───
 function renderFilters() {
     if (!data?.categories) return;
     const bar = document.getElementById('filterBar');
@@ -550,6 +721,134 @@ function renderFilters() {
 
         bar.appendChild(chip);
     });
+}
+
+// ─── Group Filter ───
+function initGroupFilter() {
+    if (!data?.units) return;
+
+    const input = document.getElementById('groupSearchInput');
+    const dropdown = document.getElementById('groupDropdown');
+    const wrapper = document.getElementById('groupFilterWrapper');
+
+    // 그룹별 이벤트 수 계산
+    const unitEventCounts = {};
+    for (const dateEvents of Object.values(data.events || {})) {
+        for (const ev of dateEvents) {
+            if (ev.unitId != null) {
+                unitEventCounts[ev.unitId] = (unitEventCounts[ev.unitId] || 0) + 1;
+            }
+        }
+    }
+
+    // 이벤트 수 기준 정렬된 유닛 목록
+    const sortedUnits = Object.entries(data.units)
+        .map(([id, info]) => ({ id: parseInt(id), ...info, count: unitEventCounts[parseInt(id)] || 0 }))
+        .sort((a, b) => b.count - a.count);
+
+    function renderDropdown(query) {
+        const q = query.toLowerCase().trim();
+        const filtered = q
+            ? sortedUnits.filter(u =>
+                u.ko.toLowerCase().includes(q) ||
+                u.en.toLowerCase().includes(q)
+              )
+            : sortedUnits;
+
+        // 이미 선택된 그룹은 제외
+        const available = filtered.filter(u => !selectedUnitIds.has(u.id));
+
+        if (available.length === 0) {
+            dropdown.innerHTML = '<div class="group-option" style="color:var(--text-muted);cursor:default;">검색 결과 없음</div>';
+        } else {
+            dropdown.innerHTML = available.slice(0, 30).map(u =>
+                `<div class="group-option" data-uid="${u.id}">
+                    <span>${escapeHtml(u.ko)} <span class="en-name">${escapeHtml(u.en)}</span></span>
+                    <span class="event-count">${u.count}건</span>
+                </div>`
+            ).join('');
+        }
+
+        // 클릭 이벤트
+        dropdown.querySelectorAll('.group-option[data-uid]').forEach(opt => {
+            opt.addEventListener('click', () => {
+                const uid = parseInt(opt.dataset.uid);
+                selectGroup(uid);
+                input.value = '';
+                dropdown.classList.remove('open');
+            });
+        });
+    }
+
+    // 입력 이벤트
+    input.addEventListener('focus', () => {
+        renderDropdown(input.value);
+        dropdown.classList.add('open');
+    });
+
+    input.addEventListener('input', () => {
+        renderDropdown(input.value);
+        dropdown.classList.add('open');
+    });
+
+    // 외부 클릭 시 닫기
+    document.addEventListener('click', (e) => {
+        if (!wrapper.contains(e.target)) {
+            dropdown.classList.remove('open');
+        }
+    });
+
+    // Enter 키: 첫 번째 결과 선택
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const first = dropdown.querySelector('.group-option[data-uid]');
+            if (first) {
+                first.click();
+            }
+        } else if (e.key === 'Escape') {
+            dropdown.classList.remove('open');
+            input.blur();
+        }
+    });
+}
+
+function selectGroup(unitId) {
+    selectedUnitIds.add(unitId);
+    renderSelectedGroups();
+    renderCalendar();
+    if (selectedDateKey) showDetail(selectedDateKey);
+}
+
+function deselectGroup(unitId) {
+    selectedUnitIds.delete(unitId);
+    renderSelectedGroups();
+    renderCalendar();
+    if (selectedDateKey) showDetail(selectedDateKey);
+}
+
+function clearAllGroups() {
+    selectedUnitIds.clear();
+    renderSelectedGroups();
+    renderCalendar();
+    if (selectedDateKey) showDetail(selectedDateKey);
+}
+
+function renderSelectedGroups() {
+    const container = document.getElementById('selectedGroups');
+
+    if (selectedUnitIds.size === 0) {
+        container.innerHTML = '';
+        return;
+    }
+
+    let html = '';
+    for (const uid of selectedUnitIds) {
+        const info = data.units[String(uid)] || { ko: '?', en: '?' };
+        html += `<span class="group-tag">${escapeHtml(info.ko)}<span class="remove" onclick="deselectGroup(${uid})">✕</span></span>`;
+    }
+    html += `<button class="group-clear-btn" onclick="clearAllGroups()">전체 해제</button>`;
+
+    container.innerHTML = html;
 }
 
 // ─── Calendar ───
@@ -621,7 +920,13 @@ function renderCalendar() {
 
 function getFilteredEvents(dateKey) {
     if (!data?.events?.[dateKey]) return [];
-    return data.events[dateKey].filter(ev => !hiddenCategories.has(ev.category));
+    return data.events[dateKey].filter(ev => {
+        // 카테고리 필터
+        if (hiddenCategories.has(ev.category)) return false;
+        // 그룹 필터 (선택된 게 없으면 전체 표시)
+        if (selectedUnitIds.size > 0 && !selectedUnitIds.has(ev.unitId)) return false;
+        return true;
+    });
 }
 
 // ─── Cell Click ───
@@ -649,11 +954,16 @@ function showDetail(dateKey) {
     } else {
         body.innerHTML = events.map(ev => {
             const color = CATEGORY_COLORS[ev.category] || '#777';
+            const unitInfo = data.units?.[String(ev.unitId)];
+            const groupName = unitInfo ? unitInfo.ko : '';
             return `<div class="detail-item">
                 <div class="cat-dot" style="background:${color}"></div>
                 <div class="info">
                     <div class="title">${escapeHtml(ev.title)}</div>
-                    <div class="cat-label">${ev.category}</div>
+                    <div class="meta">
+                        <span>${ev.category}</span>
+                        ${groupName ? `<span>${escapeHtml(groupName)}</span>` : ''}
+                    </div>
                 </div>
             </div>`;
         }).join('');
@@ -669,6 +979,7 @@ function renderStats() {
     bar.innerHTML = `
         <span>수집 기간 <strong>${data.range?.start || '?'} - ${data.range?.end || '?'}</strong></span>
         <span>총 이벤트 <strong>${data.stats.total_events.toLocaleString()}</strong></span>
+        <span>그룹 <strong>${data.stats.total_units || '?'}</strong></span>
     `;
 }
 
@@ -713,6 +1024,8 @@ function escapeHtml(str) {
 
 // ─── Keyboard ───
 document.addEventListener('keydown', (e) => {
+    // 검색 input 포커스 중에는 좌우 키 무시
+    if (document.activeElement?.id === 'groupSearchInput') return;
     if (e.key === 'ArrowLeft') document.getElementById('prevBtn').click();
     else if (e.key === 'ArrowRight') document.getElementById('nextBtn').click();
 });
