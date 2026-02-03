@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Blip.kr K-POP Schedule Scraper v3 (RSC Payload 파싱 방식)
+Blip.kr K-POP Schedule Scraper v4 (RSC Payload + Unit Mapping)
 
 blip.kr은 Next.js App Router를 사용하며, SSR HTML 테이블에는
 셀당 최대 3개 이벤트만 표시. 전체 데이터는 React Server Component
 payload (self.__next_f.push)에 JSON으로 포함됨.
+
+v4 변경사항:
+- 홈페이지에서 unitId → 그룹명(한글/영문) 매핑 동적 수집
+- 이벤트에 unitId 포함하여 그룹별 필터링 지원
+- schedule.json에 units 매핑 테이블 추가
 
 스크래핑 범위: 전월 1일 ~ 실행일로부터 1년 후까지
 """
@@ -64,8 +69,94 @@ CATEGORY_KEYWORDS = {
     ],
 }
 
+DEFAULT_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+}
 
-# ─── RSC Payload 파싱 ───
+
+# ─── RSC Payload 공통 디코딩 ───
+
+def decode_rsc_chunk(chunk: str) -> str:
+    """JavaScript 이중 이스케이프를 해제하여 파싱 가능한 문자열로 변환"""
+    raw = chunk
+    raw = raw.replace("\\\\", "\x00BS\x00")
+    raw = raw.replace('\\"', '"')
+    raw = raw.replace("\\n", "\n")
+    raw = raw.replace("\x00BS\x00", "\\")
+    return raw
+
+
+# ─── 유닛 매핑 수집 ───
+
+def fetch_unit_mapping() -> dict:
+    """
+    blip.kr 홈페이지 RSC payload에서 unitId → 그룹명 매핑 추출.
+
+    홈페이지에는 {"unitId":N,"artistId":N,"isFilter":N,"blipName":"그룹명",...}
+    형태의 아티스트 목록이 포함됨. names 배열에서 영문명도 추출.
+
+    Returns:
+        {unitId(int): {"ko": "한글명", "en": "영문명"}, ...}
+    """
+    print("🏠 홈페이지에서 유닛 매핑 수집 중...")
+
+    req = Request("https://blip.kr", headers=DEFAULT_HEADERS)
+
+    try:
+        with urlopen(req, timeout=20) as response:
+            html = response.read().decode("utf-8")
+    except (URLError, HTTPError) as e:
+        print(f"  ⚠️  홈페이지 요청 실패: {e}")
+        return {}
+
+    rsc_chunks = re.findall(
+        r'self\.__next_f\.push\(\[1,"(.*?)"\]\)', html, re.DOTALL
+    )
+
+    for chunk in rsc_chunks:
+        if "blipName" not in chunk:
+            continue
+
+        raw = decode_rsc_chunk(chunk)
+
+        # unitId, blipName(한글명) 추출
+        ko_matches = re.findall(
+            r'\{"unitId":(\d+),"artistId":\d+,"isFilter":\d+,"blipName":"([^"]*)"',
+            raw,
+        )
+
+        # 영문명 추출
+        en_matches = re.findall(
+            r'\{"code":"en","name":"([^"]*)","unitId":(\d+)\}',
+            raw,
+        )
+        en_map = {}
+        for en_name, uid_str in en_matches:
+            en_map[int(uid_str)] = en_name
+
+        # 매핑 구성
+        unit_map = {}
+        for uid_str, ko_name in ko_matches:
+            uid = int(uid_str)
+            unit_map[uid] = {
+                "ko": ko_name,
+                "en": en_map.get(uid, ko_name),
+            }
+
+        print(f"  ✅ {len(unit_map)}개 그룹 매핑 확보")
+        return unit_map
+
+    print("  ⚠️  홈페이지에서 유닛 데이터를 찾을 수 없음")
+    return {}
+
+
+# ─── RSC Payload 이벤트 파싱 ───
 
 def extract_rsc_events(html: str) -> list[dict]:
     """
@@ -80,12 +171,7 @@ def extract_rsc_events(html: str) -> list[dict]:
         if "scheduleId" not in chunk:
             continue
 
-        # JavaScript 이중 이스케이프 해제
-        raw = chunk
-        raw = raw.replace("\\\\", "\x00BS\x00")
-        raw = raw.replace('\\"', '"')
-        raw = raw.replace("\\n", "\n")
-        raw = raw.replace("\x00BS\x00", "\\")
+        raw = decode_rsc_chunk(chunk)
 
         events = []
         pos = 0
@@ -169,6 +255,7 @@ def parse_events_to_dict(events: list[dict], year: int, month: int) -> dict:
             continue
 
         category = classify_event(event)
+        unit_id = event.get("unitId")
 
         if date_key not in result:
             result[date_key] = []
@@ -176,11 +263,13 @@ def parse_events_to_dict(events: list[dict], year: int, month: int) -> dict:
         # 중복 제거
         existing_titles = {e["title"] for e in result[date_key]}
         if title not in existing_titles:
-            result[date_key].append({
+            entry = {
                 "title": title,
                 "category": category,
-                "scheduleId": event.get("scheduleId"),
-            })
+            }
+            if unit_id is not None:
+                entry["unitId"] = unit_id
+            result[date_key].append(entry)
 
     return result
 
@@ -191,17 +280,7 @@ def fetch_month(year: int, month: int) -> dict:
     """특정 월의 스케줄 페이지에서 RSC payload 추출"""
     url = f"https://blip.kr/schedule?year={year}&month={month}"
 
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/131.0.0.0 Safari/537.36"
-        ),
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
-    }
-
-    req = Request(url, headers=headers)
+    req = Request(url, headers=DEFAULT_HEADERS)
 
     try:
         with urlopen(req, timeout=20) as response:
@@ -228,6 +307,10 @@ def fetch_month(year: int, month: int) -> dict:
 def scrape_schedule() -> dict:
     """전월 1일 ~ 실행일 기준 1년 후까지 스케줄 수집"""
     today = datetime.now()
+
+    # 유닛 매핑 먼저 수집
+    unit_map = fetch_unit_mapping()
+    time.sleep(random.uniform(1.0, 2.0))
 
     # 시작: 전월 1일
     if today.month == 1:
@@ -276,10 +359,29 @@ def scrape_schedule() -> dict:
     total_events = sum(len(v) for v in sorted_events.values())
     total_days = len(sorted_events)
 
+    # 실제 등장하는 unitId만 필터링하여 units 테이블 생성
+    used_unit_ids = set()
+    for date_events in sorted_events.values():
+        for event in date_events:
+            uid = event.get("unitId")
+            if uid is not None:
+                used_unit_ids.add(uid)
+
+    # units: 이벤트에 등장하는 그룹만 포함 (JSON key는 string)
+    units = {}
+    unmapped = 0
+    for uid in sorted(used_unit_ids):
+        if uid in unit_map:
+            units[str(uid)] = unit_map[uid]
+        else:
+            unmapped += 1
+            units[str(uid)] = {"ko": "기타 그룹", "en": "Other"}
+
     print(f"\n✅ 스크래핑 완료!")
     print(f"   - 수집 월수: {total_months}개월")
     print(f"   - 일정 있는 날: {total_days}일")
     print(f"   - 총 이벤트: {total_events}개")
+    print(f"   - 그룹 수: {len(units)}개 (매핑: {len(units)-unmapped}, 기타: {unmapped})")
 
     result = {
         "updated_at": today.isoformat(),
@@ -289,11 +391,13 @@ def scrape_schedule() -> dict:
         },
         "categories": list(CATEGORIES.keys()),
         "category_colors": CATEGORIES,
+        "units": units,
         "events": sorted_events,
         "stats": {
             "months_scraped": total_months,
             "days_with_events": total_days,
             "total_events": total_events,
+            "total_units": len(units),
         },
     }
 
@@ -309,7 +413,7 @@ def _last_day(year: int, month: int) -> int:
 # ─── 저장 ───
 
 def save_json(data: dict, filename: str = "schedule.json"):
-    # schedule.json에는 scheduleId 제외 (파일 크기 절약)
+    # schedule.json에서 scheduleId만 제외 (unitId는 보존)
     clean_data = json.loads(json.dumps(data))
     for date_key in clean_data.get("events", {}):
         for event in clean_data["events"][date_key]:
@@ -323,7 +427,7 @@ def save_json(data: dict, filename: str = "schedule.json"):
 # ─── 메인 ───
 
 def main():
-    print("🎬 Blip.kr Schedule Scraper v3 (RSC Payload) 시작\n")
+    print("🎬 Blip.kr Schedule Scraper v4 (RSC + Unit Mapping) 시작\n")
 
     data = scrape_schedule()
 
