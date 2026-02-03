@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-03T07:33:35.576580",
+  "updated_at": "2026-02-03T10:37:18.499342",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2950,6 +2950,16 @@
         "unitId": 69
       },
       {
+        "title": "HAPPY DOHUN DAY!",
+        "category": "축하",
+        "unitId": 164
+      },
+      {
+        "title": "HAPPY JANGJUN DAY!",
+        "category": "축하",
+        "unitId": 72
+      },
+      {
         "title": "HAPPY SERIM DAY!",
         "category": "축하",
         "unitId": 59
@@ -3428,6 +3438,11 @@
       }
     ],
     "2026-03-28": [
+      {
+        "title": "'버퍼링' 발매 4주년",
+        "category": "축하",
+        "unitId": 152
+      },
       {
         "title": "<Real Love> 발매 4주년",
         "category": "축하",
@@ -7840,7 +7855,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1317,
+    "total_events": 1320,
     "total_units": 116
   }
 }
