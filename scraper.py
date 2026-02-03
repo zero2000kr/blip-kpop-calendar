@@ -39,7 +39,7 @@ CATEGORIES = {
 
 # blip.kr typeId → 기본 카테고리 매핑
 TYPE_ID_MAP = {
-    2: "발매",    # Release, Teaser, MV, Concept Photo 등
+    2: "발매",    # Album, Release 등 실제 발매만 해당
     4: "축하",    # 생일, 기념일, 수상, 데뷔 기념 등
 }
 
@@ -63,8 +63,8 @@ CATEGORY_KEYWORDS = {
         "V LIVE", "위버스", "Weverse", "인스타",
     ],
     "발매": [
-        "Release", "발매", "RELEASE", "MV", "Teaser", "TEASER",
-        "Concept", "CONCEPT", "Album", "ALBUM", "공개",
+        "Release", "RELEASE", "Album", "ALBUM",
+        "Preview", "Track", "Highlight", "Medley",
     ],
     "축하": [
         "HAPPY", "DAY!", "생일", "birthday", "기념일",
@@ -231,6 +231,11 @@ def classify_event(event: dict) -> str:
                 return category
 
     # typeId 기반 기본 분류 (fallback)
+    # typeId=2(발매)는 발매 키워드 없으면 기타로 처리
+    # (MV Teaser, Concept Image 등은 기타로 분류)
+    if type_id == 2:
+        return "기타"
+
     return TYPE_ID_MAP.get(type_id, "기타")
 
 
