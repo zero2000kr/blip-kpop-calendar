@@ -21,6 +21,7 @@
             --accent-glow: rgba(139, 92, 246, 0.15);
             --cat-celebration: #4ECDC4;
             --cat-release: #FF6B6B;
+            --cat-preorder: #FF9F43;
             --cat-broadcast: #FFE66D;
             --cat-purchase: #95E1D3;
             --cat-event: #C7CEEA;
@@ -687,6 +688,7 @@ let selectedUnitIds = new Set();  // 선택된 그룹 (비어있으면 전체 �
 const CATEGORY_COLORS = {
     "축하": "#4ECDC4",
     "발매": "#FF6B6B",
+    "프리오더": "#FF9F43",
     "방송": "#FFE66D",
     "구매": "#95E1D3",
     "행사": "#C7CEEA",
@@ -722,14 +724,28 @@ async function init() {
 }
 
 // ─── Category Filters ───
+const DEFAULT_ACTIVE_CATEGORIES = new Set(["발매", "프리오더"]);
+let filtersInitialized = false;
+
 function renderFilters() {
     if (!data?.categories) return;
     const bar = document.getElementById('filterBar');
     bar.innerHTML = '';
 
+    // 초기화 시 기본값 외 카테고리는 숨김 처리
+    if (!filtersInitialized) {
+        data.categories.forEach(cat => {
+            if (!DEFAULT_ACTIVE_CATEGORIES.has(cat)) {
+                hiddenCategories.add(cat);
+            }
+        });
+        filtersInitialized = true;
+    }
+
     data.categories.forEach(cat => {
+        const isActive = !hiddenCategories.has(cat);
         const chip = document.createElement('div');
-        chip.className = 'filter-chip active';
+        chip.className = `filter-chip${isActive ? ' active' : ''}`;
         chip.style.setProperty('--chip-color', CATEGORY_COLORS[cat] || '#777');
         chip.innerHTML = `<span class="dot" style="background:${CATEGORY_COLORS[cat] || '#777'}"></span>${cat}`;
 
@@ -917,13 +933,15 @@ function renderCalendar() {
 
         if (events.length > 0) {
             html += '<div class="event-dots">';
-            const show = events.slice(0, 3);
+            // 모바일에서는 점(dot)만 표시하므로 더 많이 표시
+            const maxVisible = window.innerWidth <= 768 ? 6 : 3;
+            const show = events.slice(0, maxVisible);
             show.forEach(ev => {
                 const color = CATEGORY_COLORS[ev.category] || '#777';
                 html += `<div class="event-row"><span class="dot" style="background:${color}"></span><span>${escapeHtml(ev.title)}</span></div>`;
             });
-            if (events.length > 3) {
-                html += `<div class="more-count">+${events.length - 3}</div>`;
+            if (events.length > maxVisible) {
+                html += `<div class="more-count">+${events.length - maxVisible}</div>`;
             }
             html += '</div>';
         }

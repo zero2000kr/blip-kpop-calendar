@@ -28,6 +28,7 @@ from urllib.error import URLError, HTTPError
 CATEGORIES = {
     "축하": "#4ECDC4",
     "발매": "#FF6B6B",
+    "프리오더": "#FF9F43",
     "방송": "#FFE66D",
     "구매": "#95E1D3",
     "행사": "#C7CEEA",
@@ -52,9 +53,11 @@ CATEGORY_KEYWORDS = {
         "콘서트", "Concert", "CONCERT", "팬미팅", "Fan Meeting",
         "TOUR", "Tour", "쇼케이스", "Showcase", "LIVE",
     ],
+    "프리오더": [
+        "예약", "Pre-order", "PRE-ORDER", "PREORDER", "선주문",
+    ],
     "구매": [
-        "예약", "Pre-order", "PRE-ORDER", "구매", "Purchase",
-        "티켓", "Ticket", "TICKET",
+        "구매", "Purchase", "티켓", "Ticket", "TICKET",
     ],
     "SNS": [
         "V LIVE", "위버스", "Weverse", "인스타",
@@ -216,6 +219,10 @@ def classify_event(event: dict) -> str:
     """typeId + 제목 키워드로 카테고리 결정"""
     type_id = event.get("typeId")
     title = event.get("title", "")
+
+    # "앨범 발매 N주년" 패턴은 축하로 분류 (발매보다 우선)
+    if re.search(r'발매\s*\d+주년', title) or 'anniversary' in title.lower():
+        return "축하"
 
     # 키워드 기반 세부 분류 (우선)
     for category, keywords in CATEGORY_KEYWORDS.items():
