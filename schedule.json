@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-03T10:37:18.499342",
+  "updated_at": "2026-02-03T17:02:00.054702",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -390,6 +390,10 @@
     "130": {
       "ko": "트리플에스",
       "en": "tripleS"
+    },
+    "131": {
+      "ko": "카드",
+      "en": "KARD"
     },
     "132": {
       "ko": "82MAJOR",
@@ -2490,6 +2494,11 @@
         "title": "HAPPY ROSÉ DAY!",
         "category": "축하",
         "unitId": 7
+      },
+      {
+        "title": "<(EX)IST> Release",
+        "category": "발매",
+        "unitId": 131
       }
     ],
     "2026-02-12": [
@@ -7855,7 +7864,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1320,
-    "total_units": 116
+    "total_events": 1321,
+    "total_units": 117
   }
 }
