@@ -506,6 +506,32 @@
             font-size: 0.85rem;
         }
 
+        .event-link {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+
+        .event-link:hover {
+            color: var(--accent);
+        }
+
+        .detail-link-icon {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+            padding: 4px;
+            border-radius: 6px;
+            transition: all 0.15s;
+            margin-top: 2px;
+        }
+
+        .detail-link-icon:hover {
+            color: var(--accent);
+            background: var(--accent-glow);
+        }
+
         /* ─── Footer ─── */
         .footer {
             text-align: center;
@@ -956,15 +982,20 @@ function showDetail(dateKey) {
             const color = CATEGORY_COLORS[ev.category] || '#777';
             const unitInfo = data.units?.[String(ev.unitId)];
             const groupName = unitInfo ? unitInfo.ko : '';
+            const blipUrl = ev.scheduleId ? `https://blip.kr/schedule/${ev.scheduleId}` : null;
             return `<div class="detail-item">
                 <div class="cat-dot" style="background:${color}"></div>
                 <div class="info">
-                    <div class="title">${escapeHtml(ev.title)}</div>
+                    <div class="title">${blipUrl
+                        ? `<a href="${blipUrl}" target="_blank" rel="noopener" class="event-link">${escapeHtml(ev.title)}</a>`
+                        : escapeHtml(ev.title)
+                    }</div>
                     <div class="meta">
                         <span>${ev.category}</span>
                         ${groupName ? `<span>${escapeHtml(groupName)}</span>` : ''}
                     </div>
                 </div>
+                ${blipUrl ? `<a href="${blipUrl}" target="_blank" rel="noopener" class="detail-link-icon" title="blip.kr에서 보기">↗</a>` : ''}
             </div>`;
         }).join('');
     }
