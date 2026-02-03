@@ -982,20 +982,20 @@ function showDetail(dateKey) {
             const color = CATEGORY_COLORS[ev.category] || '#777';
             const unitInfo = data.units?.[String(ev.unitId)];
             const groupName = unitInfo ? unitInfo.ko : '';
-            const blipUrl = ev.scheduleId ? `https://blip.kr/schedule/${ev.scheduleId}` : null;
+            const groupEn = unitInfo ? unitInfo.en : '';
+            // 구글 검색: 영문 그룹명 + 이벤트 제목 (영문명이 검색 정확도 높음)
+            const searchQuery = (groupEn ? groupEn + ' ' : '') + ev.title;
+            const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
             return `<div class="detail-item">
                 <div class="cat-dot" style="background:${color}"></div>
                 <div class="info">
-                    <div class="title">${blipUrl
-                        ? `<a href="${blipUrl}" target="_blank" rel="noopener" class="event-link">${escapeHtml(ev.title)}</a>`
-                        : escapeHtml(ev.title)
-                    }</div>
+                    <div class="title"><a href="${googleUrl}" target="_blank" rel="noopener" class="event-link">${escapeHtml(ev.title)}</a></div>
                     <div class="meta">
                         <span>${ev.category}</span>
                         ${groupName ? `<span>${escapeHtml(groupName)}</span>` : ''}
                     </div>
                 </div>
-                ${blipUrl ? `<a href="${blipUrl}" target="_blank" rel="noopener" class="detail-link-icon" title="blip.kr에서 보기">↗</a>` : ''}
+                <a href="${googleUrl}" target="_blank" rel="noopener" class="detail-link-icon" title="구글에서 검색">↗</a>
             </div>`;
         }).join('');
     }
