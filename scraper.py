@@ -27,13 +27,33 @@ async def scrape_blip_schedule():
     blip.kr/schedule에서 캘린더 데이터를 스크래핑
     """
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        # 헤드리스 모드에서도 JavaScript 렌더링이 제대로 되도록 설정
+        browser = await p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-setuid-sandbox']
+        )
         page = await browser.new_page()
         
         try:
             print("🔄 blip.kr/schedule 접속 중...")
-            await page.goto('https://blip.kr/schedule', wait_until='networkidle')
-            await page.wait_for_timeout(2000)  # 동적 콘텐츠 로딩 대기
+            
+            # 페이지 로드 대기 (더 긴 타임아웃)
+            await page.goto(
+                'https://blip.kr/schedule',
+                wait_until='domcontentloaded',
+                timeout=30000
+            )
+            
+            # JavaScript 렌더링 완료 대기
+            print("⏳ 페이지 렌더링 대기 중...")
+            await page.wait_for_timeout(3000)
+            
+            # 캘린더 데이터가 로드될 때까지 대기
+            try:
+                await page.wait_for_selector('[role="gridcell"]', timeout=10000)
+                print("✅ 캘린더 로드 완료")
+            except:
+                print("⚠️  캘린더 선택자 찾기 실패, 계속 진행...")
             
             # 현재 표시 중인 월/년도 추출
             month_text = await page.text_content('h2')
@@ -46,89 +66,145 @@ async def scrape_blip_schedule():
             cells = await page.query_selector_all('[role="gridcell"]')
             print(f"📍 총 {len(cells)}개 날짜 셀 발견")
             
-            for cell in cells:
-                # 각 셀의 버튼 찾기
-                button = await cell.query_selector('button')
-                if button:
-                    # 버튼 내 모든 리스트 아이템 추출
-                    items = await button.query_selector_all('li')
+            cell_count = 0
+            event_total = 0
+            
+            for idx, cell in enumerate(cells):
+                try:
+                    # 각 셀의 텍스트 추출
+                    cell_text = await cell.text_content()
                     
-                    if len(items) > 0:
-                        # 날짜 텍스트 추출
-                        cell_text = await cell.text_content()
-                        date_match = re.match(r'^(\d+)', cell_text)
+                    if not cell_text or not cell_text.strip():
+                        continue
+                    
+                    # 날짜 추출 (첫 번째 숫자)
+                    date_match = re.match(r'^(\d+)', cell_text.strip())
+                    
+                    if date_match:
+                        date = int(date_match.group(1))
                         
-                        if date_match:
-                            date = int(date_match.group(1))
-                            events = []
+                        # 버튼 찾기
+                        button = await cell.query_selector('button')
+                        if button:
+                            # 버튼 내 모든 리스트 아이템 추출
+                            items = await button.query_selector_all('li')
                             
-                            for item in items:
-                                event_text = await item.text_content()
-                                # 이벤트 카테고리 판단 (앞의 아이콘/텍스트는 제외)
-                                event_text = event_text.strip()
+                            if len(items) > 0:
+                                cell_count += 1
+                                events = []
                                 
-                                # 카테고리 파악 (비공식 아이콘이 있으면 "비공식")
-                                category = "기타"
-                                for cat in CATEGORY_MAPPING.keys():
-                                    if cat in event_text or cat in await item.inner_html():
-                                        category = cat
-                                        break
+                                for item in items:
+                                    try:
+                                        event_text = await item.text_content()
+                                        event_text = event_text.strip()
+                                        
+                                        if not event_text:
+                                            continue
+                                        
+                                        # 카테고리 판단
+                                        category = "기타"
+                                        html = await item.inner_html()
+                                        
+                                        # 이미지 alt나 class에서 카테고리 찾기
+                                        for cat in CATEGORY_MAPPING.keys():
+                                            if cat in html or cat in event_text:
+                                                category = cat
+                                                break
+                                        
+                                        events.append({
+                                            "title": event_text,
+                                            "category": category
+                                        })
+                                        event_total += 1
+                                    except Exception as e:
+                                        print(f"  ⚠️  이벤트 추출 실패: {e}")
+                                        continue
                                 
-                                events.append({
-                                    "title": event_text,
-                                    "category": category
-                                })
-                            
-                            if events:
-                                schedule_data[str(date)] = events
+                                if events:
+                                    schedule_data[str(date)] = events
+                except Exception as e:
+                    print(f"  ⚠️  셀 {idx} 처리 실패: {e}")
+                    continue
+            
+            print(f"📊 캘린더 추출: {cell_count}개 날짜에서 {event_total}개 이벤트 발견")
             
             # "오늘의 스케줄"과 "다가오는 스케줄"에서 상세 정보 추출
             detailed_schedule = []
             
-            # 리스트 아이템 순회 (제목, 날짜, 아티스트 정보)
-            list_items = await page.query_selector_all('li[class*="schedule"]')
+            # 섹션에서 리스트 아이템 찾기
+            sections = await page.query_selector_all('section')
+            print(f"📌 총 {len(sections)}개 섹션 발견")
             
-            if not list_items:
-                # 대체: 모든 리스트 아이템 중에서 날짜와 시간 정보가 있는 것 찾기
-                all_lists = await page.query_selector_all('section:has(h2) li')
-                list_items = all_lists
-            
-            for idx, item in enumerate(list_items[:50]):  # 최대 50개 항목
+            for section_idx, section in enumerate(sections):
                 try:
-                    # 제목, 날짜, 아티스트명 추출
-                    item_text = await item.text_content()
-                    generics = await item.query_selector_all('generic')
-                    
-                    if len(generics) >= 2:
-                        title = await generics[0].text_content() if len(generics) > 0 else ""
-                        date_info = await generics[1].text_content() if len(generics) > 1 else ""
-                        artist = await generics[2].text_content() if len(generics) > 2 else ""
-                        
-                        if title and date_info:
-                            detailed_schedule.append({
-                                "title": title.strip(),
-                                "date": date_info.strip(),
-                                "artist": artist.strip()
-                            })
+                    # 섹션 제목 확인
+                    heading = await section.query_selector('h2, h3')
+                    if heading:
+                        heading_text = await heading.text_content()
+                        if "스케줄" in heading_text:
+                            print(f"  📋 섹션 {section_idx}: {heading_text}")
+                            
+                            # 해당 섹션의 리스트 아이템 추출
+                            list_items = await section.query_selector_all('li')
+                            print(f"    ├─ {len(list_items)}개 항목 발견")
+                            
+                            for item_idx, item in enumerate(list_items[:30]):  # 최대 30개
+                                try:
+                                    # 제목, 날짜, 아티스트명 추출
+                                    item_html = await item.inner_html()
+                                    item_text = await item.text_content()
+                                    
+                                    # generic 태그들 찾기
+                                    generics = await item.query_selector_all('generic')
+                                    
+                                    if len(generics) >= 2:
+                                        title = await generics[0].text_content() if len(generics) > 0 else ""
+                                        date_info = await generics[1].text_content() if len(generics) > 1 else ""
+                                        artist = await generics[2].text_content() if len(generics) > 2 else ""
+                                        
+                                        title = title.strip()
+                                        date_info = date_info.strip()
+                                        artist = artist.strip()
+                                        
+                                        if title and date_info:
+                                            detailed_schedule.append({
+                                                "title": title,
+                                                "date": date_info,
+                                                "artist": artist
+                                            })
+                                except Exception as e:
+                                    continue
                 except Exception as e:
-                    print(f"⚠️  항목 {idx} 추출 실패: {e}")
                     continue
+            
+            print(f"📝 상세 일정: {len(detailed_schedule)}개 추출")
             
             # 결과 컴파일
             result = {
                 "updated_at": datetime.now().isoformat(),
                 "month": month_text.strip() if month_text else "Unknown",
                 "calendar": schedule_data,
-                "detailed": detailed_schedule[:30],  # 상위 30개만
-                "categories": list(CATEGORY_MAPPING.keys())
+                "detailed": detailed_schedule[:50],  # 상위 50개
+                "categories": list(CATEGORY_MAPPING.keys()),
+                "debug": {
+                    "cells_found": len(cells),
+                    "cells_with_events": cell_count,
+                    "total_events": event_total,
+                    "detailed_count": len(detailed_schedule)
+                }
             }
             
-            print(f"✅ 총 {len(schedule_data)}개 날짜, {len(detailed_schedule)}개 상세 일정 추출 완료")
+            print(f"\n✅ 스크래핑 완료!")
+            print(f"   - 캘린더: {len(schedule_data)}개 날짜")
+            print(f"   - 이벤트: {event_total}개")
+            print(f"   - 상세 일정: {len(detailed_schedule)}개")
             
             return result
             
         except Exception as e:
             print(f"❌ 스크래핑 오류: {e}")
+            import traceback
+            traceback.print_exc()
             return None
         finally:
             await browser.close()
