@@ -1,0 +1,60 @@
+name: Daily K-POP Schedule Scraping
+
+on:
+  schedule:
+    # 매일 오전 9시(UTC+0)에 실행 = 한국 시간 오후 6시
+    - cron: '0 9 * * *'
+  
+  # 수동 실행 옵션
+  workflow_dispatch:
+
+jobs:
+  scrape-schedule:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. 리포지토리 체크아웃
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 2. Python 설정
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # 3. 의존성 설치
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+
+      # 4. 스크래핑 실행
+      - name: Run scraper
+        run: python scraper.py
+
+      # 5. 변경사항 커밋 및 푸시
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # schedule.json이 변경되었는지 확인
+          if git diff --quiet schedule.json; then
+            echo "✅ 변경사항 없음 (데이터가 동일함)"
+          else
+            echo "📝 schedule.json 업데이트 감지"
+            git add schedule.json
+            git commit -m "chore: update K-POP schedule data [automated]"
+            git push
+          fi
+
+      # 6. 실패 알림 (선택사항)
+      - name: Handle failure
+        if: failure()
+        run: |
+          echo "❌ 스크래핑 실패"
+          echo "GitHub Actions 로그를 확인하세요"
