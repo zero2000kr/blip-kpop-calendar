@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T05:05:28.990960",
+  "updated_at": "2026-02-04T10:35:59.807388",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4239,6 +4239,11 @@
         "unitId": 43
       },
       {
+        "title": "<Feel So Good> 발매 4주년",
+        "category": "축하",
+        "unitId": 116
+      },
+      {
         "title": "HAPPY JEEMIN DAY!",
         "category": "축하",
         "unitId": 149
@@ -4432,6 +4437,11 @@
       }
     ],
     "2026-05-22": [
+      {
+        "title": "HAPPY A-MIN DAY!",
+        "category": "축하",
+        "unitId": 121
+      },
       {
         "title": "HAPPY SUHO DAY!",
         "category": "축하",
@@ -7886,7 +7896,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1325,
+    "total_events": 1327,
     "total_units": 117
   }
 }
