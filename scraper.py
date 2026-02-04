@@ -57,20 +57,20 @@ TYPE_ID_MAP = {
 }
 
 # 제목 키워드 기반 세부 카테고리 보정
-# ⚠️ 순서 중요: 발매 → 프리오더 → 나머지 (우선순위 보장)
+# ⚠️ 순서 중요: 프리오더 → 발매 → 나머지 (우선순위 보장)
 CATEGORY_KEYWORDS = {
-    # Tier 1: 발매 (최우선 - 마케팅 매출 최대 영향)
+    # Tier 1: 프리오더 (최우선 - 마케팅 매출 최고 영향)
+    "프리오더": [
+        "예약", "Pre-order", "PRE-ORDER", "PREORDER", "선주문",
+        "[PRE-ORDER]", "[POB]",              # 추가: 표준 마크, POB
+        "2ND/RE-PRESS PREORDER", "RE-PRESS", # 추가: 추가 생산, 재판
+    ],
+    # Tier 2: 발매 (프리오더 다음 우선순위)
     "발매": [
         "Release", "RELEASE", "Album", "ALBUM",
         "Preview", "Track", "Highlight", "Medley",
         "Album Preview", "Album Release",    # 추가: 앨범 프리뷰/발매
         "Pre-release", "MV Release",          # 추가: 프리 릴리스, MV 발매
-    ],
-    # Tier 2: 프리오더 (발매 다음 우선순위)
-    "프리오더": [
-        "예약", "Pre-order", "PRE-ORDER", "PREORDER", "선주문",
-        "[PRE-ORDER]", "[POB]",              # 추가: 표준 마크, POB
-        "2ND/RE-PRESS PREORDER", "RE-PRESS", # 추가: 추가 생산, 재판
     ],
     # Tier 3+: 나머지 카테고리
     "방송": [
