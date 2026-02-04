@@ -57,7 +57,22 @@ TYPE_ID_MAP = {
 }
 
 # 제목 키워드 기반 세부 카테고리 보정
+# ⚠️ 순서 중요: 발매 → 프리오더 → 나머지 (우선순위 보장)
 CATEGORY_KEYWORDS = {
+    # Tier 1: 발매 (최우선 - 마케팅 매출 최대 영향)
+    "발매": [
+        "Release", "RELEASE", "Album", "ALBUM",
+        "Preview", "Track", "Highlight", "Medley",
+        "Album Preview", "Album Release",    # 추가: 앨범 프리뷰/발매
+        "Pre-release", "MV Release",          # 추가: 프리 릴리스, MV 발매
+    ],
+    # Tier 2: 프리오더 (발매 다음 우선순위)
+    "프리오더": [
+        "예약", "Pre-order", "PRE-ORDER", "PREORDER", "선주문",
+        "[PRE-ORDER]", "[POB]",              # 추가: 표준 마크, POB
+        "2ND/RE-PRESS PREORDER", "RE-PRESS", # 추가: 추가 생산, 재판
+    ],
+    # Tier 3+: 나머지 카테고리
     "방송": [
         "인기가요", "Inkigayo", "음악중심", "MusicCore", "M COUNTDOWN",
         "뮤직뱅크", "Music Bank", "SHOW CHAMPION", "음악방송", "1위",
@@ -66,18 +81,11 @@ CATEGORY_KEYWORDS = {
         "콘서트", "Concert", "CONCERT", "팬미팅", "Fan Meeting",
         "TOUR", "Tour", "쇼케이스", "Showcase", "LIVE",
     ],
-    "프리오더": [
-        "예약", "Pre-order", "PRE-ORDER", "PREORDER", "선주문",
-    ],
     "구매": [
         "구매", "Purchase", "티켓", "Ticket", "TICKET",
     ],
     "SNS": [
         "V LIVE", "위버스", "Weverse", "인스타",
-    ],
-    "발매": [
-        "Release", "RELEASE", "Album", "ALBUM",
-        "Preview", "Track", "Highlight", "Medley",
     ],
     "축하": [
         "HAPPY", "DAY!", "생일", "birthday", "기념일",
