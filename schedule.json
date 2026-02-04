@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T10:35:59.807388",
+  "updated_at": "2026-02-04T16:58:41.235131",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2282,9 +2282,9 @@
         "unitId": 113
       },
       {
-        "title": "<BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE> Release",
-        "category": "행사",
-        "unitId": 113
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 144
       }
     ],
     "2026-02-05": [
