@@ -37,6 +37,19 @@ CATEGORIES = {
     "SNS": "#8EC5FC",
 }
 
+# ─── Paysable 마케팅 카테고리 (세부 발매/프리오더 분류) ───
+
+PAYSABLE_CATEGORIES = {
+    "포브_마감": "#FF1744",        # Tier 1: POB(특전) 마감 - 최우선
+    "럭키드로우_마감": "#FF5722",  # Tier 1: Lucky Draw 응모 마감
+    "프리오더_마감": "#FF9800",    # Tier 1: 프리오더 마감
+    "발매일": "#4CAF50",           # Tier 2: 발매일
+    "첫프레스": "#2196F3",         # Tier 2: 첫 프레스 (한정 특전)
+    "프리오더_오픈": "#00BCD4",    # Tier 3: 프리오더 오픈
+    "팬사인_이벤트": "#9C27B0",    # Tier 3: 팬사인/이벤트
+    "재입고_2차": "#607D8B",       # Tier 3: 재입고/2차 출시
+}
+
 # blip.kr typeId → 기본 카테고리 매핑
 TYPE_ID_MAP = {
     2: "발매",    # Album, Release 등 실제 발매만 해당
@@ -69,6 +82,56 @@ CATEGORY_KEYWORDS = {
     "축하": [
         "HAPPY", "DAY!", "생일", "birthday", "기념일",
         "데뷔", "주년", "anniversary", "수상",
+    ],
+}
+
+# ─── Paysable 마케팅 키워드 (Tier 우선도 시스템) ───
+# Tier 1 > Tier 2 > Tier 3 > ... > Tier 8 우선순위로 분류
+
+PAYSABLE_KEYWORDS = {
+    # Tier 1: POB(특전) 마감 - 최고 우선순위 (구매 폭증 신호)
+    "포브_마감": [
+        "POB Deadline", "POB 마감", "POB Pre-Order",
+        "Pre-order Gift", "특전 마감", "Benefit Deadline",
+        "Goods Deadline", "굿즈 마감", "특전 종료",
+    ],
+    # Tier 1: Lucky Draw 응모 마감
+    "럭키드로우_마감": [
+        "Lucky Draw", "Lucky Draw Deadline", "응모 마감",
+        "LD 마감", "[LUCKY DRAW]", "LUCKY DRAW DEADLINE",
+        "응모 종료",
+    ],
+    # Tier 1: 프리오더 마감 (마지막 기회)
+    "프리오더_마감": [
+        "Pre-order End", "Pre-order Deadline", "프리오더 마감",
+        "선주문 종료", "예약 종료", "Pre-order Period",
+    ],
+    # Tier 2: 발매일 (최대 폭증 시점)
+    "발매일": [
+        "Release Date", "RELEASE", "ALBUM RELEASE",
+        "발매일", "출시일", "Album Release",
+    ],
+    # Tier 2: 첫 프레스 (한정 특전)
+    "첫프레스": [
+        "First Press", "한정판", "초회판", "초회 한정",
+        "한정 특전", "First Limited", "Limited Edition",
+    ],
+    # Tier 3: 프리오더 오픈 (예약 개시)
+    "프리오더_오픈": [
+        "Pre-order Start", "Pre-order Open", "PRE-ORDER START",
+        "선주문 개시", "예약 개시", "PRE-ORDER OPEN",
+        "프리오더 오픈",
+    ],
+    # Tier 3: 팬사인/이벤트
+    "팬사인_이벤트": [
+        "Fansign", "Fan Sign", "팬사인", "사인회",
+        "Fan Meet", "팬미팅", "콘서트", "concert",
+        "팬이벤트", "Fan Event",
+    ],
+    # Tier 3: 재입고/2차 출시
+    "재입고_2차": [
+        "Restock", "2nd Release", "재입고", "2차",
+        "additional", "2ND", "추가 입고",
     ],
 }
 
@@ -237,6 +300,63 @@ def classify_event(event: dict) -> str:
         return "기타"
 
     return TYPE_ID_MAP.get(type_id, "기타")
+
+
+def classify_event_paysable(event: dict) -> str:
+    """
+    Paysable 마케팅 최적화: Tier 우선도 기반 발매/프리오더 이벤트 분류
+
+    Tier 1 (최우선): POB 마감 > LD 마감 > 프리오더 마감 (구매 폭증)
+    Tier 2: 발매일 > 첫 프레스 (재고 소진)
+    Tier 3: 프리오더 오픈 > 팬사인/이벤트 > 재입고/2차 (보조)
+    """
+    title = event.get("title", "")
+
+    # Tier 1: 마감 관련 (최고 우선순위)
+    # 1-1: POB 마감
+    for kw in PAYSABLE_KEYWORDS["포브_마감"]:
+        if kw in title:
+            return "포브_마감"
+
+    # 1-2: Lucky Draw 마감
+    for kw in PAYSABLE_KEYWORDS["럭키드로우_마감"]:
+        if kw in title:
+            return "럭키드로우_마감"
+
+    # 1-3: 프리오더 마감
+    for kw in PAYSABLE_KEYWORDS["프리오더_마감"]:
+        if kw in title:
+            return "프리오더_마감"
+
+    # Tier 2: 발매/첫 프레스
+    # 2-1: 발매일
+    for kw in PAYSABLE_KEYWORDS["발매일"]:
+        if kw in title:
+            return "발매일"
+
+    # 2-2: 첫 프레스
+    for kw in PAYSABLE_KEYWORDS["첫프레스"]:
+        if kw in title:
+            return "첫프레스"
+
+    # Tier 3: 오픈/이벤트/재입고
+    # 3-1: 프리오더 오픈
+    for kw in PAYSABLE_KEYWORDS["프리오더_오픈"]:
+        if kw in title:
+            return "프리오더_오픈"
+
+    # 3-2: 팬사인/이벤트
+    for kw in PAYSABLE_KEYWORDS["팬사인_이벤트"]:
+        if kw in title:
+            return "팬사인_이벤트"
+
+    # 3-3: 재입고/2차
+    for kw in PAYSABLE_KEYWORDS["재입고_2차"]:
+        if kw in title:
+            return "재입고_2차"
+
+    # Fallback: 분류 불가능 (해당 없음)
+    return None
 
 
 def parse_events_to_dict(events: list[dict], year: int, month: int) -> dict:
