@@ -220,8 +220,8 @@ def classify_event(event: dict) -> str:
     type_id = event.get("typeId")
     title = event.get("title", "")
 
-    # "앨범 발매 N주년" 패턴은 축하로 분류 (발매보다 우선)
-    if re.search(r'발매\s*\d+주년', title) or 'anniversary' in title.lower():
+    # "N주년" 패턴은 축하로 분류 (발매보다 우선)
+    if re.search(r'\d+주년', title) or 'anniversary' in title.lower():
         return "축하"
 
     # 키워드 기반 세부 분류 (우선)
