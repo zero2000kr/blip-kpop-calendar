@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T01:58:41.395536",
+  "updated_at": "2026-02-04T05:29:07.779678",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2278,12 +2278,12 @@
       },
       {
         "title": "<'KNOCK ON Vol.1' FINAL - LIVE> Release",
-        "category": "행사",
+        "category": "발매",
         "unitId": 113
       },
       {
         "title": "<BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE> Release",
-        "category": "행사",
+        "category": "발매",
         "unitId": 113
       }
     ],
@@ -2358,7 +2358,7 @@
     "2026-02-09": [
       {
         "title": "<All of You> Pre-release / MV Teaser Image 01",
-        "category": "기타",
+        "category": "발매",
         "unitId": 120
       },
       {
@@ -2457,7 +2457,7 @@
     "2026-02-11": [
       {
         "title": "<STAY ALIVE> Release",
-        "category": "행사",
+        "category": "발매",
         "unitId": 56
       },
       {
@@ -3861,9 +3861,19 @@
         "unitId": 122
       },
       {
+        "title": "HAPPY HONGSEOK DAY!",
+        "category": "축하",
+        "unitId": 60
+      },
+      {
         "title": "HAPPY JIHEON DAY!",
         "category": "축하",
         "unitId": 74
+      },
+      {
+        "title": "HAPPY JINHO DAY!",
+        "category": "축하",
+        "unitId": 60
       },
       {
         "title": "HAPPY RYUJIN DAY!",
@@ -5128,6 +5138,11 @@
         "unitId": 113
       },
       {
+        "title": "HAPPY HEECHUL DAY!",
+        "category": "축하",
+        "unitId": 51
+      },
+      {
         "title": "HAPPY SAN DAY!",
         "category": "축하",
         "unitId": 63
@@ -6227,6 +6242,13 @@
         "title": "HAPPY TARZZAN DAY!",
         "category": "축하",
         "unitId": 151
+      }
+    ],
+    "2026-09-28": [
+      {
+        "title": "HAPPY SHINDONG DAY!",
+        "category": "축하",
+        "unitId": 51
       }
     ],
     "2026-09-29": [
@@ -7863,8 +7885,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 379,
-    "total_events": 1321,
+    "days_with_events": 380,
+    "total_events": 1325,
     "total_units": 117
   }
 }
