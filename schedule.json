@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-04T16:58:41.235131",
+  "updated_at": "2026-02-05T05:13:23.327426",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -5260,6 +5260,11 @@
         "title": "해찬 SM ROOKIES 공개 12주년",
         "category": "발매",
         "unitId": 152
+      },
+      {
+        "title": "해찬 SMROOKIES 공개 12주년",
+        "category": "발매",
+        "unitId": 33
       }
     ],
     "2026-07-18": [
@@ -5354,6 +5359,11 @@
       }
     ],
     "2026-07-27": [
+      {
+        "title": "HAPPY MINSEOK DAY!",
+        "category": "축하",
+        "unitId": 145
+      },
       {
         "title": "두준 솔로 데뷔 6주년",
         "category": "축하",
@@ -5654,7 +5664,7 @@
       {
         "title": "재희 첫 공개 3주년",
         "category": "발매",
-        "unitId": 155
+        "unitId": 33
       }
     ],
     "2026-08-18": [
@@ -5718,7 +5728,7 @@
       {
         "title": "천러 공개 10주년",
         "category": "발매",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-20": [
@@ -5740,7 +5750,7 @@
       {
         "title": "제노 공개 10주년",
         "category": "발매",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-21": [
@@ -6288,6 +6298,11 @@
         "title": "'The Feels' 발매 2주년",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "NEURO 생일",
+        "category": "축하",
+        "unitId": 145
       }
     ],
     "2026-10-02": [
@@ -7006,6 +7021,13 @@
         "unitId": 85
       }
     ],
+    "2026-12-02": [
+      {
+        "title": "HAPPY TAEYANG DAY!",
+        "category": "축하",
+        "unitId": 145
+      }
+    ],
     "2026-12-03": [
       {
         "title": "HAPPY JUUN DAY!",
@@ -7155,7 +7177,7 @@
       {
         "title": "마크 SMROOKIES 공개 13주년",
         "category": "발매",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-12-18": [
@@ -7313,6 +7335,11 @@
         "title": "HAPPY HANJIN DAY!",
         "category": "축하",
         "unitId": 125
+      },
+      {
+        "title": "쟈니,도영 NCT 127 합류 10주년",
+        "category": "축하",
+        "unitId": 33
       },
       {
         "title": "첫 음악방송 1위 기념일!",
@@ -7605,6 +7632,11 @@
         "title": "<2> 발매 3주년",
         "category": "축하",
         "unitId": 39
+      },
+      {
+        "title": "HAPPY YEOYEOJEONG DAY!",
+        "category": "축하",
+        "unitId": 145
       }
     ],
     "2027-01-30": [
@@ -7655,6 +7687,11 @@
         "title": "HAPPY REI DAY!",
         "category": "축하",
         "unitId": 85
+      },
+      {
+        "title": "[허거덩 스케줄] 리쿠 복귀한 날",
+        "category": "축하",
+        "unitId": 33
       }
     ],
     "2027-02-04": [
@@ -7840,6 +7877,11 @@
         "title": "엔믹스 데뷔 5주년",
         "category": "축하",
         "unitId": 89
+      },
+      {
+        "title": "정우 데뷔 9주년",
+        "category": "축하",
+        "unitId": 33
       }
     ],
     "2027-02-23": [
@@ -7895,8 +7937,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 380,
-    "total_events": 1327,
+    "days_with_events": 381,
+    "total_events": 1335,
     "total_units": 117
   }
 }
