@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-05T05:13:23.327426",
+  "updated_at": "2026-02-05T10:37:52.606892",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2993,6 +2993,11 @@
         "unitId": 54
       },
       {
+        "title": "HAPPY YERI DAY!",
+        "category": "축하",
+        "unitId": 35
+      },
+      {
         "title": "JUS2 유닛 데뷔일",
         "category": "축하",
         "unitId": 50
@@ -4516,6 +4521,11 @@
     ],
     "2026-05-27": [
       {
+        "title": "HAPPY EUNSEO DAY!",
+        "category": "축하",
+        "unitId": 105
+      },
+      {
         "title": "규현 데뷔 20주년",
         "category": "축하",
         "unitId": 51
@@ -4844,6 +4854,11 @@
       }
     ],
     "2026-06-20": [
+      {
+        "title": "정우 SM 입사 12주년",
+        "category": "축하",
+        "unitId": 33
+      },
       {
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
@@ -7938,7 +7953,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1335,
+    "total_events": 1338,
     "total_units": 117
   }
 }
