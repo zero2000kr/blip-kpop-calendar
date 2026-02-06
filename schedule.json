@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-06T10:36:32.349862",
+  "updated_at": "2026-02-06T16:55:54.354289",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2334,6 +2334,11 @@
         "title": "<GOLDEN HOUR : Part.4> Release",
         "category": "발매",
         "unitId": 63
+      },
+      {
+        "title": "이번 주 뮤직뱅크 1위 🎉",
+        "category": "방송",
+        "unitId": 39
       }
     ],
     "2026-02-07": [
@@ -2891,8 +2896,8 @@
         "unitId": 34
       },
       {
-        "title": "'민들레' 발매 {{1주년}}",
-        "category": "발매",
+        "title": "'민들레' 발매 2주년",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -7993,7 +7998,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1346,
+    "total_events": 1347,
     "total_units": 117
   }
 }
