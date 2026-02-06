@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-06T05:11:26.517454",
+  "updated_at": "2026-02-06T10:36:32.349862",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -5193,6 +5193,11 @@
         "unitId": 33
       },
       {
+        "title": "백현 솔로 데뷔 7주년",
+        "category": "축하",
+        "unitId": 10
+      },
+      {
         "title": "제로베이스원 데뷔 3주년",
         "category": "축하",
         "unitId": 112
@@ -6361,6 +6366,11 @@
         "unitId": 146
       },
       {
+        "title": "HAPPY YUJU DAY!",
+        "category": "축하",
+        "unitId": 47
+      },
+      {
         "title": "SuperM 데뷔 4주년",
         "category": "축하",
         "unitId": 33
@@ -6443,6 +6453,11 @@
         "title": "마유 데뷔 3주년",
         "category": "축하",
         "unitId": 130
+      },
+      {
+        "title": "코토네 데뷔 3주년",
+        "category": "축하",
+        "unitId": 130
       }
     ],
     "2026-10-12": [
@@ -6470,6 +6485,11 @@
       },
       {
         "title": "HAPPY KIM NAKYOUNG DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
+        "title": "HAPPY PARK SOHYUN DAY!",
         "category": "축하",
         "unitId": 130
       }
@@ -7401,6 +7421,11 @@
         "title": "'비밀정원' 발매 9주년",
         "category": "축하",
         "unitId": 43
+      },
+      {
+        "title": "세훈 데뷔 티저 공개일!",
+        "category": "발매",
+        "unitId": 10
       }
     ],
     "2027-01-10": [
@@ -7500,6 +7525,11 @@
         "title": "HAPPY SUNGJIN DAY!",
         "category": "축하",
         "unitId": 58
+      },
+      {
+        "title": "레이 데뷔 티저 공개일!",
+        "category": "발매",
+        "unitId": 10
       },
       {
         "title": "승민이 교정기 뺀지 4주년",
@@ -7963,7 +7993,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1340,
+    "total_events": 1346,
     "total_units": 117
   }
 }
