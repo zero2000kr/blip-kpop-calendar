@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-07T10:22:51.162942",
+  "updated_at": "2026-02-07T16:39:30.273375",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2339,9 +2339,19 @@
         "title": "이번 주 뮤직뱅크 1위 🎉",
         "category": "방송",
         "unitId": 39
+      },
+      {
+        "title": "<‘BANG BANG' MV TEASER>",
+        "category": "발매",
+        "unitId": 85
       }
     ],
     "2026-02-07": [
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> Trailer",
+        "category": "발매",
+        "unitId": 152
+      },
       {
         "title": "HAPPY JAY DAY!",
         "category": "축하",
@@ -2351,6 +2361,11 @@
         "title": "HAPPY YUMA DAY!",
         "category": "축하",
         "unitId": 129
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 144
       }
     ],
     "2026-02-08": [
@@ -2375,6 +2390,11 @@
         "title": "<All of You> Pre-release / MV Teaser Image 01",
         "category": "발매",
         "unitId": 120
+      },
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> MOOD FILM&TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
       },
       {
         "title": "'마지막 첫사랑' 발매 9주년",
@@ -2422,6 +2442,11 @@
         "unitId": 85
       },
       {
+        "title": "<Unloved Echo>",
+        "category": "발매",
+        "unitId": 68
+      },
+      {
         "title": "<다시 만난 오늘> Release",
         "category": "발매",
         "unitId": 125
@@ -2432,6 +2457,11 @@
         "title": "<All of You> MV Teaser Image 02",
         "category": "발매",
         "unitId": 120
+      },
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
       },
       {
         "title": "HAPPY KIMLIP DAY!",
@@ -2470,6 +2500,11 @@
       }
     ],
     "2026-02-11": [
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> MOOD FILM&TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
+      },
       {
         "title": "<STAY ALIVE> Release",
         "category": "행사",
@@ -2517,6 +2552,11 @@
       }
     ],
     "2026-02-12": [
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> MOOD FILM&TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
+      },
       {
         "title": "<달라달라> 발매 7주년",
         "category": "축하",
@@ -2717,6 +2757,11 @@
     ],
     "2026-02-19": [
       {
+        "title": "<BOTH SIDES - The 1st Mini Album> Trailer",
+        "category": "발매",
+        "unitId": 152
+      },
+      {
         "title": "HAPPY JUNGWOO DAY!",
         "category": "축하",
         "unitId": 33
@@ -2724,12 +2769,22 @@
     ],
     "2026-02-20": [
       {
+        "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
+      },
+      {
         "title": "현진 반려견 까미 생일🐕",
         "category": "축하",
         "unitId": 45
       }
     ],
     "2026-02-21": [
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
+        "category": "발매",
+        "unitId": 152
+      },
       {
         "title": "HAPPY LEESEO DAY!",
         "category": "축하",
@@ -2772,6 +2827,11 @@
       }
     ],
     "2026-02-22": [
+      {
+        "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER",
+        "category": "발매",
+        "unitId": 152
+      },
       {
         "title": "M1-KEY 생일",
         "category": "축하",
@@ -3057,6 +3117,11 @@
     ],
     "2026-03-07": [
       {
+        "title": "HAPPY DAMI DAY!",
+        "category": "축하",
+        "unitId": 103
+      },
+      {
         "title": "HAPPY HYUNSIK DAY!",
         "category": "축하",
         "unitId": 46
@@ -3065,6 +3130,11 @@
         "title": "시원 데뷔 21주년",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "유니버스 생일",
+        "category": "축하",
+        "unitId": 60
       }
     ],
     "2026-03-09": [
@@ -5152,6 +5222,11 @@
         "title": "믿지 생일",
         "category": "축하",
         "unitId": 38
+      },
+      {
+        "title": "우영 솔로 데뷔 10주년",
+        "category": "축하",
+        "unitId": 81
       }
     ],
     "2026-07-09": [
@@ -6842,6 +6917,11 @@
     ],
     "2026-11-10": [
       {
+        "title": "'SAY CHEESE!’ 발매 1주년",
+        "category": "축하",
+        "unitId": 113
+      },
+      {
         "title": "<樂-STAR>발매 3주년",
         "category": "축하",
         "unitId": 45
@@ -7518,6 +7598,11 @@
         "title": "HAPPY YUNAH DAY!",
         "category": "축하",
         "unitId": 143
+      },
+      {
+        "title": "블링크 생일",
+        "category": "축하",
+        "unitId": 7
       }
     ],
     "2027-01-16": [
@@ -7816,6 +7901,11 @@
     ],
     "2027-02-10": [
       {
+        "title": "HAPPY MEGAN DAY!",
+        "category": "축하",
+        "unitId": 147
+      },
+      {
         "title": "HAPPY NOAH DAY!",
         "category": "축하",
         "unitId": 126
@@ -7998,7 +8088,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1347,
+    "total_events": 1365,
     "total_units": 117
   }
 }
