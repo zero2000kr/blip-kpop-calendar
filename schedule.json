@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-07T16:39:30.273375",
+  "updated_at": "2026-02-08T05:20:20.007503",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4674,6 +4674,11 @@
     ],
     "2026-05-31": [
       {
+        "title": "<Blue Voyage> 발매 4주년",
+        "category": "축하",
+        "unitId": 116
+      },
+      {
         "title": "<혼돈의 장: FREEZE> 발매 5주년",
         "category": "축하",
         "unitId": 48
@@ -5035,6 +5040,11 @@
         "title": "HAPPY JUNGSU DAY!",
         "category": "축하",
         "unitId": 109
+      },
+      {
+        "title": "HAPPY MANON DAY!",
+        "category": "축하",
+        "unitId": 147
       },
       {
         "title": "HAPPY WONHEE DAY!",
@@ -8088,7 +8098,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1365,
+    "total_events": 1367,
     "total_units": 117
   }
 }
