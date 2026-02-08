@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-08T05:20:20.007503",
+  "updated_at": "2026-02-08T10:24:13.765013",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3866,6 +3866,11 @@
         "title": "HAPPY SOOIN DAY!",
         "category": "축하",
         "unitId": 148
+      },
+      {
+        "title": "HAPPY SUNHYE DAY!",
+        "category": "축하",
+        "unitId": 127
       },
       {
         "title": "HAPPY SUNWOO DAY!",
@@ -8098,7 +8103,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1367,
+    "total_events": 1368,
     "total_units": 117
   }
 }
