@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-08T10:24:13.765013",
+  "updated_at": "2026-02-08T16:39:30.761316",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2257,11 +2257,6 @@
         "unitId": 45
       },
       {
-        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스> 개봉",
-        "category": "발매",
-        "unitId": 45
-      },
-      {
         "title": "<왕과 사는 남자> Release",
         "category": "발매",
         "unitId": 67
@@ -2366,6 +2361,11 @@
         "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
         "category": "방송",
         "unitId": 144
+      },
+      {
+        "title": "'BANG BANG' TEASER PHOTO",
+        "category": "발매",
+        "unitId": 85
       }
     ],
     "2026-02-08": [
@@ -2383,6 +2383,11 @@
         "title": "하늘 생일",
         "category": "축하",
         "unitId": 49
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 39
       }
     ],
     "2026-02-09": [
@@ -2464,6 +2469,11 @@
         "unitId": 152
       },
       {
+        "title": "<You Give Me Butterflies> Music Release",
+        "category": "발매",
+        "unitId": 154
+      },
+      {
         "title": "HAPPY KIMLIP DAY!",
         "category": "축하",
         "unitId": 44
@@ -2497,6 +2507,11 @@
         "title": "엔플라잉 일본 데뷔 10주년",
         "category": "축하",
         "unitId": 75
+      },
+      {
+        "title": "<You Give Me Butterflies> MV Release",
+        "category": "발매",
+        "unitId": 154
       }
     ],
     "2026-02-11": [
@@ -3622,6 +3637,11 @@
         "title": "<SIGN> 발매 1주년",
         "category": "축하",
         "unitId": 149
+      },
+      {
+        "title": "HAPPY JU-NE DAY!",
+        "category": "축하",
+        "unitId": 83
       },
       {
         "title": "HAPPY MUN JUNG HYUN DAY!",
@@ -8103,7 +8123,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1368,
+    "total_events": 1372,
     "total_units": 117
   }
 }
