@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-08T16:39:30.761316",
+  "updated_at": "2026-02-09T05:24:07.182746",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4677,6 +4677,11 @@
         "unitId": 47
       },
       {
+        "title": "HAPPY JACOB DAY!",
+        "category": "축하",
+        "unitId": 42
+      },
+      {
         "title": "HAPPY NATTY DAY!",
         "category": "축하",
         "unitId": 118
@@ -8123,7 +8128,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1372,
+    "total_events": 1373,
     "total_units": 117
   }
 }
