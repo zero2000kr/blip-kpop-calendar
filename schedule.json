@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-09T10:53:54.150524",
+  "updated_at": "2026-02-10T05:24:03.899383",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2388,11 +2388,36 @@
         "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
         "category": "방송",
         "unitId": 39
+      },
+      {
+        "title": "'BANG BANG' TEASER PHOTO",
+        "category": "발매",
+        "unitId": 85
       }
     ],
     "2026-02-09": [
       {
-        "title": "<All of You> Pre-release / MV Teaser Image 01",
+        "title": "'Earth, Wind & Fire (Buldak Hotter Than My EX Ver.)' Release",
+        "category": "발매",
+        "unitId": 113
+      },
+      {
+        "title": "'SSS (Sending Secret Signals) (feat. HYDE)' MV Release",
+        "category": "발매",
+        "unitId": 48
+      },
+      {
+        "title": "<All of You> MV Teaser Image",
+        "category": "발매",
+        "unitId": 120
+      },
+      {
+        "title": "<All of You> Pre-release",
+        "category": "발매",
+        "unitId": 120
+      },
+      {
+        "title": "<All of You> Visualizer",
         "category": "발매",
         "unitId": 120
       },
@@ -2400,6 +2425,11 @@
         "title": "<BOTH SIDES - The 1st Mini Album> MOOD FILM&TEASER IMAGE",
         "category": "발매",
         "unitId": 152
+      },
+      {
+        "title": "<DEADLINE> VISUAL POSTER",
+        "category": "발매",
+        "unitId": 7
       },
       {
         "title": "'마지막 첫사랑' 발매 9주년",
@@ -2410,11 +2440,6 @@
         "title": "<Beam Of Prism> 발매 4주년",
         "category": "축하",
         "unitId": 94
-      },
-      {
-        "title": "<Zombie> Cover 4주년",
-        "category": "축하",
-        "unitId": 45
       },
       {
         "title": "HAPPY JOHNNY DAY!",
@@ -2459,7 +2484,7 @@
     ],
     "2026-02-10": [
       {
-        "title": "<All of You> MV Teaser Image 02",
+        "title": "<All of You> MV Teaser Image",
         "category": "발매",
         "unitId": 120
       },
@@ -2472,6 +2497,11 @@
         "title": "<You Give Me Butterflies> Music Release",
         "category": "발매",
         "unitId": 154
+      },
+      {
+        "title": "<Zombie> Cover 공개 4주년",
+        "category": "발매",
+        "unitId": 45
       },
       {
         "title": "HAPPY KIMLIP DAY!",
@@ -2913,6 +2943,11 @@
         "title": "<BOTH SIDES> Release",
         "category": "발매",
         "unitId": 152
+      },
+      {
+        "title": "<REVIVE+> Release",
+        "category": "발매",
+        "unitId": 85
       }
     ],
     "2026-02-24": [
@@ -7498,6 +7533,11 @@
         "title": "HAPPY JISOO DAY!",
         "category": "축하",
         "unitId": 7
+      },
+      {
+        "title": "HAPPY JUHOON DAY!",
+        "category": "축하",
+        "unitId": 156
       }
     ],
     "2027-01-05": [
@@ -7999,6 +8039,11 @@
     ],
     "2027-02-14": [
       {
+        "title": "HAPPY KEONHO DAY!",
+        "category": "축하",
+        "unitId": 156
+      },
+      {
         "title": "NCT DREAM 첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 152
@@ -8128,7 +8173,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1373,
+    "total_events": 1382,
     "total_units": 117
   }
 }
