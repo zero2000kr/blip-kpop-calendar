@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-10T10:52:43.843154",
+  "updated_at": "2026-02-10T17:10:52.360523",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -1892,6 +1892,11 @@
         "unitId": 47
       },
       {
+        "title": "'VISA' MV Teaser",
+        "category": "발매",
+        "unitId": 127
+      },
+      {
         "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
         "category": "방송",
         "unitId": 159
@@ -2213,6 +2218,11 @@
         "unitId": 47
       },
       {
+        "title": "'VISA' Choreography MV",
+        "category": "발매",
+        "unitId": 127
+      },
+      {
         "title": "<All of You> Physical Album Detail",
         "category": "발매",
         "unitId": 120
@@ -2312,6 +2322,11 @@
         "title": "HAPPY TAEHYUN DAY!",
         "category": "축하",
         "unitId": 48
+      },
+      {
+        "title": "<STEREOTYPE (Chinese Ver.)> Release",
+        "category": "발매",
+        "unitId": 56
       },
       {
         "title": "이번 주 M COUNTDOWN 1위 🎉",
@@ -2629,6 +2644,11 @@
       }
     ],
     "2026-02-13": [
+      {
+        "title": "OST 'Mention Me' Release",
+        "category": "발매",
+        "unitId": 156
+      },
       {
         "title": "'Volcano' 발매 3주년",
         "category": "축하",
@@ -3214,6 +3234,11 @@
         "title": "'동갑내기' 발매 1주년",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "HAPPY KOTONE DAY!",
+        "category": "축하",
+        "unitId": 130
       },
       {
         "title": "HAPPY PENIEL DAY!",
@@ -5678,6 +5703,11 @@
         "title": "<CURIOUS> 발매 2주년",
         "category": "축하",
         "unitId": 157
+      },
+      {
+        "title": "HAPPY YOON SEOYEON DAY!",
+        "category": "축하",
+        "unitId": 130
       }
     ],
     "2026-08-07": [
@@ -8173,7 +8203,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1382,
+    "total_events": 1388,
     "total_units": 117
   }
 }
