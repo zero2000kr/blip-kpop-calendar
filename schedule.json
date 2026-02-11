@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-11T10:48:15.906673",
+  "updated_at": "2026-02-11T17:11:00.611552",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2609,6 +2609,11 @@
         "title": "<(EX)IST> Release",
         "category": "발매",
         "unitId": 131
+      },
+      {
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 63
       }
     ],
     "2026-02-12": [
@@ -3392,7 +3397,7 @@
       {
         "title": "HAPPY SAKURA DAY!",
         "category": "축하",
-        "unitId": 95
+        "unitId": 30
       }
     ],
     "2026-03-20": [
@@ -3594,6 +3599,11 @@
         "title": "HAPPY LISA DAY!",
         "category": "축하",
         "unitId": 7
+      },
+      {
+        "title": "HAPPY YEOONE DAY!",
+        "category": "축하",
+        "unitId": 60
       },
       {
         "title": "세상 생일",
@@ -6489,6 +6499,11 @@
         "title": "HAPPY SHINDONG DAY!",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "츄 인스타그램 개설 4주년",
+        "category": "SNS",
+        "unitId": 101
       }
     ],
     "2026-09-29": [
@@ -6754,6 +6769,11 @@
         "title": "<The Action> 발매 1주년",
         "category": "축하",
         "unitId": 113
+      },
+      {
+        "title": "HAPPY CHUU DAY!",
+        "category": "축하",
+        "unitId": 101
       },
       {
         "title": "HAPPY LEEHAN DAY!",
@@ -8208,7 +8228,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1389,
+    "total_events": 1393,
     "total_units": 117
   }
 }
