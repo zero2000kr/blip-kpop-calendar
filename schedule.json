@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-14T05:04:40.328192",
+  "updated_at": "2026-02-14T10:24:27.289433",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -5816,6 +5816,11 @@
         "title": "HAPPY MINGI DAY!",
         "category": "축하",
         "unitId": 63
+      },
+      {
+        "title": "준케이 솔로 데뷔 7주년",
+        "category": "축하",
+        "unitId": 81
       }
     ],
     "2026-08-10": [
@@ -8280,7 +8285,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1403,
+    "total_events": 1404,
     "total_units": 117
   }
 }
