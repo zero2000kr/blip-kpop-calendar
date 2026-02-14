@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-14T16:38:46.937028",
+  "updated_at": "2026-02-15T07:54:00",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -500,7 +500,7 @@
     "2026-01-01": [
       {
         "title": "<Pretty Boy Swag> MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 164
       },
       {
@@ -522,7 +522,7 @@
     "2026-01-02": [
       {
         "title": "<EUPHORIA> Voice Poster",
-        "category": "발매",
+        "category": "기타",
         "unitId": 159
       },
       {
@@ -532,12 +532,12 @@
       },
       {
         "title": "<RE : LOVE> MV TEASER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 69
       },
       {
         "title": "<yesweare> Concept Photo",
-        "category": "발매",
+        "category": "기타",
         "unitId": 164
       },
       {
@@ -557,12 +557,12 @@
       },
       {
         "title": "'THE SIN : VANISH' Chapter 3. <Stealer>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 55
       },
       {
         "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)> MV TEASER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 31
       },
       {
@@ -574,22 +574,22 @@
     "2026-01-03": [
       {
         "title": "<EUPHORIA> Film",
-        "category": "발매",
+        "category": "기타",
         "unitId": 159
       },
       {
         "title": "<RE : LOVE> MV TEASER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 69
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<yesweare> Concept Photo",
-        "category": "발매",
+        "category": "기타",
         "unitId": 164
       },
       {
@@ -626,22 +626,22 @@
     "2026-01-04": [
       {
         "title": "<EUPHORIA> PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 159
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<XO, My Cyberlove> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 101
       },
       {
         "title": "<세상은 영화 같지 않더라> M/V Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 114
       },
       {
@@ -668,17 +668,17 @@
     "2026-01-05": [
       {
         "title": "<RE-FLOW> Promotion Schedule",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<XO, My Cyberlove> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 101
       },
       {
@@ -693,7 +693,7 @@
       },
       {
         "title": "윈윈 SMROOKIES 공개 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -723,7 +723,7 @@
       },
       {
         "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 31
       },
       {
@@ -745,12 +745,12 @@
       },
       {
         "title": "<RE-FLOW> TITLE POSTER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
@@ -785,24 +785,24 @@
       },
       {
         "title": "<소야곡> Cinema Poster",
-        "category": "발매",
+        "category": "기타",
         "unitId": 32
       }
     ],
     "2026-01-07": [
       {
         "title": "<강다니엘: 홀드 유어 브레스> 개봉",
-        "category": "발매",
+        "category": "기타",
         "unitId": 13
       },
       {
         "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
@@ -817,7 +817,7 @@
       },
       {
         "title": "<XO, My Cyberlove>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 101
       },
       {
@@ -829,17 +829,17 @@
     "2026-01-08": [
       {
         "title": "<EUPHORIA> MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 159
       },
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<原> TRACKLIST",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -864,7 +864,7 @@
       },
       {
         "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -876,7 +876,7 @@
     "2026-01-09": [
       {
         "title": "<REVERXE> Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
@@ -901,7 +901,7 @@
       },
       {
         "title": "세훈 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -918,12 +918,12 @@
     "2026-01-10": [
       {
         "title": "<EUPHORIA> MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 159
       },
       {
         "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1020,7 +1020,7 @@
     "2026-01-11": [
       {
         "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1050,7 +1050,7 @@
       },
       {
         "title": "연준 투모로우바이투게더로 공개된 지 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -1080,14 +1080,14 @@
       },
       {
         "title": "'Blue' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 32
       }
     ],
     "2026-01-12": [
       {
         "title": "<GOLDEN HOUR : Part.4> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 63
       },
       {
@@ -1097,7 +1097,7 @@
       },
       {
         "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1134,7 +1134,7 @@
     "2026-01-13": [
       {
         "title": "<RE-FLOW> BEGIN AGAIN",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -1144,7 +1144,7 @@
       },
       {
         "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1184,19 +1184,19 @@
       },
       {
         "title": "<CALL ME BACK> CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 90
       }
     ],
     "2026-01-14": [
       {
         "title": "OST <신비아파트 10주년 극장판: 한 번 더, 소환> Release",
-        "category": "발매",
+        "category": "축하",
         "unitId": 125
       },
       {
         "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1221,22 +1221,22 @@
       },
       {
         "title": "수빈 투모로우바이투게더로 공개된 지 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
         "title": "<'Canary' MV>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 101
       },
       {
         "title": "<CALL ME BACK> CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 90
       },
       {
         "title": "<Crossfade:>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 34
       },
       {
@@ -1248,17 +1248,17 @@
     "2026-01-15": [
       {
         "title": "<DEADLINE> COMEBACK TEASER VIDEO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 7
       },
       {
         "title": "<REVERXE> MV Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<原> MV TEASER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1328,24 +1328,24 @@
       },
       {
         "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       }
     ],
     "2026-01-16": [
       {
         "title": "<Confetti> Releasse",
-        "category": "발매",
+        "category": "기타",
         "unitId": 1
       },
       {
         "title": "<REVERXE> MV Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1375,12 +1375,12 @@
       },
       {
         "title": "도영 SMROOKIES 공개 11주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 153
       },
       {
         "title": "레이 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -1410,7 +1410,7 @@
       },
       {
         "title": "휴닝카이 투모로우바이투게더로 공개된 지 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -1437,7 +1437,7 @@
     "2026-01-17": [
       {
         "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1489,12 +1489,12 @@
     "2026-01-18": [
       {
         "title": "<REVERXE> MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 10
       },
       {
         "title": "<原> MV TEASER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 64
       },
       {
@@ -1514,7 +1514,7 @@
       },
       {
         "title": "태현 투모로우바이투게더로 공개된 지 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -1529,24 +1529,24 @@
       },
       {
         "title": "'Blue' Official MV (Epilogue Ver.) Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 32
       }
     ],
     "2026-01-19": [
       {
         "title": "'Yes We Are' MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 164
       },
       {
         "title": "'cloud palace ~ false awakening' GRANT OF ADMITTANCE",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
         "title": "<All of You> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -1556,7 +1556,7 @@
       },
       {
         "title": "<GOLDEN HOUR : Part.4> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 63
       },
       {
@@ -1583,22 +1583,22 @@
     "2026-01-20": [
       {
         "title": "'Mono (Feat. Skaiwater)' Play the whole world in Mono",
-        "category": "발매",
+        "category": "기타",
         "unitId": 39
       },
       {
         "title": "'cloud palace ~ false awakening' PRE-DROP CHRONICLES",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
         "title": "<All of You> Teaser 02",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
         "title": "<RE-FLOW> TITLE POSTER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -1613,7 +1613,7 @@
       },
       {
         "title": "<Obsession（情結）> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 13
       },
       {
@@ -1630,7 +1630,7 @@
     "2026-01-21": [
       {
         "title": "'Mono (Feat. Skaiwater)' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 39
       },
       {
@@ -1640,17 +1640,17 @@
       },
       {
         "title": "<All of You> Teaser 03",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
         "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
         "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       },
       {
@@ -1665,12 +1665,12 @@
       },
       {
         "title": "VIVIZ 팬덤명 나비 공개일",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
         "title": "범규 투모로우바이투게더로 공개된 지 7주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -1680,7 +1680,7 @@
       },
       {
         "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
@@ -1692,17 +1692,17 @@
     "2026-01-22": [
       {
         "title": "'Digital Single [Mono (Feat. Skaiwater)' Concept Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 39
       },
       {
         "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
         "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       },
       {
@@ -1737,19 +1737,19 @@
       },
       {
         "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       }
     ],
     "2026-01-23": [
       {
         "title": "'Mono (Feat. skaiwater)' Concept Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 39
       },
       {
         "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
@@ -1789,7 +1789,7 @@
       },
       {
         "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       },
       {
@@ -1811,12 +1811,12 @@
     "2026-01-24": [
       {
         "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
         "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       },
       {
@@ -1836,7 +1836,7 @@
       },
       {
         "title": "시우민 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -1856,14 +1856,14 @@
       },
       {
         "title": "<COMING SOON DIRECTOR’S CUT>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
     "2026-01-25": [
       {
         "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
@@ -1903,29 +1903,29 @@
       },
       {
         "title": "<REVIVE+> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
     "2026-01-26": [
       {
         "title": "OST 'Same Sky' 방영 중 공개 안내 (Notice)",
-        "category": "발매",
+        "category": "기타",
         "unitId": 155
       },
       {
         "title": "'Mono (Feat. skaiwater)' M/V Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 39
       },
       {
         "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 97
       },
       {
         "title": "<RE-FLOW> CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -1935,7 +1935,7 @@
       },
       {
         "title": "'어떤 미래' 공개 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -1965,7 +1965,7 @@
       },
       {
         "title": "'1분 1초' Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 57
       },
       {
@@ -1975,14 +1975,14 @@
       },
       {
         "title": "<REVIVE+>  'SPOILERS' Concept Film",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
     "2026-01-27": [
       {
         "title": "<RE-FLOW> TITLE POSTER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -2049,7 +2049,7 @@
     "2026-01-28": [
       {
         "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       },
       {
@@ -2081,7 +2081,7 @@
     "2026-01-29": [
       {
         "title": "3RACHA <SKZ-RECORD> 공개 2700일",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2121,14 +2121,14 @@
       },
       {
         "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "발매",
+        "category": "기타",
         "unitId": 112
       }
     ],
     "2026-01-30": [
       {
         "title": "'외계인' 공개 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2180,7 +2180,7 @@
       },
       {
         "title": "'CHALLENGERS' Concept Film",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2192,14 +2192,14 @@
       },
       {
         "title": "'CHALLENGERS' CONCEPT PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
     "2026-02-02": [
       {
         "title": "<BOTH SIDES> Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 152
       },
       {
@@ -2262,8 +2262,8 @@
     ],
     "2026-02-04": [
       {
-        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스>",
-        "category": "발매",
+        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스> 개봉",
+        "category": "기타",
         "unitId": 45
       },
       {
@@ -2288,13 +2288,13 @@
       },
       {
         "title": "<'KNOCK ON Vol.1' FINAL - LIVE> Release",
-        "category": "행사",
+        "category": "발매",
         "unitId": 113
       },
       {
-        "title": "이번 주 SHOW CHAMPION 1위 🎉",
-        "category": "방송",
-        "unitId": 144
+        "title": "<BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE> Release",
+        "category": "발매",
+        "unitId": 113
       }
     ],
     "2026-02-05": [
@@ -2499,8 +2499,8 @@
     ],
     "2026-02-10": [
       {
-        "title": "<All of You> MV Teaser Image",
-        "category": "발매",
+        "title": "<All of You> MV Teaser Image 02",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2567,7 +2567,7 @@
       },
       {
         "title": "<STAY ALIVE> Release",
-        "category": "행사",
+        "category": "발매",
         "unitId": 56
       },
       {
@@ -2609,11 +2609,6 @@
         "title": "<(EX)IST> Release",
         "category": "발매",
         "unitId": 131
-      },
-      {
-        "title": "이번 주 SHOW CHAMPION 1위 🎉",
-        "category": "방송",
-        "unitId": 63
       }
     ],
     "2026-02-12": [
@@ -2755,12 +2750,12 @@
     "2026-02-15": [
       {
         "title": "디오 데뷔 티저 공개 기념일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
         "title": "수호 데뷔 티저 공개 기념일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       }
     ],
@@ -2799,7 +2794,7 @@
     "2026-02-17": [
       {
         "title": "<All of You> MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2907,7 +2902,7 @@
       },
       {
         "title": "백현 데뷔 티저 공개 기념일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -2917,7 +2912,7 @@
       },
       {
         "title": "첸 데뷔 티저 공개 기념일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       }
     ],
@@ -2949,7 +2944,7 @@
       },
       {
         "title": "찬열 데뷔 티저 공개 기념일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       }
     ],
@@ -2986,7 +2981,7 @@
       },
       {
         "title": "첫 공중파 1위 2주년",
-        "category": "방송",
+        "category": "축하",
         "unitId": 125
       },
       {
@@ -3061,7 +3056,7 @@
         "unitId": 34
       },
       {
-        "title": "'민들레' 발매 2주년",
+        "title": "'민들레' 발매 {{1주년}}",
         "category": "축하",
         "unitId": 32
       },
@@ -3527,7 +3522,7 @@
     "2026-03-22": [
       {
         "title": "'Burnin’ Tires (창빈 & 아이엔)' 공개 1주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -4124,7 +4119,7 @@
       },
       {
         "title": "정우 SMROOKIES 공개 9주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -4453,7 +4448,7 @@
     "2026-05-07": [
       {
         "title": "<'3108' Cover> 공개 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -4900,7 +4895,7 @@
     "2026-06-04": [
       {
         "title": "'산소호흡기(Respirator)' 공개 2주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -5101,7 +5096,7 @@
       },
       {
         "title": "지민 '매력..있나?' 공개 13주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 2
       }
     ],
@@ -5254,12 +5249,12 @@
       },
       {
         "title": "시온 SM ROOKIES 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
         "title": "유우시 SM ROOKIES 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -5436,12 +5431,12 @@
       },
       {
         "title": "료 첫 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
         "title": "리쿠 첫 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
@@ -5494,7 +5489,7 @@
       },
       {
         "title": "사쿠야 첫 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -5540,7 +5535,7 @@
       },
       {
         "title": "해찬 SM ROOKIES 공개 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 152
       },
       {
@@ -5583,7 +5578,7 @@
       },
       {
         "title": "태용 'Open the Door' 공개 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -5872,7 +5867,7 @@
       },
       {
         "title": "승민 'Hold On' 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       }
     ],
@@ -5955,8 +5950,8 @@
       },
       {
         "title": "재희 첫 공개 3주년",
-        "category": "발매",
-        "unitId": 33
+        "category": "축하",
+        "unitId": 155
       }
     ],
     "2026-08-18": [
@@ -6019,8 +6014,8 @@
       },
       {
         "title": "천러 공개 10주년",
-        "category": "발매",
-        "unitId": 33
+        "category": "축하",
+        "unitId": 152
       }
     ],
     "2026-08-20": [
@@ -6041,14 +6036,14 @@
       },
       {
         "title": "제노 공개 10주년",
-        "category": "발매",
-        "unitId": 33
+        "category": "축하",
+        "unitId": 152
       }
     ],
     "2026-08-21": [
       {
         "title": "런쥔 공개 10주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 152
       },
       {
@@ -6101,12 +6096,12 @@
     "2026-08-26": [
       {
         "title": "'Miserable (You & Me)' 공개 3주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
         "title": "'SKZ-PLAYER(슼즈 플레이어)' 공개 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6424,7 +6419,7 @@
       },
       {
         "title": "콘서트 <The GOLDEN HOUR : 오렌지 태양 아래> 1주년",
-        "category": "행사",
+        "category": "축하",
         "unitId": 6
       }
     ],
@@ -6521,7 +6516,7 @@
       },
       {
         "title": "리사 'MONEY' PERFORMANCE VIDEO 공개 5주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 7
       }
     ],
@@ -6561,11 +6556,6 @@
         "title": "HAPPY SHINDONG DAY!",
         "category": "축하",
         "unitId": 51
-      },
-      {
-        "title": "츄 인스타그램 개설 4주년",
-        "category": "SNS",
-        "unitId": 101
       }
     ],
     "2026-09-29": [
@@ -6588,7 +6578,7 @@
     "2026-10-01": [
       {
         "title": "'Ruined my life' 발매 1 주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 113
       },
       {
@@ -6737,7 +6727,7 @@
     "2026-10-13": [
       {
         "title": "<The Name Chapter: FREEFALL> 발매 {{1주년}}",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -6790,7 +6780,7 @@
     "2026-10-17": [
       {
         "title": "<Comeplay> 발매 2 주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6890,7 +6880,7 @@
     "2026-10-23": [
       {
         "title": "'Cypher' 공개 6 주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -6943,7 +6933,7 @@
       },
       {
         "title": "윈터 첫 공개 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       }
     ],
@@ -6970,7 +6960,7 @@
       },
       {
         "title": "카리나 첫 공개 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       }
     ],
@@ -6982,7 +6972,7 @@
       },
       {
         "title": "닝닝 첫 공개 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       },
       {
@@ -7004,7 +6994,7 @@
       },
       {
         "title": "지젤 첫 공개 6주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 52
       }
     ],
@@ -7023,7 +7013,7 @@
       },
       {
         "title": "콘서트 <Love, Poem> 7주년",
-        "category": "행사",
+        "category": "축하",
         "unitId": 6
       }
     ],
@@ -7059,7 +7049,7 @@
       },
       {
         "title": "<I GOT IT> 공개 6 주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -7076,7 +7066,7 @@
     "2026-11-07": [
       {
         "title": "<NO LABELS: PART 01> 발매 1 주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       },
       {
@@ -7368,12 +7358,12 @@
       },
       {
         "title": "제노 SMROOKIES 공개 13주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       },
       {
         "title": "태용 SMROOKIES 공개 13주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -7498,8 +7488,8 @@
     "2026-12-17": [
       {
         "title": "마크 SMROOKIES 공개 13주년",
-        "category": "발매",
-        "unitId": 33
+        "category": "축하",
+        "unitId": 152
       }
     ],
     "2026-12-18": [
@@ -7735,7 +7725,7 @@
       },
       {
         "title": "연준 투모로우바이투게더로 공개된 지 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -7776,7 +7766,7 @@
       },
       {
         "title": "수빈 투모로우바이투게더로 공개된 지 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -7840,7 +7830,7 @@
       },
       {
         "title": "휴닝카이 투모로우바이투게더로 공개된 지 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -7864,7 +7854,7 @@
       },
       {
         "title": "태현 투모로우바이투게더로 공개된 지 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -7888,12 +7878,12 @@
       },
       {
         "title": "VIVIZ 팬덤명 나비 공개일",
-        "category": "발매",
+        "category": "축하",
         "unitId": 94
       },
       {
         "title": "범규 투모로우바이투게더로 공개된 지 8주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 48
       }
     ],
@@ -8145,7 +8135,7 @@
     "2027-02-13": [
       {
         "title": "'Volcano' 공개 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -8244,7 +8234,7 @@
     "2027-02-23": [
       {
         "title": "첫 공중파 1위 3주년",
-        "category": "방송",
+        "category": "축하",
         "unitId": 125
       }
     ],
@@ -8275,7 +8265,7 @@
     "2027-02-26": [
       {
         "title": "'민들레' 발매 {{1주년}}",
-        "category": "발매",
+        "category": "축하",
         "unitId": 32
       },
       {
@@ -8294,8 +8284,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 382,
-    "total_events": 1406,
+    "days_with_events": 380,
+    "total_events": 1325,
     "total_units": 117
   }
 }
