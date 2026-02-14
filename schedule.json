@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-13T16:56:52.621118",
+  "updated_at": "2026-02-14T05:04:40.328192",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3382,6 +3382,11 @@
         "title": "내일은 미스터트롯 우승 기념일!",
         "category": "축하",
         "unitId": 107
+      },
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 79
       }
     ],
     "2026-03-15": [
@@ -4681,6 +4686,13 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 39
+      }
+    ],
+    "2026-05-23": [
+      {
+        "title": "문별 솔로 데뷔 8주년",
+        "category": "축하",
+        "unitId": 36
       }
     ],
     "2026-05-24": [
@@ -8267,8 +8279,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 381,
-    "total_events": 1401,
+    "days_with_events": 382,
+    "total_events": 1403,
     "total_units": 117
   }
 }
