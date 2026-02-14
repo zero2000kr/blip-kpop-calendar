@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-14T10:24:27.289433",
+  "updated_at": "2026-02-14T16:38:46.937028",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2740,6 +2740,16 @@
         "title": "캐럿 생일",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "'Mention Me' MV Releease",
+        "category": "발매",
+        "unitId": 156
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 63
       }
     ],
     "2026-02-15": [
@@ -8285,7 +8295,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1404,
+    "total_events": 1406,
     "total_units": 117
   }
 }
