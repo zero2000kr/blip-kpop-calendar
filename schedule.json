@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T07:54:00",
+  "updated_at": "2026-02-15T05:15:35.987457",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -198,6 +198,10 @@
     "69": {
       "ko": "에이핑크",
       "en": "APINK"
+    },
+    "70": {
+      "ko": "뉴이스트",
+      "en": "NU'EST"
     },
     "71": {
       "ko": "블락비",
@@ -1893,7 +1897,7 @@
       },
       {
         "title": "'VISA' MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 127
       },
       {
@@ -2219,7 +2223,7 @@
       },
       {
         "title": "'VISA' Choreography MV",
-        "category": "발매",
+        "category": "기타",
         "unitId": 127
       },
       {
@@ -2262,7 +2266,7 @@
     ],
     "2026-02-04": [
       {
-        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스> 개봉",
+        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스>",
         "category": "기타",
         "unitId": 45
       },
@@ -2292,9 +2296,9 @@
         "unitId": 113
       },
       {
-        "title": "<BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE> Release",
-        "category": "발매",
-        "unitId": 113
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 144
       }
     ],
     "2026-02-05": [
@@ -2352,7 +2356,7 @@
       },
       {
         "title": "<‘BANG BANG' MV TEASER>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2379,7 +2383,7 @@
       },
       {
         "title": "'BANG BANG' TEASER PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2406,7 +2410,7 @@
       },
       {
         "title": "'BANG BANG' TEASER PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2423,7 +2427,7 @@
       },
       {
         "title": "<All of You> MV Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2433,7 +2437,7 @@
       },
       {
         "title": "<All of You> Visualizer",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2443,7 +2447,7 @@
       },
       {
         "title": "<DEADLINE> VISUAL POSTER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 7
       },
       {
@@ -2488,7 +2492,7 @@
       },
       {
         "title": "<Unloved Echo>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 68
       },
       {
@@ -2499,7 +2503,7 @@
     ],
     "2026-02-10": [
       {
-        "title": "<All of You> MV Teaser Image 02",
+        "title": "<All of You> MV Teaser Image",
         "category": "기타",
         "unitId": 120
       },
@@ -2515,7 +2519,7 @@
       },
       {
         "title": "<Zombie> Cover 공개 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2609,6 +2613,11 @@
         "title": "<(EX)IST> Release",
         "category": "발매",
         "unitId": 131
+      },
+      {
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 63
       }
     ],
     "2026-02-12": [
@@ -2738,7 +2747,7 @@
       },
       {
         "title": "'Mention Me' MV Releease",
-        "category": "발매",
+        "category": "기타",
         "unitId": 156
       },
       {
@@ -3056,7 +3065,7 @@
         "unitId": 34
       },
       {
-        "title": "'민들레' 발매 {{1주년}}",
+        "title": "'민들레' 발매 2주년",
         "category": "축하",
         "unitId": 32
       },
@@ -3107,6 +3116,11 @@
     ],
     "2026-03-02": [
       {
+        "title": "<LOVECHAPTER> ALBUM COVER",
+        "category": "발매",
+        "unitId": 114
+      },
+      {
         "title": "<My Destiny> 발매 1주년",
         "category": "축하",
         "unitId": 45
@@ -3128,6 +3142,11 @@
       }
     ],
     "2026-03-03": [
+      {
+        "title": "<LOVECHAPTER> MV Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "HAPPY CHORONG DAY!",
         "category": "축하",
@@ -3181,6 +3200,11 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 75
+      },
+      {
+        "title": "<LOVECHAPTER> Release",
+        "category": "발매",
+        "unitId": 114
       }
     ],
     "2026-03-06": [
@@ -3404,6 +3428,16 @@
         "title": "HAPPY JINJIN DAY!",
         "category": "축하",
         "unitId": 54
+      },
+      {
+        "title": "뉴이스트 데뷔 14주년",
+        "category": "축하",
+        "unitId": 70
+      },
+      {
+        "title": "퍼플키스 데뷔 5주년!",
+        "category": "축하",
+        "unitId": 77
       }
     ],
     "2026-03-18": [
@@ -5540,7 +5574,7 @@
       },
       {
         "title": "해찬 SMROOKIES 공개 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -5951,7 +5985,7 @@
       {
         "title": "재희 첫 공개 3주년",
         "category": "축하",
-        "unitId": 155
+        "unitId": 33
       }
     ],
     "2026-08-18": [
@@ -6015,7 +6049,7 @@
       {
         "title": "천러 공개 10주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-20": [
@@ -6037,7 +6071,7 @@
       {
         "title": "제노 공개 10주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-21": [
@@ -6556,6 +6590,11 @@
         "title": "HAPPY SHINDONG DAY!",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "츄 인스타그램 개설 4주년",
+        "category": "축하",
+        "unitId": 101
       }
     ],
     "2026-09-29": [
@@ -7489,7 +7528,7 @@
       {
         "title": "마크 SMROOKIES 공개 13주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-12-18": [
@@ -7696,7 +7735,7 @@
       },
       {
         "title": "세훈 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       }
     ],
@@ -7810,7 +7849,7 @@
       },
       {
         "title": "레이 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -8284,8 +8323,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 380,
-    "total_events": 1325,
-    "total_units": 117
+    "days_with_events": 382,
+    "total_events": 1411,
+    "total_units": 118
   }
 }
