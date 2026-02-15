@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T10:24:13.715424",
+  "updated_at": "2026-02-15T16:39:29.588956",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2615,6 +2615,11 @@
         "unitId": 131
       },
       {
+        "title": "<LOVECHAPTER> SCHEDULER",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "이번 주 SHOW CHAMPION 1위 🎉",
         "category": "방송",
         "unitId": 63
@@ -2714,9 +2719,19 @@
         "unitId": 36
       },
       {
+        "title": "<LOVECHAPTER> TRACK LIST",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "이번 주 뮤직뱅크 1위 🎉",
         "category": "방송",
         "unitId": 63
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
       }
     ],
     "2026-02-14": [
@@ -2754,9 +2769,54 @@
         "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
         "category": "방송",
         "unitId": 63
+      },
+      {
+        "title": "'Pilot3 (feat. KOONTA)' MV Release",
+        "category": "발매",
+        "unitId": 127
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
+      },
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
       }
     ],
     "2026-02-15": [
+      {
+        "title": "'Big Girls Don't Cry' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "'NASA' Teasing Poster",
+        "category": "기타",
+        "unitId": 63
+      },
+      {
+        "title": "'No Way Back (Feat. So!YoON!)' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "'Stealer' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
+        "title": "'직진 (JIKJIN)' 발매 4주년",
+        "category": "축하",
+        "unitId": 40
+      },
       {
         "title": "디오 데뷔 티저 공개 기념일!",
         "category": "축하",
@@ -2766,9 +2826,49 @@
         "title": "수호 데뷔 티저 공개 기념일!",
         "category": "축하",
         "unitId": 10
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <Artist of the Year (HANTEO TOP 10)> 수상 🏆",
+        "category": "축하",
+        "unitId": 113
+      },
+      {
+        "title": "HMA <Best Continent Artist in Africa> 수상 🏆",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "HMA <Best of Ballad> 수상 🏆",
+        "category": "축하",
+        "unitId": 46
+      },
+      {
+        "title": "HMA <Best Continent Artist in Asia> 수상 🏆",
+        "category": "축하",
+        "unitId": 48
+      },
+      {
+        "title": "HMA <Best Continent Artist in Oceania> 수상 🏆",
+        "category": "축하",
+        "unitId": 48
+      },
+      {
+        "title": "HMA <Global Popular Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 2
       }
     ],
     "2026-02-16": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "<INSIDE> 발매 5주년",
         "category": "축하",
@@ -2798,9 +2898,19 @@
         "title": "지유 강아지 체리생일",
         "category": "축하",
         "unitId": 103
+      },
+      {
+        "title": "HMA <Best Continent Artist in Europe> 수상 🏆",
+        "category": "축하",
+        "unitId": 45
       }
     ],
     "2026-02-17": [
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "<All of You> MV Teaser",
         "category": "기타",
@@ -2827,6 +2937,11 @@
         "title": "<All of You> Release",
         "category": "발매",
         "unitId": 120
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
       },
       {
         "title": "HAPPY DK DAY!",
@@ -2856,6 +2971,11 @@
         "unitId": 152
       },
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "HAPPY JUNGWOO DAY!",
         "category": "축하",
         "unitId": 33
@@ -2866,6 +2986,11 @@
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
         "category": "발매",
         "unitId": 152
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
       },
       {
         "title": "현진 반려견 까미 생일🐕",
@@ -2879,6 +3004,11 @@
       }
     ],
     "2026-02-21": [
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
         "category": "발매",
@@ -2927,6 +3057,11 @@
     ],
     "2026-02-22": [
       {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER",
         "category": "발매",
         "unitId": 152
@@ -2958,6 +3093,11 @@
       }
     ],
     "2026-02-23": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "'GingaMingaYo (the strange world)' 발매 2주년",
         "category": "축하",
@@ -3006,6 +3146,11 @@
     ],
     "2026-02-24": [
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "'I DO ME' 발매 1주년",
         "category": "축하",
         "unitId": 144
@@ -3043,6 +3188,11 @@
         "unitId": 41
       },
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "HAPPY HAEWON DAY!",
         "category": "축하",
         "unitId": 89
@@ -3059,6 +3209,11 @@
       }
     ],
     "2026-02-26": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "'MAMMA MIA' 발매 8주년",
         "category": "축하",
@@ -3077,6 +3232,11 @@
     ],
     "2026-02-27": [
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "HAPPY SANG YEOP DAY!",
         "category": "축하",
         "unitId": 116
@@ -3093,6 +3253,11 @@
       }
     ],
     "2026-02-28": [
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "HAPPY BANG YUNHA DAY!",
         "category": "축하",
@@ -8324,7 +8489,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1411,
+    "total_events": 1444,
     "total_units": 118
   }
 }
