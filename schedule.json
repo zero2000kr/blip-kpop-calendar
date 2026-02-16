@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T16:39:29.588956",
+  "updated_at": "2026-02-16T05:22:50.312812",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3605,6 +3605,18 @@
         "unitId": 77
       }
     ],
+    "2026-03-16": [
+      {
+        "title": "HAPPY HAEMIN DAY!",
+        "category": "축하",
+        "unitId": 124
+      },
+      {
+        "title": "HAPPY U DAY!",
+        "category": "축하",
+        "unitId": 73
+      }
+    ],
     "2026-03-18": [
       {
         "title": "HAPPY YEWON DAY!",
@@ -5167,6 +5179,13 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 92
+      }
+    ],
+    "2026-06-08": [
+      {
+        "title": "슈퍼주니어-K.R.Y. '푸르게 빛나던 우리의 계절' 발매 6주년",
+        "category": "축하",
+        "unitId": 51
       }
     ],
     "2026-06-09": [
@@ -8488,8 +8507,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 382,
-    "total_events": 1444,
+    "days_with_events": 384,
+    "total_events": 1447,
     "total_units": 118
   }
 }
