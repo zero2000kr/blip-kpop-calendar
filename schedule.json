@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-16T10:46:24.335599",
+  "updated_at": "2026-02-16T16:54:45.634655",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2848,6 +2848,11 @@
         "unitId": 46
       },
       {
+        "title": "HMA <Best Continent Artist in Europe> 수상 🏆",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
         "title": "HMA <Best Continent Artist in Asia> 수상 🏆",
         "category": "축하",
         "unitId": 48
@@ -2858,9 +2863,89 @@
         "unitId": 48
       },
       {
+        "title": "HMA <Emerging Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 123
+      },
+      {
         "title": "HMA <Global Popular Artist> 수상 🏆",
         "category": "축하",
         "unitId": 2
+      },
+      {
+        "title": "HMA <Next Wave> 수상 🏆",
+        "category": "축하",
+        "unitId": 111
+      },
+      {
+        "title": "HMA <Rookie of the Year> 수상 🏆",
+        "category": "축하",
+        "unitId": 156
+      },
+      {
+        "title": "HMA <World Stage> 수상 🏆",
+        "category": "축하",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <10th Anniversary Influential Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 60
+      },
+      {
+        "title": "HMA <Post Generation> 수상 🏆",
+        "category": "축하",
+        "unitId": 78
+      },
+      {
+        "title": "HMA <Special Award Band> 수상 🏆",
+        "category": "축하",
+        "unitId": 116
+      },
+      {
+        "title": "HMA <Special Award Virtual> 수상 🏆",
+        "category": "축하",
+        "unitId": 126
+      },
+      {
+        "title": "HMA <20th Anniversary Wannabe Icon Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 51
+      },
+      {
+        "title": "HMA <Best Artist Pick> 수상 🏆",
+        "category": "축하",
+        "unitId": 142
+      },
+      {
+        "title": "HMA <Blooming Star Award> 수상 🏆",
+        "category": "축하",
+        "unitId": 124
+      },
+      {
+        "title": "HMA <Grand Prize Best Album> 수상 🏆",
+        "category": "발매",
+        "unitId": 45
+      },
+      {
+        "title": "HMA <Grand Prize Best Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <Grand Prize Best Performance> 수상 🏆",
+        "category": "축하",
+        "unitId": 55
+      },
+      {
+        "title": "HMA <Grand Prize Best Song> 수상 🏆",
+        "category": "축하",
+        "unitId": 163
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
       }
     ],
     "2026-02-16": [
@@ -2898,11 +2983,6 @@
         "title": "지유 강아지 체리생일",
         "category": "축하",
         "unitId": 103
-      },
-      {
-        "title": "HMA <Best Continent Artist in Europe> 수상 🏆",
-        "category": "축하",
-        "unitId": 45
       }
     ],
     "2026-02-17": [
@@ -7825,6 +7905,13 @@
         "unitId": 89
       }
     ],
+    "2026-12-29": [
+      {
+        "title": "HAPPY SANA DAY!",
+        "category": "축하",
+        "unitId": 1
+      }
+    ],
     "2026-12-30": [
       {
         "title": "HAPPY JOSHUA DAY!",
@@ -8517,8 +8604,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 384,
-    "total_events": 1449,
+    "days_with_events": 385,
+    "total_events": 1466,
     "total_units": 118
   }
 }
