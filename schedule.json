@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-16T05:22:50.312812",
+  "updated_at": "2026-02-16T10:46:24.335599",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4199,6 +4199,11 @@
         "unitId": 130
       },
       {
+        "title": "HAPPY SEHUN DAY!",
+        "category": "축하",
+        "unitId": 10
+      },
+      {
         "title": "HAPPY SOOIN DAY!",
         "category": "축하",
         "unitId": 148
@@ -5525,6 +5530,11 @@
         "title": "HAPPY SHUAIBO DAY!",
         "category": "축하",
         "unitId": 150
+      },
+      {
+        "title": "[EVENT] HAPPY JAEYUN DAY!",
+        "category": "축하",
+        "unitId": 124
       }
     ],
     "2026-07-03": [
@@ -8508,7 +8518,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 384,
-    "total_events": 1447,
+    "total_events": 1449,
     "total_units": 118
   }
 }
