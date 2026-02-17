@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-17T10:42:10.976286",
+  "updated_at": "2026-02-17T17:04:41.677437",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -250,6 +250,10 @@
     "83": {
       "ko": "아이콘",
       "en": "iKON"
+    },
+    "84": {
+      "ko": "이승윤",
+      "en": "LEE SEUNG YOON"
     },
     "85": {
       "ko": "아이브",
@@ -6350,6 +6354,11 @@
     ],
     "2026-08-21": [
       {
+        "title": "HAPPY SEUNGYOON DAY!",
+        "category": "축하",
+        "unitId": 84
+      },
+      {
         "title": "런쥔 공개 10주년",
         "category": "축하",
         "unitId": 152
@@ -6440,6 +6449,11 @@
         "title": "S.COUPS 반려견 꾸마 생일🐕",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "드라마 <달의 연인 - 보보경심 려> 방송 10주년",
+        "category": "축하",
+        "unitId": 6
       }
     ],
     "2026-08-30": [
@@ -6784,6 +6798,11 @@
     ],
     "2026-09-22": [
       {
+        "title": "<꽃갈피 둘> 발매 9주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "HAPPY NAYEON DAY!",
         "category": "축하",
         "unitId": 1
@@ -6799,6 +6818,11 @@
         "title": "'Feel Special' 발매 6주년",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "<Lost And Found> 발매 18주년",
+        "category": "축하",
+        "unitId": 6
       },
       {
         "title": "HAPPY KEY DAY!",
@@ -8605,7 +8629,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1466,
-    "total_units": 118
+    "total_events": 1470,
+    "total_units": 119
   }
 }
