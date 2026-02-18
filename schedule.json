@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-18T10:41:34.101256",
+  "updated_at": "2026-02-18T17:11:52.496850",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4488,6 +4488,11 @@
         "unitId": 129
       },
       {
+        "title": "<Palette> 발매 9주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "<TRY WITH US> 발매 1주년",
         "category": "축하",
         "unitId": 125
@@ -4743,6 +4748,11 @@
       }
     ],
     "2026-05-06": [
+      {
+        "title": "'eight' 발매 6주년",
+        "category": "축하",
+        "unitId": 6
+      },
       {
         "title": "HAPPY BAEKHYUN DAY!",
         "category": "축하",
@@ -5990,6 +6000,11 @@
         "title": "<ICY> 발매 7주년",
         "category": "축하",
         "unitId": 38
+      },
+      {
+        "title": "<We Boom> 발매 7주년",
+        "category": "축하",
+        "unitId": 152
       },
       {
         "title": "‘호랑이 (Feat. Tiger JK)’ 발매 4주년",
@@ -8638,7 +8653,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1471,
+    "total_events": 1474,
     "total_units": 120
   }
 }
