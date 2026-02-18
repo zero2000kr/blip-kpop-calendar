@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-15T07:54:00",
+  "updated_at": "2026-02-18T12:36:15.511254",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -199,6 +199,10 @@
       "ko": "에이핑크",
       "en": "APINK"
     },
+    "70": {
+      "ko": "뉴이스트",
+      "en": "NU'EST"
+    },
     "71": {
       "ko": "블락비",
       "en": "BLOCK B"
@@ -243,9 +247,17 @@
       "ko": "2PM",
       "en": "2PM"
     },
+    "82": {
+      "ko": "위클리",
+      "en": "Weeekly"
+    },
     "83": {
       "ko": "아이콘",
       "en": "iKON"
+    },
+    "84": {
+      "ko": "이승윤",
+      "en": "LEE SEUNG YOON"
     },
     "85": {
       "ko": "아이브",
@@ -1893,7 +1905,7 @@
       },
       {
         "title": "'VISA' MV Teaser",
-        "category": "발매",
+        "category": "기타",
         "unitId": 127
       },
       {
@@ -2219,7 +2231,7 @@
       },
       {
         "title": "'VISA' Choreography MV",
-        "category": "발매",
+        "category": "기타",
         "unitId": 127
       },
       {
@@ -2262,7 +2274,7 @@
     ],
     "2026-02-04": [
       {
-        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스> 개봉",
+        "title": "<스트레이 키즈 : 더 도미네이트 익스피리언스>",
         "category": "기타",
         "unitId": 45
       },
@@ -2292,9 +2304,9 @@
         "unitId": 113
       },
       {
-        "title": "<BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE> Release",
-        "category": "발매",
-        "unitId": 113
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 144
       }
     ],
     "2026-02-05": [
@@ -2352,7 +2364,7 @@
       },
       {
         "title": "<‘BANG BANG' MV TEASER>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2379,7 +2391,7 @@
       },
       {
         "title": "'BANG BANG' TEASER PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2406,7 +2418,7 @@
       },
       {
         "title": "'BANG BANG' TEASER PHOTO",
-        "category": "발매",
+        "category": "기타",
         "unitId": 85
       }
     ],
@@ -2423,7 +2435,7 @@
       },
       {
         "title": "<All of You> MV Teaser Image",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2433,7 +2445,7 @@
       },
       {
         "title": "<All of You> Visualizer",
-        "category": "발매",
+        "category": "기타",
         "unitId": 120
       },
       {
@@ -2443,7 +2455,7 @@
       },
       {
         "title": "<DEADLINE> VISUAL POSTER",
-        "category": "발매",
+        "category": "기타",
         "unitId": 7
       },
       {
@@ -2488,7 +2500,7 @@
       },
       {
         "title": "<Unloved Echo>",
-        "category": "발매",
+        "category": "기타",
         "unitId": 68
       },
       {
@@ -2499,7 +2511,7 @@
     ],
     "2026-02-10": [
       {
-        "title": "<All of You> MV Teaser Image 02",
+        "title": "<All of You> MV Teaser Image",
         "category": "기타",
         "unitId": 120
       },
@@ -2515,7 +2527,7 @@
       },
       {
         "title": "<Zombie> Cover 공개 4주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 45
       },
       {
@@ -2609,6 +2621,16 @@
         "title": "<(EX)IST> Release",
         "category": "발매",
         "unitId": 131
+      },
+      {
+        "title": "<LOVECHAPTER> SCHEDULER",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
+        "title": "이번 주 SHOW CHAMPION 1위 🎉",
+        "category": "방송",
+        "unitId": 63
       }
     ],
     "2026-02-12": [
@@ -2705,9 +2727,19 @@
         "unitId": 36
       },
       {
+        "title": "<LOVECHAPTER> TRACK LIST",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "이번 주 뮤직뱅크 1위 🎉",
         "category": "방송",
         "unitId": 63
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
       }
     ],
     "2026-02-14": [
@@ -2738,16 +2770,61 @@
       },
       {
         "title": "'Mention Me' MV Releease",
-        "category": "발매",
+        "category": "기타",
         "unitId": 156
       },
       {
         "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
         "category": "방송",
         "unitId": 63
+      },
+      {
+        "title": "'Pilot3 (feat. KOONTA)' MV Release",
+        "category": "발매",
+        "unitId": 127
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
+      },
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
       }
     ],
     "2026-02-15": [
+      {
+        "title": "'Big Girls Don't Cry' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "'NASA' Teasing Poster",
+        "category": "기타",
+        "unitId": 63
+      },
+      {
+        "title": "'No Way Back (Feat. So!YoON!)' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "'Stealer' MV Release",
+        "category": "발매",
+        "unitId": 55
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
+        "title": "'직진 (JIKJIN)' 발매 4주년",
+        "category": "축하",
+        "unitId": 40
+      },
       {
         "title": "디오 데뷔 티저 공개 기념일!",
         "category": "축하",
@@ -2757,9 +2834,134 @@
         "title": "수호 데뷔 티저 공개 기념일!",
         "category": "축하",
         "unitId": 10
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <Artist of the Year (HANTEO TOP 10)> 수상 🏆",
+        "category": "축하",
+        "unitId": 113
+      },
+      {
+        "title": "HMA <Best Continent Artist in Africa> 수상 🏆",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "HMA <Best of Ballad> 수상 🏆",
+        "category": "축하",
+        "unitId": 46
+      },
+      {
+        "title": "HMA <Best Continent Artist in Europe> 수상 🏆",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "HMA <Best Continent Artist in Asia> 수상 🏆",
+        "category": "축하",
+        "unitId": 48
+      },
+      {
+        "title": "HMA <Best Continent Artist in Oceania> 수상 🏆",
+        "category": "축하",
+        "unitId": 48
+      },
+      {
+        "title": "HMA <Emerging Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 123
+      },
+      {
+        "title": "HMA <Global Popular Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 2
+      },
+      {
+        "title": "HMA <Next Wave> 수상 🏆",
+        "category": "축하",
+        "unitId": 111
+      },
+      {
+        "title": "HMA <Rookie of the Year> 수상 🏆",
+        "category": "축하",
+        "unitId": 156
+      },
+      {
+        "title": "HMA <World Stage> 수상 🏆",
+        "category": "축하",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <10th Anniversary Influential Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 60
+      },
+      {
+        "title": "HMA <Post Generation> 수상 🏆",
+        "category": "축하",
+        "unitId": 78
+      },
+      {
+        "title": "HMA <Special Award Band> 수상 🏆",
+        "category": "축하",
+        "unitId": 116
+      },
+      {
+        "title": "HMA <Special Award Virtual> 수상 🏆",
+        "category": "축하",
+        "unitId": 126
+      },
+      {
+        "title": "HMA <20th Anniversary Wannabe Icon Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 51
+      },
+      {
+        "title": "HMA <Best Artist Pick> 수상 🏆",
+        "category": "축하",
+        "unitId": 142
+      },
+      {
+        "title": "HMA <Blooming Star Award> 수상 🏆",
+        "category": "축하",
+        "unitId": 124
+      },
+      {
+        "title": "HMA <Grand Prize Best Album> 수상 🏆",
+        "category": "발매",
+        "unitId": 45
+      },
+      {
+        "title": "HMA <Grand Prize Best Artist> 수상 🏆",
+        "category": "축하",
+        "unitId": 63
+      },
+      {
+        "title": "HMA <Grand Prize Best Performance> 수상 🏆",
+        "category": "축하",
+        "unitId": 55
+      },
+      {
+        "title": "HMA <Grand Prize Best Song> 수상 🏆",
+        "category": "축하",
+        "unitId": 163
+      },
+      {
+        "title": "<REVIVE+> Teaser",
+        "category": "기타",
+        "unitId": 85
       }
     ],
     "2026-02-16": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "<INSIDE> 발매 5주년",
         "category": "축하",
@@ -2793,6 +2995,11 @@
     ],
     "2026-02-17": [
       {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "<All of You> MV Teaser",
         "category": "기타",
         "unitId": 120
@@ -2818,6 +3025,11 @@
         "title": "<All of You> Release",
         "category": "발매",
         "unitId": 120
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
       },
       {
         "title": "HAPPY DK DAY!",
@@ -2847,6 +3059,11 @@
         "unitId": 152
       },
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "HAPPY JUNGWOO DAY!",
         "category": "축하",
         "unitId": 33
@@ -2857,6 +3074,11 @@
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
         "category": "발매",
         "unitId": 152
+      },
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
       },
       {
         "title": "현진 반려견 까미 생일🐕",
@@ -2870,6 +3092,11 @@
       }
     ],
     "2026-02-21": [
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER IMAGE",
         "category": "발매",
@@ -2918,6 +3145,11 @@
     ],
     "2026-02-22": [
       {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "<BOTH SIDES - The 1st Mini Album> MV TEASER",
         "category": "발매",
         "unitId": 152
@@ -2949,6 +3181,11 @@
       }
     ],
     "2026-02-23": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "'GingaMingaYo (the strange world)' 발매 2주년",
         "category": "축하",
@@ -2997,6 +3234,11 @@
     ],
     "2026-02-24": [
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "'I DO ME' 발매 1주년",
         "category": "축하",
         "unitId": 144
@@ -3034,6 +3276,11 @@
         "unitId": 41
       },
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "HAPPY HAEWON DAY!",
         "category": "축하",
         "unitId": 89
@@ -3051,12 +3298,17 @@
     ],
     "2026-02-26": [
       {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
+      {
         "title": "'MAMMA MIA' 발매 8주년",
         "category": "축하",
         "unitId": 34
       },
       {
-        "title": "'민들레' 발매 {{1주년}}",
+        "title": "'민들레' 발매 2주년",
         "category": "축하",
         "unitId": 32
       },
@@ -3067,6 +3319,11 @@
       }
     ],
     "2026-02-27": [
+      {
+        "title": "<LOVECHAPTER> Concept Photo",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "HAPPY SANG YEOP DAY!",
         "category": "축하",
@@ -3084,6 +3341,11 @@
       }
     ],
     "2026-02-28": [
+      {
+        "title": "<LOVECHAPTER> Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "HAPPY BANG YUNHA DAY!",
         "category": "축하",
@@ -3107,6 +3369,11 @@
     ],
     "2026-03-02": [
       {
+        "title": "<LOVECHAPTER> ALBUM COVER",
+        "category": "발매",
+        "unitId": 114
+      },
+      {
         "title": "<My Destiny> 발매 1주년",
         "category": "축하",
         "unitId": 45
@@ -3128,6 +3395,11 @@
       }
     ],
     "2026-03-03": [
+      {
+        "title": "<LOVECHAPTER> MV Teaser",
+        "category": "기타",
+        "unitId": 114
+      },
       {
         "title": "HAPPY CHORONG DAY!",
         "category": "축하",
@@ -3181,6 +3453,11 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 75
+      },
+      {
+        "title": "<LOVECHAPTER> Release",
+        "category": "발매",
+        "unitId": 114
       }
     ],
     "2026-03-06": [
@@ -3404,9 +3681,36 @@
         "title": "HAPPY JINJIN DAY!",
         "category": "축하",
         "unitId": 54
+      },
+      {
+        "title": "뉴이스트 데뷔 14주년",
+        "category": "축하",
+        "unitId": 70
+      },
+      {
+        "title": "퍼플키스 데뷔 5주년!",
+        "category": "축하",
+        "unitId": 77
+      }
+    ],
+    "2026-03-16": [
+      {
+        "title": "HAPPY HAEMIN DAY!",
+        "category": "축하",
+        "unitId": 124
+      },
+      {
+        "title": "HAPPY U DAY!",
+        "category": "축하",
+        "unitId": 73
       }
     ],
     "2026-03-18": [
+      {
+        "title": "HAPPY JAEHEE DAY!",
+        "category": "축하",
+        "unitId": 82
+      },
       {
         "title": "HAPPY YEWON DAY!",
         "category": "축하",
@@ -3988,6 +4292,11 @@
         "unitId": 130
       },
       {
+        "title": "HAPPY SEHUN DAY!",
+        "category": "축하",
+        "unitId": 10
+      },
+      {
         "title": "HAPPY SOOIN DAY!",
         "category": "축하",
         "unitId": 148
@@ -4177,6 +4486,11 @@
         "title": "<We on Fire> Release",
         "category": "발매",
         "unitId": 129
+      },
+      {
+        "title": "<Palette> 발매 9주년",
+        "category": "축하",
+        "unitId": 6
       },
       {
         "title": "<TRY WITH US> 발매 1주년",
@@ -4434,6 +4748,11 @@
       }
     ],
     "2026-05-06": [
+      {
+        "title": "'eight' 발매 6주년",
+        "category": "축하",
+        "unitId": 6
+      },
       {
         "title": "HAPPY BAEKHYUN DAY!",
         "category": "축하",
@@ -4970,6 +5289,13 @@
         "unitId": 92
       }
     ],
+    "2026-06-08": [
+      {
+        "title": "슈퍼주니어-K.R.Y. '푸르게 빛나던 우리의 계절' 발매 6주년",
+        "category": "축하",
+        "unitId": 51
+      }
+    ],
     "2026-06-09": [
       {
         "title": "<BEEP> 발매 1주년",
@@ -5307,6 +5633,11 @@
         "title": "HAPPY SHUAIBO DAY!",
         "category": "축하",
         "unitId": 150
+      },
+      {
+        "title": "[EVENT] HAPPY JAEYUN DAY!",
+        "category": "축하",
+        "unitId": 124
       }
     ],
     "2026-07-03": [
@@ -5540,7 +5871,7 @@
       },
       {
         "title": "해찬 SMROOKIES 공개 12주년",
-        "category": "발매",
+        "category": "축하",
         "unitId": 33
       }
     ],
@@ -5669,6 +6000,11 @@
         "title": "<ICY> 발매 7주년",
         "category": "축하",
         "unitId": 38
+      },
+      {
+        "title": "<We Boom> 발매 7주년",
+        "category": "축하",
+        "unitId": 152
       },
       {
         "title": "‘호랑이 (Feat. Tiger JK)’ 발매 4주년",
@@ -5951,7 +6287,7 @@
       {
         "title": "재희 첫 공개 3주년",
         "category": "축하",
-        "unitId": 155
+        "unitId": 33
       }
     ],
     "2026-08-18": [
@@ -6015,7 +6351,7 @@
       {
         "title": "천러 공개 10주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-20": [
@@ -6037,10 +6373,15 @@
       {
         "title": "제노 공개 10주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-08-21": [
+      {
+        "title": "HAPPY SEUNGYOON DAY!",
+        "category": "축하",
+        "unitId": 84
+      },
       {
         "title": "런쥔 공개 10주년",
         "category": "축하",
@@ -6132,6 +6473,11 @@
         "title": "S.COUPS 반려견 꾸마 생일🐕",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "드라마 <달의 연인 - 보보경심 려> 방송 10주년",
+        "category": "축하",
+        "unitId": 6
       }
     ],
     "2026-08-30": [
@@ -6476,6 +6822,11 @@
     ],
     "2026-09-22": [
       {
+        "title": "<꽃갈피 둘> 발매 9주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "HAPPY NAYEON DAY!",
         "category": "축하",
         "unitId": 1
@@ -6491,6 +6842,11 @@
         "title": "'Feel Special' 발매 6주년",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "<Lost And Found> 발매 18주년",
+        "category": "축하",
+        "unitId": 6
       },
       {
         "title": "HAPPY KEY DAY!",
@@ -6556,6 +6912,11 @@
         "title": "HAPPY SHINDONG DAY!",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "츄 인스타그램 개설 4주년",
+        "category": "축하",
+        "unitId": 101
       }
     ],
     "2026-09-29": [
@@ -7489,7 +7850,7 @@
       {
         "title": "마크 SMROOKIES 공개 13주년",
         "category": "축하",
-        "unitId": 152
+        "unitId": 33
       }
     ],
     "2026-12-18": [
@@ -7590,6 +7951,13 @@
         "title": "HAPPY BAE DAY!",
         "category": "축하",
         "unitId": 89
+      }
+    ],
+    "2026-12-29": [
+      {
+        "title": "HAPPY SANA DAY!",
+        "category": "축하",
+        "unitId": 1
       }
     ],
     "2026-12-30": [
@@ -7696,7 +8064,7 @@
       },
       {
         "title": "세훈 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       }
     ],
@@ -7810,7 +8178,7 @@
       },
       {
         "title": "레이 데뷔 티저 공개일!",
-        "category": "발매",
+        "category": "축하",
         "unitId": 10
       },
       {
@@ -8284,8 +8652,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 380,
-    "total_events": 1325,
-    "total_units": 117
+    "days_with_events": 385,
+    "total_events": 1474,
+    "total_units": 120
   }
 }
