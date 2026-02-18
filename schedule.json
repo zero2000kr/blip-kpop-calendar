@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-18T05:19:14.883402",
+  "updated_at": "2026-02-18T10:41:34.101256",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -246,6 +246,10 @@
     "81": {
       "ko": "2PM",
       "en": "2PM"
+    },
+    "82": {
+      "ko": "위클리",
+      "en": "Weeekly"
     },
     "83": {
       "ko": "아이콘",
@@ -3702,6 +3706,11 @@
       }
     ],
     "2026-03-18": [
+      {
+        "title": "HAPPY JAEHEE DAY!",
+        "category": "축하",
+        "unitId": 82
+      },
       {
         "title": "HAPPY YEWON DAY!",
         "category": "축하",
@@ -8629,7 +8638,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1470,
-    "total_units": 119
+    "total_events": 1471,
+    "total_units": 120
   }
 }
