@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-19T10:40:14.961095",
+  "updated_at": "2026-02-19T17:02:11.157046",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3067,6 +3067,16 @@
         "title": "HAPPY JUNGWOO DAY!",
         "category": "축하",
         "unitId": 33
+      },
+      {
+        "title": "'RUDE!' MV teaser",
+        "category": "기타",
+        "unitId": 142
+      },
+      {
+        "title": "OST ‘Give U the Universe’ Release",
+        "category": "발매",
+        "unitId": 74
       }
     ],
     "2026-02-20": [
@@ -3084,6 +3094,11 @@
         "title": "현진 반려견 까미 생일🐕",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "'KAWASAKI (&TEAM Remix)' Release",
+        "category": "발매",
+        "unitId": 129
       },
       {
         "title": "<RUDE!> Release",
@@ -3289,6 +3304,11 @@
         "title": "우주소녀 데뷔 10주년",
         "category": "축하",
         "unitId": 105
+      },
+      {
+        "title": "'벚꽃이 떨어지는 속도, 초속 5센티미터' Release",
+        "category": "발매",
+        "unitId": 113
       },
       {
         "title": "<지금 이대로만 (Always)> Release",
@@ -4068,6 +4088,11 @@
         "title": "첸 솔로 데뷔 7주년",
         "category": "축하",
         "unitId": 10
+      },
+      {
+        "title": "<LIKE YOU BETTER(japanese ver.)> Release",
+        "category": "발매",
+        "unitId": 74
       }
     ],
     "2026-04-02": [
@@ -5005,6 +5030,16 @@
         "title": "빌보드 뮤직어워드 첫 수상한 날!",
         "category": "축하",
         "unitId": 2
+      },
+      {
+        "title": "에비뉴 생일",
+        "category": "축하",
+        "unitId": 57
+      },
+      {
+        "title": "에이비식스 데뷔 7주년",
+        "category": "축하",
+        "unitId": 57
       },
       {
         "title": "첫 음악방송 1위 기념일!",
@@ -8653,7 +8688,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1474,
+    "total_events": 1481,
     "total_units": 120
   }
 }
