@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-19T17:02:11.157046",
+  "updated_at": "2026-02-20T05:12:50.107980",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -8377,6 +8377,11 @@
         "title": "HAPPY YEOYEOJEONG DAY!",
         "category": "축하",
         "unitId": 145
+      },
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 54
       }
     ],
     "2027-01-30": [
@@ -8688,7 +8693,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1481,
+    "total_events": 1482,
     "total_units": 120
   }
 }
