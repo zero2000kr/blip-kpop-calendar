@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-21T05:01:02.439691",
+  "updated_at": "2026-02-21T10:23:09.263529",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3825,7 +3825,12 @@
       {
         "title": "HAPPY ANTON DAY!",
         "category": "축하",
-        "unitId": 120
+        "unitId": 119
+      },
+      {
+        "title": "HAPPY SANHA DAY!",
+        "category": "축하",
+        "unitId": 54
       },
       {
         "title": "부석순 유닛 데뷔 8주년",
@@ -3870,6 +3875,11 @@
         "title": "HAPPY YUNHO DAY!",
         "category": "축하",
         "unitId": 63
+      },
+      {
+        "title": "Album Release",
+        "category": "발매",
+        "unitId": 108
       }
     ],
     "2026-03-24": [
@@ -6078,6 +6088,11 @@
         "unitId": 95
       },
       {
+        "title": "HAPPY JEONG HAYEON DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
         "title": "HAPPY SEONGMIN DAY!",
         "category": "축하",
         "unitId": 59
@@ -7802,6 +7817,11 @@
         "title": "HAPPY YOONCHAE DAY!",
         "category": "축하",
         "unitId": 147
+      },
+      {
+        "title": "Xdinary Heroes 데뷔5주년",
+        "category": "축하",
+        "unitId": 109
       }
     ],
     "2026-12-07": [
@@ -8073,6 +8093,11 @@
       }
     ],
     "2027-01-06": [
+      {
+        "title": "'응 그래 (Umm Great)' 발매 2주년",
+        "category": "축하",
+        "unitId": 146
+      },
       {
         "title": "<오늘만 I love you> 발매 2주년",
         "category": "축하",
@@ -8698,7 +8723,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1483,
+    "total_events": 1488,
     "total_units": 120
   }
 }
