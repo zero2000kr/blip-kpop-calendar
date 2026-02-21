@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-21T10:23:09.263529",
+  "updated_at": "2026-02-21T16:37:41.732799",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -2995,11 +2995,6 @@
     ],
     "2026-02-17": [
       {
-        "title": "<LOVECHAPTER> Teaser",
-        "category": "기타",
-        "unitId": 114
-      },
-      {
         "title": "<All of You> MV Teaser",
         "category": "기타",
         "unitId": 120
@@ -3156,6 +3151,11 @@
         "title": "첸 데뷔 티저 공개 기념일!",
         "category": "축하",
         "unitId": 10
+      },
+      {
+        "title": "<𝐁𝐥𝐨𝐨𝐦 𝐡𝐨𝐮𝐫 - WJSN 10th Anniversary Album> Teaser",
+        "category": "축하",
+        "unitId": 105
       }
     ],
     "2026-02-22": [
@@ -3299,6 +3299,11 @@
         "title": "HAPPY HAEWON DAY!",
         "category": "축하",
         "unitId": 89
+      },
+      {
+        "title": "S2U(하츄) 생일",
+        "category": "축하",
+        "unitId": 142
       },
       {
         "title": "우주소녀 데뷔 10주년",
@@ -8723,7 +8728,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1488,
+    "total_events": 1489,
     "total_units": 120
   }
 }
