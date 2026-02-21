@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-20T16:51:03.901510",
+  "updated_at": "2026-02-21T05:01:02.439691",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4874,6 +4874,11 @@
         "unitId": 6
       },
       {
+        "title": "<스무살의 봄> 발매 14주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "HAPPY MINJU DAY!",
         "category": "축하",
         "unitId": 143
@@ -8693,7 +8698,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1482,
+    "total_events": 1483,
     "total_units": 120
   }
 }
