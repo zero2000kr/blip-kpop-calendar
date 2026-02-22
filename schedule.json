@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-21T16:37:41.732799",
+  "updated_at": "2026-02-22T05:12:33.190083",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -4453,6 +4453,11 @@
         "title": "도재정 <Perfume> 발매 3주년",
         "category": "축하",
         "unitId": 33
+      },
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 80
       }
     ],
     "2026-04-18": [
@@ -4749,6 +4754,11 @@
       }
     ],
     "2026-05-04": [
+      {
+        "title": "HAPPY SUHYUN DAY!",
+        "category": "축하",
+        "unitId": 80
+      },
       {
         "title": "HAPPY TAKI DAY!",
         "category": "축하",
@@ -8728,7 +8738,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1489,
+    "total_events": 1491,
     "total_units": 120
   }
 }
