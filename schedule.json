@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-22T10:22:13.734202",
+  "updated_at": "2026-02-22T16:39:18.854328",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3045,6 +3045,11 @@
         "title": "HAPPY VERNON DAY!",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "IHWAK(조성확) - Call It Love MV Release",
+        "category": "발매",
+        "unitId": 104
       }
     ],
     "2026-02-19": [
@@ -3094,6 +3099,11 @@
         "title": "'KAWASAKI (&TEAM Remix)' Release",
         "category": "발매",
         "unitId": 129
+      },
+      {
+        "title": "'True Love' Release",
+        "category": "발매",
+        "unitId": 46
       },
       {
         "title": "<RUDE!> Release",
@@ -3156,6 +3166,11 @@
         "title": "<𝐁𝐥𝐨𝐨𝐦 𝐡𝐨𝐮𝐫 - WJSN 10th Anniversary Album> Teaser",
         "category": "축하",
         "unitId": 105
+      },
+      {
+        "title": "'BLACKHOLE' MV TEASER",
+        "category": "기타",
+        "unitId": 85
       }
     ],
     "2026-02-22": [
@@ -3319,6 +3334,11 @@
         "title": "<지금 이대로만 (Always)> Release",
         "category": "발매",
         "unitId": 89
+      },
+      {
+        "title": "<𝐁𝐥𝐨𝐨𝐦 𝐡𝐨𝐮𝐫 - WJSN 10th Anniversary Album>",
+        "category": "축하",
+        "unitId": 105
       }
     ],
     "2026-02-26": [
@@ -3341,6 +3361,11 @@
         "title": "HAPPY CHANGSUB DAY!",
         "category": "축하",
         "unitId": 46
+      },
+      {
+        "title": "'TIC TIC' Release",
+        "category": "발매",
+        "unitId": 89
       }
     ],
     "2026-02-27": [
@@ -3363,6 +3388,11 @@
         "title": "<DEADLINE> Release",
         "category": "발매",
         "unitId": 7
+      },
+      {
+        "title": "<2026 월간윤종신 2월호> Release",
+        "category": "발매",
+        "unitId": 46
       }
     ],
     "2026-02-28": [
@@ -6606,6 +6636,11 @@
         "title": "뷔 숙소 입소일!",
         "category": "축하",
         "unitId": 2
+      },
+      {
+        "title": "소녀시대-Oh!GG <소녀포레스트 (Girls For Rest)> 방송 8주년",
+        "category": "축하",
+        "unitId": 62
       }
     ],
     "2026-09-04": [
@@ -6650,6 +6685,11 @@
         "title": "라이즈 일본 데뷔 3주년",
         "category": "축하",
         "unitId": 120
+      },
+      {
+        "title": "소녀시대 Oh!GG 데뷔 8주년",
+        "category": "축하",
+        "unitId": 62
       }
     ],
     "2026-09-06": [
@@ -7098,6 +7138,11 @@
         "title": "<MAXIDENT> 발매 4주년",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "서현 <사생활> 방영 6주년",
+        "category": "축하",
+        "unitId": 62
       }
     ],
     "2026-10-08": [
@@ -7543,6 +7588,11 @@
         "title": "HAPPY EUNCHAE DAY!",
         "category": "축하",
         "unitId": 95
+      },
+      {
+        "title": "빌리 데뷔 5주년",
+        "category": "축하",
+        "unitId": 97
       }
     ],
     "2026-11-11": [
@@ -8738,7 +8788,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1491,
+    "total_events": 1501,
     "total_units": 120
   }
 }
