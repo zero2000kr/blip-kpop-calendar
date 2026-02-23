@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23T10:48:08.406236",
+  "updated_at": "2026-02-23T17:07:13.749190",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3211,6 +3211,11 @@
       }
     ],
     "2026-02-23": [
+      {
+        "title": "<LOVE CATCHER> Teaser",
+        "category": "기타",
+        "unitId": 93
+      },
       {
         "title": "<LOVECHAPTER> Concept Photo",
         "category": "기타",
@@ -7629,6 +7634,11 @@
     ],
     "2026-11-12": [
       {
+        "title": "'SCIENTIST' 발매 2주년",
+        "category": "축하",
+        "unitId": 1
+      },
+      {
         "title": "HAPPY XIAOTING DAY!",
         "category": "축하",
         "unitId": 86
@@ -8808,7 +8818,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1505,
+    "total_events": 1507,
     "total_units": 120
   }
 }
