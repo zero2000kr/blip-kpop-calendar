@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23T05:21:43.005984",
+  "updated_at": "2026-02-23T10:48:08.406236",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3549,6 +3549,11 @@
     ],
     "2026-03-07": [
       {
+        "title": "'YELLOW' 발매 1주년",
+        "category": "축하",
+        "unitId": 40
+      },
+      {
         "title": "HAPPY DAMI DAY!",
         "category": "축하",
         "unitId": 103
@@ -3618,6 +3623,11 @@
         "title": "HAPPY XINLONG DAY!",
         "category": "축하",
         "unitId": 159
+      },
+      {
+        "title": "<LOVE CATCHER> Release",
+        "category": "발매",
+        "unitId": 93
       }
     ],
     "2026-03-12": [
@@ -8798,7 +8808,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1503,
+    "total_events": 1505,
     "total_units": 120
   }
 }
