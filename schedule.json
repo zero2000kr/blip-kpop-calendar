@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-24T10:45:03.575351",
+  "updated_at": "2026-02-24T17:11:54.137498",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -6487,6 +6487,11 @@
         "unitId": 163
       },
       {
+        "title": "HAPPY HASEUL DAY!",
+        "category": "축하",
+        "unitId": 44
+      },
+      {
         "title": "HAPPY Jun Han DAY!",
         "category": "축하",
         "unitId": 109
@@ -7777,6 +7782,11 @@
         "title": "에이티니 생일",
         "category": "축하",
         "unitId": 63
+      },
+      {
+        "title": "현진 데뷔 10주년",
+        "category": "축하",
+        "unitId": 44
       }
     ],
     "2026-11-18": [
@@ -8008,6 +8018,11 @@
         "title": "HAPPY NI-KI DAY!",
         "category": "축하",
         "unitId": 55
+      },
+      {
+        "title": "HAPPY VIVI DAY!",
+        "category": "축하",
+        "unitId": 44
       },
       {
         "title": "HAPPY YUNA DAY!",
@@ -8868,7 +8883,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1517,
+    "total_events": 1520,
     "total_units": 120
   }
 }
