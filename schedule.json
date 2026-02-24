@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-24T05:17:34.460407",
+  "updated_at": "2026-02-24T10:45:03.575351",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3773,6 +3773,11 @@
         "title": "HAPPY U DAY!",
         "category": "축하",
         "unitId": 73
+      },
+      {
+        "title": "<SEVEN : CRIMSON HORIZON> Release",
+        "category": "발매",
+        "unitId": 57
       }
     ],
     "2026-03-18": [
@@ -3952,6 +3957,11 @@
         "title": "HAPPY MINA DAY!",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "NEWBEAT 데뷔 1 주년",
+        "category": "축하",
+        "unitId": 145
       },
       {
         "title": "PAWMPAWM 생일",
@@ -4498,6 +4508,11 @@
         "title": "도재정 <Perfume> 발매 3주년",
         "category": "축하",
         "unitId": 33
+      },
+      {
+        "title": "비비 솔로 데뷔 9주년",
+        "category": "축하",
+        "unitId": 44
       },
       {
         "title": "첫 음악방송 1위 기념일!",
@@ -5129,6 +5144,11 @@
     ],
     "2026-05-23": [
       {
+        "title": "김립 데뷔 9주년",
+        "category": "축하",
+        "unitId": 44
+      },
+      {
         "title": "문별 솔로 데뷔 8주년",
         "category": "축하",
         "unitId": 36
@@ -5139,6 +5159,11 @@
         "title": "HAPPY EUNHO DAY!",
         "category": "축하",
         "unitId": 126
+      },
+      {
+        "title": "HAPPY YVES DAY!",
+        "category": "축하",
+        "unitId": 44
       }
     ],
     "2026-05-25": [
@@ -5338,6 +5363,11 @@
         "unitId": 104
       },
       {
+        "title": "HAPPY CHOERRY DAY!",
+        "category": "축하",
+        "unitId": 44
+      },
+      {
         "title": "방탄소년단 일본 데뷔 12주년",
         "category": "축하",
         "unitId": 2
@@ -5454,6 +5484,11 @@
         "title": "HAPPY HANBIN DAY!",
         "category": "축하",
         "unitId": 112
+      },
+      {
+        "title": "HAPPY JINSOUL DAY!",
+        "category": "축하",
+        "unitId": 44
       },
       {
         "title": "HAPPY YE CHAN DAY!",
@@ -5658,6 +5693,11 @@
         "title": "‘Uh-Oh' 발매 7주년",
         "category": "축하",
         "unitId": 39
+      },
+      {
+        "title": "진솔 데뷔 6주년",
+        "category": "축하",
+        "unitId": 44
       }
     ],
     "2026-06-27": [
@@ -5896,6 +5936,11 @@
         "unitId": 10
       },
       {
+        "title": "오빛 생일",
+        "category": "축하",
+        "unitId": 44
+      },
+      {
         "title": "제로베이스원 데뷔 3주년",
         "category": "축하",
         "unitId": 112
@@ -6108,6 +6153,11 @@
         "title": "HAPPY HYOJUNG DAY!",
         "category": "축하",
         "unitId": 43
+      },
+      {
+        "title": "최리 데뷔 9주년",
+        "category": "축하",
+        "unitId": 44
       },
       {
         "title": "효정이 직접 생일 카페 열어준 기념일",
@@ -8818,7 +8868,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 385,
-    "total_events": 1507,
+    "total_events": 1517,
     "total_units": 120
   }
 }
