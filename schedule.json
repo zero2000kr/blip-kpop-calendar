@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-25T10:49:07.775701",
+  "updated_at": "2026-02-25T17:14:05.290840",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3331,11 +3331,6 @@
         "unitId": 105
       },
       {
-        "title": "'벚꽃이 떨어지는 속도, 초속 5센티미터' Release",
-        "category": "발매",
-        "unitId": 113
-      },
-      {
         "title": "<지금 이대로만 (Always)> Release",
         "category": "발매",
         "unitId": 89
@@ -3344,6 +3339,11 @@
         "title": "<𝐁𝐥𝐨𝐨𝐦 𝐡𝐨𝐮𝐫 - WJSN 10th Anniversary Album>",
         "category": "축하",
         "unitId": 105
+      },
+      {
+        "title": "초속 5센티미터 OST 'One more time, One more chance' Release",
+        "category": "발매",
+        "unitId": 113
       }
     ],
     "2026-02-26": [
@@ -7258,6 +7258,11 @@
     ],
     "2026-10-11": [
       {
+        "title": "82MAJOR 데뷔 3주년",
+        "category": "축하",
+        "unitId": 132
+      },
+      {
         "title": "곽연지 데뷔 3주년",
         "category": "축하",
         "unitId": 130
@@ -8052,6 +8057,13 @@
         "title": "비밀스러운 소녀 츄가 찾아온 지 9주년",
         "category": "축하",
         "unitId": 101
+      }
+    ],
+    "2026-12-15": [
+      {
+        "title": "HAPPY SEOKJOON DAY!",
+        "category": "축하",
+        "unitId": 132
       }
     ],
     "2026-12-16": [
@@ -8882,8 +8894,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 385,
-    "total_events": 1520,
+    "days_with_events": 386,
+    "total_events": 1522,
     "total_units": 120
   }
 }
