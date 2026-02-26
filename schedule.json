@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-26T10:42:31.484702",
+  "updated_at": "2026-02-26T17:06:07.825884",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3371,6 +3371,11 @@
         "title": "'TIC TIC' Release",
         "category": "발매",
         "unitId": 89
+      },
+      {
+        "title": "이번 주 M COUNTDOWN 1위 🎉",
+        "category": "방송",
+        "unitId": 85
       }
     ],
     "2026-02-27": [
@@ -4001,6 +4006,11 @@
         "title": "<Re:Scene> 발매 2주년",
         "category": "축하",
         "unitId": 133
+      },
+      {
+        "title": "HAPPY HANDONG DAY!",
+        "category": "축하",
+        "unitId": 103
       },
       {
         "title": "HAPPY XIUMIN DAY!",
@@ -8895,7 +8905,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 386,
-    "total_events": 1522,
+    "total_events": 1524,
     "total_units": 120
   }
 }
