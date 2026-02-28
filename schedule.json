@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-28T10:20:45.546519",
+  "updated_at": "2026-02-28T16:34:43.420421",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -3403,11 +3403,16 @@
         "title": "<2026 월간윤종신 2월호> Release",
         "category": "발매",
         "unitId": 46
+      },
+      {
+        "title": "<Same Sky> Release",
+        "category": "발매",
+        "unitId": 155
       }
     ],
     "2026-02-28": [
       {
-        "title": "<LOVECHAPTER> Teaser",
+        "title": "<LOVECHAPTER> Concept Film",
         "category": "기타",
         "unitId": 114
       },
@@ -3430,6 +3435,11 @@
         "title": "하성운 솔로 데뷔 7주년",
         "category": "축하",
         "unitId": 49
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 85
       }
     ],
     "2026-03-02": [
@@ -8925,7 +8935,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 386,
-    "total_events": 1528,
+    "total_events": 1530,
     "total_units": 120
   }
 }
