@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-27T16:49:46.064364",
+  "updated_at": "2026-02-28T04:48:32.292676",
   "range": {
     "start": "2026-01-01",
     "end": "2027-02-28"
@@ -6143,6 +6143,11 @@
     ],
     "2026-07-27": [
       {
+        "title": "HAPPY HUENING BAHIYYIH DAY!",
+        "category": "축하",
+        "unitId": 86
+      },
+      {
         "title": "HAPPY MINSEOK DAY!",
         "category": "축하",
         "unitId": 145
@@ -8920,7 +8925,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 386,
-    "total_events": 1527,
+    "total_events": 1528,
     "total_units": 120
   }
 }
