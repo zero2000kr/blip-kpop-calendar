@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-01T10:22:29.139912",
+  "updated_at": "2026-03-01T16:37:29.305221",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1745,6 +1745,11 @@
         "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
         "category": "방송",
         "unitId": 85
+      },
+      {
+        "title": "The 4th Mini Album Teaser",
+        "category": "발매",
+        "unitId": 146
       }
     ],
     "2026-03-02": [
@@ -1919,6 +1924,11 @@
         "title": "HAPPY TAEYEON DAY!",
         "category": "축하",
         "unitId": 62
+      },
+      {
+        "title": "The 4th Mini Album Pre-Release Single Release",
+        "category": "발매",
+        "unitId": 146
       }
     ],
     "2026-03-10": [
@@ -7511,7 +7521,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1250,
+    "total_events": 1252,
     "total_units": 118
   }
 }
