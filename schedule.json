@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-02-28T16:34:43.420421",
+  "updated_at": "2026-03-01T05:14:30.959838",
   "range": {
-    "start": "2026-01-01",
-    "end": "2027-02-28"
+    "start": "2026-02-01",
+    "end": "2027-03-31"
   },
   "categories": [
     "축하",
@@ -46,10 +46,6 @@
     "10": {
       "ko": "엑소",
       "en": "EXO"
-    },
-    "13": {
-      "ko": "강다니엘",
-      "en": "KANG DANIEL"
     },
     "30": {
       "ko": "아이즈원",
@@ -270,10 +266,6 @@
     "89": {
       "ko": "엔믹스",
       "en": "NMIXX"
-    },
-    "90": {
-      "ko": "TNX",
-      "en": "TNX"
     },
     "91": {
       "ko": "라잇썸",
@@ -509,1693 +501,6 @@
     }
   },
   "events": {
-    "2026-01-01": [
-      {
-        "title": "<Pretty Boy Swag> MV Teaser",
-        "category": "기타",
-        "unitId": 164
-      },
-      {
-        "title": "'I GOT A BOY' 발매 13주년",
-        "category": "축하",
-        "unitId": 62
-      },
-      {
-        "title": "HAPPY KUN DAY!",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "HAPPY WINTER DAY!",
-        "category": "축하",
-        "unitId": 52
-      }
-    ],
-    "2026-01-02": [
-      {
-        "title": "<EUPHORIA> Voice Poster",
-        "category": "기타",
-        "unitId": 159
-      },
-      {
-        "title": "<Internet Girl> RELEASE",
-        "category": "발매",
-        "unitId": 147
-      },
-      {
-        "title": "<RE : LOVE> MV TEASER",
-        "category": "기타",
-        "unitId": 69
-      },
-      {
-        "title": "<yesweare> Concept Photo",
-        "category": "기타",
-        "unitId": 164
-      },
-      {
-        "title": "HAPPY SEUNG EON DAY!",
-        "category": "축하",
-        "unitId": 123
-      },
-      {
-        "title": "미나 JYP 입사일!",
-        "category": "축하",
-        "unitId": 1
-      },
-      {
-        "title": "'Shine' Release",
-        "category": "발매",
-        "unitId": 97
-      },
-      {
-        "title": "'THE SIN : VANISH' Chapter 3. <Stealer>",
-        "category": "기타",
-        "unitId": 55
-      },
-      {
-        "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)> MV TEASER",
-        "category": "기타",
-        "unitId": 31
-      },
-      {
-        "title": "<소야곡> Track Sampler",
-        "category": "발매",
-        "unitId": 32
-      }
-    ],
-    "2026-01-03": [
-      {
-        "title": "<EUPHORIA> Film",
-        "category": "기타",
-        "unitId": 159
-      },
-      {
-        "title": "<RE : LOVE> MV TEASER",
-        "category": "기타",
-        "unitId": 69
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<yesweare> Concept Photo",
-        "category": "기타",
-        "unitId": 164
-      },
-      {
-        "title": "'Ruby' 발매 4주년",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "HAPPY DK DAY!",
-        "category": "축하",
-        "unitId": 83
-      },
-      {
-        "title": "HAPPY JISOO DAY!",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "HAPPY JUHOON DAY!",
-        "category": "축하",
-        "unitId": 156
-      },
-      {
-        "title": "케플러 데뷔 4주년",
-        "category": "축하",
-        "unitId": 86
-      },
-      {
-        "title": "케플리안 생일",
-        "category": "축하",
-        "unitId": 86
-      }
-    ],
-    "2026-01-04": [
-      {
-        "title": "<EUPHORIA> PHOTO",
-        "category": "기타",
-        "unitId": 159
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<XO, My Cyberlove> Teaser",
-        "category": "기타",
-        "unitId": 101
-      },
-      {
-        "title": "<세상은 영화 같지 않더라> M/V Teaser",
-        "category": "기타",
-        "unitId": 114
-      },
-      {
-        "title": "HAPPY JAEHYUN DAY!",
-        "category": "축하",
-        "unitId": 72
-      },
-      {
-        "title": "예지 JYP 입사일!",
-        "category": "축하",
-        "unitId": 38
-      },
-      {
-        "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)>  ALBUM PREVIEW",
-        "category": "발매",
-        "unitId": 31
-      },
-      {
-        "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)> ALBUM PREVIEW",
-        "category": "발매",
-        "unitId": 31
-      }
-    ],
-    "2026-01-05": [
-      {
-        "title": "<RE-FLOW> Promotion Schedule",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<XO, My Cyberlove> Teaser",
-        "category": "기타",
-        "unitId": 101
-      },
-      {
-        "title": "HAPPY HANJIN DAY!",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "HAPPY YOSEOP DAY!",
-        "category": "축하",
-        "unitId": 68
-      },
-      {
-        "title": "윈윈 SMROOKIES 공개 10주년",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "쟈니,도영 NCT 127 합류 9주년",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 69
-      },
-      {
-        "title": "하이키 데뷔 4주년",
-        "category": "축하",
-        "unitId": 114
-      },
-      {
-        "title": "'Gee' 발매 17주년",
-        "category": "축하",
-        "unitId": 62
-      },
-      {
-        "title": "<RE : LOVE> Release",
-        "category": "발매",
-        "unitId": 69
-      },
-      {
-        "title": "<光 (𝗜𝗡𝗦𝗔𝗡𝗜𝗧𝗬)>",
-        "category": "기타",
-        "unitId": 31
-      },
-      {
-        "title": "<세상은 영화 같지 않더라> Release",
-        "category": "발매",
-        "unitId": 114
-      },
-      {
-        "title": "<소야곡> Track List",
-        "category": "발매",
-        "unitId": 32
-      }
-    ],
-    "2026-01-06": [
-      {
-        "title": "<EUPHORIA> Highlight Medley",
-        "category": "발매",
-        "unitId": 159
-      },
-      {
-        "title": "<RE-FLOW> TITLE POSTER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "'응 그래 (Umm Great)' 발매 1주년",
-        "category": "축하",
-        "unitId": 146
-      },
-      {
-        "title": "HAPPY JAYB DAY!",
-        "category": "축하",
-        "unitId": 50
-      },
-      {
-        "title": "HAPPY SHUHUA DAY!",
-        "category": "축하",
-        "unitId": 39
-      },
-      {
-        "title": "‘오늘만 I love you’ 발매 1주년",
-        "category": "축하",
-        "unitId": 113
-      },
-      {
-        "title": "케플러 첫 팬사인회한 날!",
-        "category": "축하",
-        "unitId": 86
-      },
-      {
-        "title": "'봄꽃' Release",
-        "category": "발매",
-        "unitId": 39
-      },
-      {
-        "title": "<소야곡> Cinema Poster",
-        "category": "기타",
-        "unitId": 32
-      }
-    ],
-    "2026-01-07": [
-      {
-        "title": "<강다니엘: 홀드 유어 브레스> 개봉",
-        "category": "기타",
-        "unitId": 13
-      },
-      {
-        "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "HAPPY YOOHYEON DAY!",
-        "category": "축하",
-        "unitId": 103
-      },
-      {
-        "title": "<Wish> Release",
-        "category": "발매",
-        "unitId": 58
-      },
-      {
-        "title": "<XO, My Cyberlove>",
-        "category": "기타",
-        "unitId": 101
-      },
-      {
-        "title": "<XO, My Cyberlove> Release",
-        "category": "발매",
-        "unitId": 101
-      }
-    ],
-    "2026-01-08": [
-      {
-        "title": "<EUPHORIA> MV Teaser",
-        "category": "기타",
-        "unitId": 159
-      },
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<原> TRACKLIST",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "'청바지' 1주년",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "HAPPY KWAK YEONJI DAY!",
-        "category": "축하",
-        "unitId": 130
-      },
-      {
-        "title": "HAPPY SEO DAHYUN DAY!",
-        "category": "축하",
-        "unitId": 130
-      },
-      {
-        "title": "<한림연예예술고등학교 졸업식>",
-        "category": "축하",
-        "unitId": 146
-      },
-      {
-        "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<소야곡> Highlight Medley",
-        "category": "발매",
-        "unitId": 32
-      }
-    ],
-    "2026-01-09": [
-      {
-        "title": "<REVERXE> Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "'비밀정원' 발매 8주년",
-        "category": "축하",
-        "unitId": 43
-      },
-      {
-        "title": "<REASON> 발매 3주년",
-        "category": "축하",
-        "unitId": 31
-      },
-      {
-        "title": "<THE PIECE OF9> 발매 3주년",
-        "category": "축하",
-        "unitId": 34
-      },
-      {
-        "title": "베리베리 데뷔 7주년",
-        "category": "축하",
-        "unitId": 108
-      },
-      {
-        "title": "세훈 데뷔 티저 공개일!",
-        "category": "축하",
-        "unitId": 10
-      },
-      {
-        "title": "원어스 데뷔 7주년",
-        "category": "축하",
-        "unitId": 64
-      },
-      {
-        "title": "<RE-FLOW> TRACK 1 Release",
-        "category": "발매",
-        "unitId": 112
-      }
-    ],
-    "2026-01-10": [
-      {
-        "title": "<EUPHORIA> MV Teaser",
-        "category": "기타",
-        "unitId": 159
-      },
-      {
-        "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "HAPPY GUNWOOK DAY!",
-        "category": "축하",
-        "unitId": 112
-      },
-      {
-        "title": "HAPPY XION DAY!",
-        "category": "축하",
-        "unitId": 64
-      },
-      {
-        "title": "HAPPY YEOREUM DAY!",
-        "category": "축하",
-        "unitId": 105
-      },
-      {
-        "title": "반려묘 순이 생일 🐈",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "YOUNG POSSE × BENZO <LOSE YOUR SHXT> Release",
-        "category": "발매",
-        "unitId": 127
-      },
-      {
-        "title": "'이 밤이 지나면 (Change Street Ver.)' Release",
-        "category": "발매",
-        "unitId": 48
-      },
-      {
-        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
-        "category": "방송",
-        "unitId": 74
-      },
-      {
-        "title": "40TH GDA <BEST ALBUM> 수상 🏆",
-        "category": "발매",
-        "unitId": 155
-      },
-      {
-        "title": "40TH GDA <BEST DIGITAL SONG> 수상 🏆",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "40TH GDA <ROOKIE ARTIST> 수상 🏆",
-        "category": "축하",
-        "unitId": 151
-      },
-      {
-        "title": "40TH GDA <MOST POPULAR FEMALE ARTIST> 수상 🏆",
-        "category": "축하",
-        "unitId": 142
-      },
-      {
-        "title": "40TH GDA <MOST POPULAR MALE ARTIST> 수상 🏆",
-        "category": "축하",
-        "unitId": 2
-      },
-      {
-        "title": "40TH GDA <NEXT GENERATION> 수상 🏆",
-        "category": "축하",
-        "unitId": 144
-      },
-      {
-        "title": "40TH GDA <BEST PERFORMANCE> 수상 🏆",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "40TH GDA <COSMOPOLITAN ARTIST OF THE YEAR> 수상 🏆",
-        "category": "축하",
-        "unitId": 85
-      },
-      {
-        "title": "40TH GDA <GLOBAL IMPACT AWARD> 수상 🏆",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "40TH GDA <NAVER AI CHOICE> 수상 🏆",
-        "category": "축하",
-        "unitId": 113
-      },
-      {
-        "title": "40TH GDA <BEST GROUP> 수상 🏆",
-        "category": "축하",
-        "unitId": 31
-      }
-    ],
-    "2026-01-11": [
-      {
-        "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "<I burn> 앨범 발매 5주년",
-        "category": "축하",
-        "unitId": 39
-      },
-      {
-        "title": "HAPPY CHAEYEON DAY!",
-        "category": "축하",
-        "unitId": 30
-      },
-      {
-        "title": "HAPPY RIWON DAY!",
-        "category": "축하",
-        "unitId": 104
-      },
-      {
-        "title": "HAPPY SEUNGHOON DAY!",
-        "category": "축하",
-        "unitId": 61
-      },
-      {
-        "title": "HAPPY YONGHA DAY!",
-        "category": "축하",
-        "unitId": 78
-      },
-      {
-        "title": "연준 투모로우바이투게더로 공개된 지 7주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "40TH GDA <BEST DIGITAL SONG> 수상 🏆",
-        "category": "축하",
-        "unitId": 85
-      },
-      {
-        "title": "40TH GDA <ARTIST OF THE YEAR> 수상 🏆",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "40TH GDA <ALBUM OF THE YEAR> 수상 🏆",
-        "category": "발매",
-        "unitId": 45
-      },
-      {
-        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
-        "category": "방송",
-        "unitId": 36
-      },
-      {
-        "title": "'뭔가 잘못된 것 같아' Release",
-        "category": "발매",
-        "unitId": 146
-      },
-      {
-        "title": "'Blue' Teaser",
-        "category": "기타",
-        "unitId": 32
-      }
-    ],
-    "2026-01-12": [
-      {
-        "title": "<GOLDEN HOUR : Part.4> Teaser",
-        "category": "기타",
-        "unitId": 63
-      },
-      {
-        "title": "<REVERXE> Album Details",
-        "category": "발매",
-        "unitId": 10
-      },
-      {
-        "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "HAPPY D.O. DAY!",
-        "category": "축하",
-        "unitId": 10
-      },
-      {
-        "title": "종현 솔로 데뷔 11주년",
-        "category": "축하",
-        "unitId": 41
-      },
-      {
-        "title": "판타지 생일",
-        "category": "축하",
-        "unitId": 34
-      },
-      {
-        "title": "<EUPHORIA> Release",
-        "category": "발매",
-        "unitId": 159
-      },
-      {
-        "title": "<소야곡> Release",
-        "category": "발매",
-        "unitId": 32
-      },
-      {
-        "title": "‘MEDUSA’ M/V Release",
-        "category": "발매",
-        "unitId": 151
-      }
-    ],
-    "2026-01-13": [
-      {
-        "title": "<RE-FLOW> BEGIN AGAIN",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<Sunday Morning> Release",
-        "category": "발매",
-        "unitId": 143
-      },
-      {
-        "title": "<原> SOLO CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "<TO DO X TXT> 첫 방송 6주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "HAPPY HARAM DAY!",
-        "category": "축하",
-        "unitId": 97
-      },
-      {
-        "title": "HAPPY SEONGHYEON DAY!",
-        "category": "축하",
-        "unitId": 156
-      },
-      {
-        "title": "HAPPY 승준 DAY!",
-        "category": "축하",
-        "unitId": 73
-      },
-      {
-        "title": "드림캐쳐 데뷔 9주년",
-        "category": "축하",
-        "unitId": 103
-      },
-      {
-        "title": "원우 반려견 설이 생일🐕",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 86
-      },
-      {
-        "title": "<CALL ME BACK> CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 90
-      }
-    ],
-    "2026-01-14": [
-      {
-        "title": "OST <신비아파트 10주년 극장판: 한 번 더, 소환> Release",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "<Time for us> 발매 7주년",
-        "category": "축하",
-        "unitId": 47
-      },
-      {
-        "title": "<하이원 서울가요대상> 신인상 수상 기념일!",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "HAPPY GAON DAY!",
-        "category": "축하",
-        "unitId": 109
-      },
-      {
-        "title": "HAPPY KAI DAY!",
-        "category": "축하",
-        "unitId": 10
-      },
-      {
-        "title": "수빈 투모로우바이투게더로 공개된 지 7주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "<'Canary' MV>",
-        "category": "기타",
-        "unitId": 101
-      },
-      {
-        "title": "<CALL ME BACK> CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 90
-      },
-      {
-        "title": "<Crossfade:>",
-        "category": "기타",
-        "unitId": 34
-      },
-      {
-        "title": "<WISHLIST - Japan 1st Mini Album> Release",
-        "category": "발매",
-        "unitId": 155
-      }
-    ],
-    "2026-01-15": [
-      {
-        "title": "<DEADLINE> COMEBACK TEASER VIDEO",
-        "category": "기타",
-        "unitId": 7
-      },
-      {
-        "title": "<REVERXE> MV Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<原> MV TEASER",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "<2001 대한민국 Hip Hop Flex> 발매 25주년",
-        "category": "축하",
-        "unitId": 163
-      },
-      {
-        "title": "<GOOD MORNING> 발매 2주년",
-        "category": "축하",
-        "unitId": 93
-      },
-      {
-        "title": "<Season of Glass> 발매 11주년",
-        "category": "축하",
-        "unitId": 47
-      },
-      {
-        "title": "HAPPY HYUNGWON DAY!",
-        "category": "축하",
-        "unitId": 31
-      },
-      {
-        "title": "HAPPY JUN.K DAY!",
-        "category": "축하",
-        "unitId": 81
-      },
-      {
-        "title": "HAPPY JUNHYEON DAY!",
-        "category": "축하",
-        "unitId": 158
-      },
-      {
-        "title": "HAPPY JUYEON DAY!",
-        "category": "축하",
-        "unitId": 42
-      },
-      {
-        "title": "HAPPY SUHYUN DAY!",
-        "category": "축하",
-        "unitId": 97
-      },
-      {
-        "title": "HAPPY YUNAH DAY!",
-        "category": "축하",
-        "unitId": 143
-      },
-      {
-        "title": "블링크 생일",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "첫 신인상 수상 기념일!",
-        "category": "축하",
-        "unitId": 35
-      },
-      {
-        "title": "<아름답고도 아프구나 (상아, 초원, 주현)> Release",
-        "category": "발매",
-        "unitId": 91
-      },
-      {
-        "title": "이번 주 M COUNTDOWN 1위 🎉",
-        "category": "방송",
-        "unitId": 69
-      },
-      {
-        "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "기타",
-        "unitId": 112
-      }
-    ],
-    "2026-01-16": [
-      {
-        "title": "<Confetti> Releasse",
-        "category": "기타",
-        "unitId": 1
-      },
-      {
-        "title": "<REVERXE> MV Teaser Image",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "HAPPY JENNIE DAY!",
-        "category": "축하",
-        "unitId": 7
-      },
-      {
-        "title": "HAPPY JOOBIN DAY!",
-        "category": "축하",
-        "unitId": 130
-      },
-      {
-        "title": "HAPPY SEUNGKWAN DAY!",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "HAPPY SUNGJIN DAY!",
-        "category": "축하",
-        "unitId": 58
-      },
-      {
-        "title": "갓세븐 데뷔 12주년",
-        "category": "축하",
-        "unitId": 50
-      },
-      {
-        "title": "도영 SMROOKIES 공개 11주년",
-        "category": "축하",
-        "unitId": 153
-      },
-      {
-        "title": "레이 데뷔 티저 공개일!",
-        "category": "축하",
-        "unitId": 10
-      },
-      {
-        "title": "승민이 교정기 뺀지 3주년",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "아이엔 교정기 뺀지 7주년",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "여자친구 데뷔 11주년",
-        "category": "축하",
-        "unitId": 47
-      },
-      {
-        "title": "여진 데뷔 9주년",
-        "category": "축하",
-        "unitId": 44
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 34
-      },
-      {
-        "title": "휴닝카이 투모로우바이투게더로 공개된 지 7주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "'트로피(TROPHY) (YOON YE CHAN Remix)' Release",
-        "category": "발매",
-        "unitId": 132
-      },
-      {
-        "title": "<THE SIN : VANISH> Release",
-        "category": "발매",
-        "unitId": 55
-      },
-      {
-        "title": "'Daydream' Release",
-        "category": "발매",
-        "unitId": 35
-      },
-      {
-        "title": "이번 주 뮤직뱅크 1위 🎉",
-        "category": "방송",
-        "unitId": 164
-      }
-    ],
-    "2026-01-17": [
-      {
-        "title": "<原> GROUP CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "'DM' 발매 4주년",
-        "category": "축하",
-        "unitId": 74
-      },
-      {
-        "title": "HAPPY CHANI DAY!",
-        "category": "축하",
-        "unitId": 34
-      },
-      {
-        "title": "HAPPY STEVEN DAY!",
-        "category": "축하",
-        "unitId": 150
-      },
-      {
-        "title": "WayV 데뷔 7주년",
-        "category": "축하",
-        "unitId": 154
-      },
-      {
-        "title": "서현 솔로 데뷔 9주년",
-        "category": "축하",
-        "unitId": 62
-      },
-      {
-        "title": "진진&라키 유닛 데뷔 4주년",
-        "category": "축하",
-        "unitId": 54
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 52
-      },
-      {
-        "title": "최예나 솔로 데뷔 4주년",
-        "category": "축하",
-        "unitId": 93
-      },
-      {
-        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
-        "category": "방송",
-        "unitId": 143
-      }
-    ],
-    "2026-01-18": [
-      {
-        "title": "<REVERXE> MV Teaser",
-        "category": "기타",
-        "unitId": 10
-      },
-      {
-        "title": "<原> MV TEASER",
-        "category": "기타",
-        "unitId": 64
-      },
-      {
-        "title": "3RACHA 결성 9주년",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "MAY 생일",
-        "category": "축하",
-        "unitId": 67
-      },
-      {
-        "title": "그룹명 발표 2주년",
-        "category": "축하",
-        "unitId": 155
-      },
-      {
-        "title": "태현 투모로우바이투게더로 공개된 지 7주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
-        "category": "방송",
-        "unitId": 36
-      },
-      {
-        "title": "'기억앨범' Release",
-        "category": "발매",
-        "unitId": 74
-      },
-      {
-        "title": "'Blue' Official MV (Epilogue Ver.) Teaser",
-        "category": "기타",
-        "unitId": 32
-      }
-    ],
-    "2026-01-19": [
-      {
-        "title": "'Yes We Are' MV Teaser",
-        "category": "기타",
-        "unitId": 164
-      },
-      {
-        "title": "'cloud palace ~ false awakening' GRANT OF ADMITTANCE",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<All of You> Teaser",
-        "category": "기타",
-        "unitId": 120
-      },
-      {
-        "title": "<Delulu Pack> Highlight Medley",
-        "category": "발매",
-        "unitId": 144
-      },
-      {
-        "title": "<GOLDEN HOUR : Part.4> Teaser",
-        "category": "기타",
-        "unitId": 63
-      },
-      {
-        "title": "<原> ALBUM PREVIEW",
-        "category": "발매",
-        "unitId": 64
-      },
-      {
-        "title": "NCT DREAM 서울가요대상 대상 수상 3주년",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "<'Blue'(Epilogue Ver.)> MV Release",
-        "category": "발매",
-        "unitId": 32
-      },
-      {
-        "title": "<REVERXE> Release",
-        "category": "발매",
-        "unitId": 10
-      }
-    ],
-    "2026-01-20": [
-      {
-        "title": "'Mono (Feat. Skaiwater)' Play the whole world in Mono",
-        "category": "기타",
-        "unitId": 39
-      },
-      {
-        "title": "'cloud palace ~ false awakening' PRE-DROP CHRONICLES",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<All of You> Teaser 02",
-        "category": "기타",
-        "unitId": 120
-      },
-      {
-        "title": "<RE-FLOW> TITLE POSTER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "HAPPY WOOCHAN DAY!",
-        "category": "축하",
-        "unitId": 151
-      },
-      {
-        "title": "킥플립 데뷔 1주년",
-        "category": "축하",
-        "unitId": 146
-      },
-      {
-        "title": "<Obsession（情結）> Teaser",
-        "category": "기타",
-        "unitId": 13
-      },
-      {
-        "title": "<原> Release",
-        "category": "발매",
-        "unitId": 64
-      },
-      {
-        "title": "OST <너란 봄> Release",
-        "category": "발매",
-        "unitId": 112
-      }
-    ],
-    "2026-01-21": [
-      {
-        "title": "'Mono (Feat. Skaiwater)' Teaser",
-        "category": "기타",
-        "unitId": 39
-      },
-      {
-        "title": "'cloud palace ~ false awakening' ALBUM REPERTOIRE",
-        "category": "발매",
-        "unitId": 97
-      },
-      {
-        "title": "<All of You> Teaser 03",
-        "category": "기타",
-        "unitId": 120
-      },
-      {
-        "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "기타",
-        "unitId": 85
-      },
-      {
-        "title": "<YOU MADE MY DAWN> 발매 7주년",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "HAPPY SEUNGYOON DAY!",
-        "category": "축하",
-        "unitId": 61
-      },
-      {
-        "title": "VIVIZ 팬덤명 나비 공개일",
-        "category": "축하",
-        "unitId": 94
-      },
-      {
-        "title": "범규 투모로우바이투게더로 공개된 지 7주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "'Daydream' M/V Releaser",
-        "category": "발매",
-        "unitId": 35
-      },
-      {
-        "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "이번 주 SHOW CHAMPION 1위 🎉",
-        "category": "방송",
-        "unitId": 159
-      }
-    ],
-    "2026-01-22": [
-      {
-        "title": "'Digital Single [Mono (Feat. Skaiwater)' Concept Image",
-        "category": "기타",
-        "unitId": 39
-      },
-      {
-        "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "기타",
-        "unitId": 85
-      },
-      {
-        "title": "<Sparkling Blue> 발매 2주년",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "HAPPY SAEBI DAY!",
-        "category": "축하",
-        "unitId": 149
-      },
-      {
-        "title": "투어스 2주년",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "<Obsession（情結）> Release",
-        "category": "발매",
-        "unitId": 13
-      },
-      {
-        "title": "<CALL ME BACK> Release",
-        "category": "발매",
-        "unitId": 90
-      },
-      {
-        "title": "이번 주 M COUNTDOWN 1위 🎉",
-        "category": "방송",
-        "unitId": 55
-      },
-      {
-        "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "기타",
-        "unitId": 112
-      }
-    ],
-    "2026-01-23": [
-      {
-        "title": "'Mono (Feat. skaiwater)' Concept Image",
-        "category": "기타",
-        "unitId": 39
-      },
-      {
-        "title": "'cloud palace ~ false awakening' Teaser",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "HAPPY ANNIE DAY!",
-        "category": "축하",
-        "unitId": 151
-      },
-      {
-        "title": "HAPPY HIMESHA DAY!",
-        "category": "축하",
-        "unitId": 134
-      },
-      {
-        "title": "HAPPY ISA DAY!",
-        "category": "축하",
-        "unitId": 56
-      },
-      {
-        "title": "HAPPY WYATT DAY!",
-        "category": "축하",
-        "unitId": 73
-      },
-      {
-        "title": "HAPPY YUTO DAY!",
-        "category": "축하",
-        "unitId": 60
-      },
-      {
-        "title": "NCT 127 <제31회 서울가요대상> 대상 수상 기념일!",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 43
-      },
-      {
-        "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "기타",
-        "unitId": 85
-      },
-      {
-        "title": "<All of You> Physical Album Cover",
-        "category": "발매",
-        "unitId": 120
-      },
-      {
-        "title": "<RE-FLOW> TRACK 2 Release",
-        "category": "발매",
-        "unitId": 112
-      },
-      {
-        "title": "이번 주 뮤직뱅크 1위 🎉",
-        "category": "방송",
-        "unitId": 159
-      }
-    ],
-    "2026-01-24": [
-      {
-        "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<𝘾𝙊𝙈𝙄𝙉𝙂 𝙎𝙊𝙊𝙉>",
-        "category": "기타",
-        "unitId": 85
-      },
-      {
-        "title": "'To Heart' 발매 8주년",
-        "category": "축하",
-        "unitId": 74
-      },
-      {
-        "title": "HAPPY AYDEN DAY!",
-        "category": "축하",
-        "unitId": 121
-      },
-      {
-        "title": "HAPPY WOOJIN DAY!",
-        "category": "축하",
-        "unitId": 158
-      },
-      {
-        "title": "시우민 데뷔 티저 공개일!",
-        "category": "축하",
-        "unitId": 10
-      },
-      {
-        "title": "프로미스나인 데뷔 8주년",
-        "category": "축하",
-        "unitId": 74
-      },
-      {
-        "title": "플로버 생일",
-        "category": "축하",
-        "unitId": 74
-      },
-      {
-        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
-        "category": "방송",
-        "unitId": 159
-      },
-      {
-        "title": "<COMING SOON DIRECTOR’S CUT>",
-        "category": "기타",
-        "unitId": 85
-      }
-    ],
-    "2026-01-25": [
-      {
-        "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<SNOWFLAKE> 발매 10주년",
-        "category": "축하",
-        "unitId": 47
-      },
-      {
-        "title": "HAPPY JUNHO DAY!",
-        "category": "축하",
-        "unitId": 81
-      },
-      {
-        "title": "HAPPY KANGMIN DAY!",
-        "category": "축하",
-        "unitId": 108
-      },
-      {
-        "title": "HAPPY SEUNGHEE DAY!",
-        "category": "축하",
-        "unitId": 43
-      },
-      {
-        "title": "버디 생일",
-        "category": "축하",
-        "unitId": 47
-      },
-      {
-        "title": "'VISA' MV Teaser",
-        "category": "기타",
-        "unitId": 127
-      },
-      {
-        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
-        "category": "방송",
-        "unitId": 159
-      },
-      {
-        "title": "<REVIVE+> Teaser",
-        "category": "기타",
-        "unitId": 85
-      }
-    ],
-    "2026-01-26": [
-      {
-        "title": "OST 'Same Sky' 방영 중 공개 안내 (Notice)",
-        "category": "기타",
-        "unitId": 155
-      },
-      {
-        "title": "'Mono (Feat. skaiwater)' M/V Teaser",
-        "category": "기타",
-        "unitId": 39
-      },
-      {
-        "title": "'cloud palace ~ false awakening' STEM SAMPLER",
-        "category": "기타",
-        "unitId": 97
-      },
-      {
-        "title": "<RE-FLOW> CONCEPT PHOTO",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<SSS (Sending Secret Signals) (feat. HYDE)> Release",
-        "category": "발매",
-        "unitId": 48
-      },
-      {
-        "title": "'어떤 미래' 공개 2주년",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "<사건의 지평선> Cover 3주년",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "HAPPY CHAN DAY!",
-        "category": "축하",
-        "unitId": 83
-      },
-      {
-        "title": "HAPPY I.M DAY!",
-        "category": "축하",
-        "unitId": 31
-      },
-      {
-        "title": "HAPPY MOONBIN DAY!",
-        "category": "축하",
-        "unitId": 54
-      },
-      {
-        "title": "HAPPY SULLYOON DAY!",
-        "category": "축하",
-        "unitId": 89
-      },
-      {
-        "title": "'1분 1초' Teaser",
-        "category": "기타",
-        "unitId": 57
-      },
-      {
-        "title": "<Delulu Pack> Release",
-        "category": "발매",
-        "unitId": 144
-      },
-      {
-        "title": "<REVIVE+>  'SPOILERS' Concept Film",
-        "category": "기타",
-        "unitId": 85
-      }
-    ],
-    "2026-01-27": [
-      {
-        "title": "<RE-FLOW> TITLE POSTER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "'Better Half (feat. JEONGHAN of SEVENTEEN)' 발매 1주년",
-        "category": "축하",
-        "unitId": 32
-      },
-      {
-        "title": "<The Name Chapter: TEMPTATION> 발매 3주년",
-        "category": "축하",
-        "unitId": 48
-      },
-      {
-        "title": "HAPPY KINO DAY!",
-        "category": "축하",
-        "unitId": 60
-      },
-      {
-        "title": "HAPPY LIM SEOWON DAY!",
-        "category": "축하",
-        "unitId": 157
-      },
-      {
-        "title": "HAPPY TAEYOUNG DAY!",
-        "category": "축하",
-        "unitId": 59
-      },
-      {
-        "title": "NCT 127 DAY 💚",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "NCT 127 DAY💚",
-        "category": "축하",
-        "unitId": 33
-      },
-      {
-        "title": "그래미 어워드 첫 무대 기념일!",
-        "category": "축하",
-        "unitId": 2
-      },
-      {
-        "title": "'1분 1초 (A MINUTE, A SECOND)' Release",
-        "category": "발매",
-        "unitId": 57
-      },
-      {
-        "title": "<Mono (Feat. Skaiwater)> Release",
-        "category": "발매",
-        "unitId": 39
-      },
-      {
-        "title": "<YOUNG POSSE - VISA / Pilot3> Release",
-        "category": "발매",
-        "unitId": 127
-      },
-      {
-        "title": "<cloud palace ~ false awakening> Release",
-        "category": "발매",
-        "unitId": 97
-      }
-    ],
-    "2026-01-28": [
-      {
-        "title": "<RE-FLOW> TRACK SAMPLER",
-        "category": "기타",
-        "unitId": 112
-      },
-      {
-        "title": "<mwah...(EN Ver.)> Release",
-        "category": "발매",
-        "unitId": 157
-      },
-      {
-        "title": "HAPPY SHEON DAY!",
-        "category": "축하",
-        "unitId": 97
-      },
-      {
-        "title": "려욱 솔로 데뷔 10주년",
-        "category": "축하",
-        "unitId": 51
-      },
-      {
-        "title": "<BRUISE(불씨)> Release",
-        "category": "발매",
-        "unitId": 124
-      },
-      {
-        "title": "이번 주 SHOW CHAMPION 1위 🎉",
-        "category": "방송",
-        "unitId": 10
-      }
-    ],
-    "2026-01-29": [
-      {
-        "title": "3RACHA <SKZ-RECORD> 공개 2700일",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "<2> 발매 2주년",
-        "category": "축하",
-        "unitId": 39
-      },
-      {
-        "title": "<사건의 지평선> 커버 1100일",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "HAPPY DAEHWI DAY!",
-        "category": "축하",
-        "unitId": 57
-      },
-      {
-        "title": "HAPPY YEOYEOJEONG DAY!",
-        "category": "축하",
-        "unitId": 145
-      },
-      {
-        "title": "첫 음악방송 1위 기념일!",
-        "category": "방송",
-        "unitId": 54
-      },
-      {
-        "title": "<도망가자 (Run With Me)> Release",
-        "category": "발매",
-        "unitId": 75
-      },
-      {
-        "title": "이번 주 M COUNTDOWN 1위 🎉",
-        "category": "방송",
-        "unitId": 10
-      },
-      {
-        "title": "<RE-FLOW> RE-PILOGUE",
-        "category": "기타",
-        "unitId": 112
-      }
-    ],
-    "2026-01-30": [
-      {
-        "title": "'외계인' 공개 5주년",
-        "category": "축하",
-        "unitId": 45
-      },
-      {
-        "title": "HAPPY DOHOON DAY!",
-        "category": "축하",
-        "unitId": 125
-      },
-      {
-        "title": "HAPPY HARUNA DAY!",
-        "category": "축하",
-        "unitId": 97
-      },
-      {
-        "title": "고원 데뷔 8주년",
-        "category": "축하",
-        "unitId": 44
-      },
-      {
-        "title": "에잇턴 데뷔 3주년",
-        "category": "축하",
-        "unitId": 124
-      },
-      {
-        "title": "이번 주 뮤직뱅크 1위 🎉",
-        "category": "방송",
-        "unitId": 10
-      }
-    ],
-    "2026-01-31": [
-      {
-        "title": "<VarioUS> 발매 3주년",
-        "category": "축하",
-        "unitId": 94
-      },
-      {
-        "title": "HAPPY MIYEON DAY!",
-        "category": "축하",
-        "unitId": 39
-      },
-      {
-        "title": "HAPPY WOOSEOK DAY!",
-        "category": "축하",
-        "unitId": 60
-      },
-      {
-        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
-        "category": "방송",
-        "unitId": 10
-      },
-      {
-        "title": "'CHALLENGERS' Concept Film",
-        "category": "기타",
-        "unitId": 85
-      }
-    ],
     "2026-02-01": [
       {
         "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
@@ -5834,6 +4139,11 @@
     ],
     "2026-07-04": [
       {
+        "title": "HAPPY DUJUN DAY!",
+        "category": "축하",
+        "unitId": 68
+      },
+      {
         "title": "HAPPY KEITA DAY!",
         "category": "축하",
         "unitId": 123
@@ -8930,12 +7240,278 @@
         "category": "축하",
         "unitId": 116
       }
+    ],
+    "2027-03-02": [
+      {
+        "title": "HAPPY WONBIN DAY!",
+        "category": "축하",
+        "unitId": 120
+      },
+      {
+        "title": "정연 JYP 입사일!",
+        "category": "축하",
+        "unitId": 1
+      }
+    ],
+    "2027-03-03": [
+      {
+        "title": "HAPPY CHORONG DAY!",
+        "category": "축하",
+        "unitId": 69
+      },
+      {
+        "title": "HAPPY SERIM DAY!",
+        "category": "축하",
+        "unitId": 59
+      }
+    ],
+    "2027-03-04": [
+      {
+        "title": "투모로우바이투게더 데뷔 8주년",
+        "category": "축하",
+        "unitId": 48
+      }
+    ],
+    "2027-03-05": [
+      {
+        "title": "'JeLLo(힘숨찐)' 발매 2주년",
+        "category": "축하",
+        "unitId": 145
+      },
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 75
+      }
+    ],
+    "2027-03-06": [
+      {
+        "title": "NCT 127 '영웅' 발매 7주년",
+        "category": "축하",
+        "unitId": 33
+      },
+      {
+        "title": "천러 SM 입사 11주년",
+        "category": "축하",
+        "unitId": 33
+      }
+    ],
+    "2027-03-07": [
+      {
+        "title": "HAPPY HYUNSIK DAY!",
+        "category": "축하",
+        "unitId": 46
+      }
+    ],
+    "2027-03-09": [
+      {
+        "title": "HAPPY SUGA DAY!",
+        "category": "축하",
+        "unitId": 2
+      }
+    ],
+    "2027-03-10": [
+      {
+        "title": "HAPPY PENIEL DAY!",
+        "category": "축하",
+        "unitId": 46
+      }
+    ],
+    "2027-03-11": [
+      {
+        "title": "HAPPY XINLONG DAY!",
+        "category": "축하",
+        "unitId": 159
+      }
+    ],
+    "2027-03-12": [
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 48
+      },
+      {
+        "title": "플레이브 데뷔 4주년",
+        "category": "축하",
+        "unitId": 126
+      }
+    ],
+    "2027-03-13": [
+      {
+        "title": "HAPPY BEOMGYU DAY!",
+        "category": "축하",
+        "unitId": 48
+      }
+    ],
+    "2027-03-14": [
+      {
+        "title": "<I NEVER DIE> 발매 5주년",
+        "category": "축하",
+        "unitId": 39
+      },
+      {
+        "title": "내일은 미스터트롯 우승 기념일!",
+        "category": "축하",
+        "unitId": 107
+      },
+      {
+        "title": "우지 군 전역일",
+        "category": "축하",
+        "unitId": 32
+      }
+    ],
+    "2027-03-15": [
+      {
+        "title": "호시 군 전역일",
+        "category": "축하",
+        "unitId": 32
+      }
+    ],
+    "2027-03-18": [
+      {
+        "title": "스트레이 키즈 일본 데뷔 7주년",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "'MANIAC' 발매 5주년",
+        "category": "축하",
+        "unitId": 45
+      }
+    ],
+    "2027-03-19": [
+      {
+        "title": "HAPPY EUNSEOK DAY!",
+        "category": "축하",
+        "unitId": 120
+      },
+      {
+        "title": "HAPPY SAKURA DAY!",
+        "category": "축하",
+        "unitId": 95
+      }
+    ],
+    "2027-03-20": [
+      {
+        "title": "HAPPY BELLE DAY!",
+        "category": "축하",
+        "unitId": 118
+      },
+      {
+        "title": "HAPPY HYUNJIN DAY!",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "HAPPY JIWON DAY!",
+        "category": "축하",
+        "unitId": 74
+      },
+      {
+        "title": "HAPPY MARTIN DAY!",
+        "category": "축하",
+        "unitId": 156
+      },
+      {
+        "title": "HAPPY YUJIN DAY!",
+        "category": "축하",
+        "unitId": 112
+      },
+      {
+        "title": "민규 강아지 밥풀이 생일",
+        "category": "축하",
+        "unitId": 32
+      }
+    ],
+    "2027-03-21": [
+      {
+        "title": "HAPPY ANTON DAY!",
+        "category": "축하",
+        "unitId": 120
+      },
+      {
+        "title": "부석순 유닛 데뷔 9주년",
+        "category": "축하",
+        "unitId": 32
+      },
+      {
+        "title": "비투비 데뷔 15주년",
+        "category": "축하",
+        "unitId": 46
+      }
+    ],
+    "2027-03-22": [
+      {
+        "title": "'Burnin’ Tires (창빈 & 아이엔)' 공개 2주년",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "HAPPY WONJIN DAY!",
+        "category": "축하",
+        "unitId": 59
+      }
+    ],
+    "2027-03-24": [
+      {
+        "title": "'쉽게 쓰여진 노래 (A Song Written Easily)' 발매 7주년",
+        "category": "축하",
+        "unitId": 64
+      },
+      {
+        "title": "HAPPY MINA DAY!",
+        "category": "축하",
+        "unitId": 1
+      },
+      {
+        "title": "KiiiKiii 데뷔 2 주년",
+        "category": "축하",
+        "unitId": 144
+      }
+    ],
+    "2027-03-25": [
+      {
+        "title": "스트레이 키즈 데뷔 9주년",
+        "category": "축하",
+        "unitId": 45
+      },
+      {
+        "title": "아일릿 데뷔 3주년",
+        "category": "축하",
+        "unitId": 143
+      }
+    ],
+    "2027-03-26": [
+      {
+        "title": "데뷔 8주년",
+        "category": "축하",
+        "unitId": 67
+      }
+    ],
+    "2027-03-27": [
+      {
+        "title": "유니스 데뷔 3주년",
+        "category": "축하",
+        "unitId": 157
+      }
+    ],
+    "2027-03-28": [
+      {
+        "title": "'버퍼링' 발매 5주년",
+        "category": "축하",
+        "unitId": 152
+      },
+      {
+        "title": "HAPPY JIHOON DAY!",
+        "category": "축하",
+        "unitId": 125
+      }
     ]
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 386,
-    "total_events": 1530,
-    "total_units": 120
+    "days_with_events": 378,
+    "total_events": 1250,
+    "total_units": 118
   }
 }
