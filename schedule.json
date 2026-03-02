@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-02T05:11:47.525722",
+  "updated_at": "2026-03-02T10:40:46.276215",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -6235,6 +6235,11 @@
     ],
     "2026-11-29": [
       {
+        "title": "HAPPY MINAMI DAY!",
+        "category": "축하",
+        "unitId": 133
+      },
+      {
         "title": "HAPPY MINHYUK DAY!",
         "category": "축하",
         "unitId": 46
@@ -7521,7 +7526,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1252,
+    "total_events": 1253,
     "total_units": 118
   }
 }
