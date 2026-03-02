@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-02T10:40:46.276215",
+  "updated_at": "2026-03-02T16:58:13.578248",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2449,6 +2449,11 @@
         "title": "HAPPY GIKWANG DAY!",
         "category": "축하",
         "unitId": 68
+      },
+      {
+        "title": "HAPPY MINHO DAY!",
+        "category": "축하",
+        "unitId": 61
       },
       {
         "title": "xikers 데뷔3주년",
@@ -7526,7 +7531,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1253,
+    "total_events": 1254,
     "total_units": 118
   }
 }
