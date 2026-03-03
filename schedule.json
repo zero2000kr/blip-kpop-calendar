@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-03T10:36:03.888922",
+  "updated_at": "2026-03-03T16:58:09.057927",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -482,6 +482,10 @@
     "159": {
       "ko": "알파드라이브원",
       "en": "ALPHA DRIVE ONE"
+    },
+    "160": {
+      "ko": "피원하모니",
+      "en": "P1Harmony"
     },
     "161": {
       "ko": "피프티피프티",
@@ -2000,6 +2004,11 @@
         "title": "플레이브 데뷔 3주년",
         "category": "축하",
         "unitId": 126
+      },
+      {
+        "title": "<UNIQUE> Release",
+        "category": "발매",
+        "unitId": 160
       }
     ],
     "2026-03-13": [
@@ -2260,6 +2269,11 @@
         "title": "HAPPY YUNHO DAY!",
         "category": "축하",
         "unitId": 63
+      },
+      {
+        "title": "<Ice Cream> Release",
+        "category": "발매",
+        "unitId": 38
       },
       {
         "title": "Album Release",
@@ -4092,6 +4106,11 @@
         "title": "일본 데뷔 9주년",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "캣츠아이 데뷔 2주년",
+        "category": "축하",
+        "unitId": 147
       }
     ],
     "2026-06-29": [
@@ -4560,7 +4579,7 @@
       {
         "title": "HAPPY CHAEWON DAY!",
         "category": "축하",
-        "unitId": 95
+        "unitId": 30
       },
       {
         "title": "HAPPY JEONG HAYEON DAY!",
@@ -7536,7 +7555,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1255,
-    "total_units": 118
+    "total_events": 1258,
+    "total_units": 119
   }
 }
