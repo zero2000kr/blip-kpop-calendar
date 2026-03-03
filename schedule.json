@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-03T05:11:02.854905",
+  "updated_at": "2026-03-03T10:36:03.888922",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2777,6 +2777,11 @@
         "title": "사나 JYP 입사일!",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> Release",
+        "category": "발매",
+        "unitId": 48
       }
     ],
     "2026-04-14": [
@@ -7531,7 +7536,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1254,
+    "total_events": 1255,
     "total_units": 118
   }
 }
