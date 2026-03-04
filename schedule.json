@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-04T10:34:08.999540",
+  "updated_at": "2026-03-04T16:56:24.782017",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1815,6 +1815,11 @@
         "title": "투모로우바이투게더 데뷔 7주년",
         "category": "축하",
         "unitId": 48
+      },
+      {
+        "title": "<ARIRANG> Tracklist",
+        "category": "발매",
+        "unitId": 2
       }
     ],
     "2026-03-05": [
@@ -1910,6 +1915,11 @@
     ],
     "2026-03-09": [
       {
+        "title": "<Ice Cream> TRACK LIST",
+        "category": "기타",
+        "unitId": 38
+      },
+      {
         "title": "<WANNABE> 발매 6주년",
         "category": "축하",
         "unitId": 38
@@ -1937,6 +1947,11 @@
     ],
     "2026-03-10": [
       {
+        "title": "<Ice Cream> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 38
+      },
+      {
         "title": "'동갑내기' 발매 1주년",
         "category": "축하",
         "unitId": 32
@@ -1954,6 +1969,11 @@
     ],
     "2026-03-11": [
       {
+        "title": "<Ice Cream> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 38
+      },
+      {
         "title": "HAPPY DONGHWA DAY!",
         "category": "축하",
         "unitId": 146
@@ -1970,6 +1990,11 @@
       }
     ],
     "2026-03-12": [
+      {
+        "title": "<Ice Cream> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 38
+      },
       {
         "title": "'HICCUPS' 발매 1주년",
         "category": "축하",
@@ -2012,6 +2037,11 @@
       }
     ],
     "2026-03-13": [
+      {
+        "title": "<Ice Cream> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 38
+      },
       {
         "title": "HAPPY BEOMGYU DAY!",
         "category": "축하",
@@ -2104,6 +2134,11 @@
     ],
     "2026-03-16": [
       {
+        "title": "<Ice Cream> MV TEASER",
+        "category": "기타",
+        "unitId": 38
+      },
+      {
         "title": "HAPPY HAEMIN DAY!",
         "category": "축하",
         "unitId": 124
@@ -2120,6 +2155,11 @@
       }
     ],
     "2026-03-18": [
+      {
+        "title": "<Ice Cream> MV TEASER",
+        "category": "기타",
+        "unitId": 38
+      },
       {
         "title": "HAPPY JAEHEE DAY!",
         "category": "축하",
@@ -2155,9 +2195,9 @@
     ],
     "2026-03-20": [
       {
-        "title": "Album Release",
+        "title": "<Ice Cream> ALBUM SPOILER",
         "category": "발매",
-        "unitId": 2
+        "unitId": 38
       },
       {
         "title": "'믿지(MIDZY)' 발매 5주년",
@@ -2213,6 +2253,11 @@
         "title": "하이라이트 데뷔 6주년",
         "category": "축하",
         "unitId": 68
+      },
+      {
+        "title": "<ARIRANG> Release",
+        "category": "발매",
+        "unitId": 2
       }
     ],
     "2026-03-21": [
@@ -2338,6 +2383,11 @@
         "title": "아일릿 데뷔 2주년",
         "category": "축하",
         "unitId": 143
+      },
+      {
+        "title": "<REV> Release",
+        "category": "발매",
+        "unitId": 36
       }
     ],
     "2026-03-26": [
@@ -3803,6 +3853,11 @@
         "title": "슈퍼주니어-K.R.Y. '푸르게 빛나던 우리의 계절' 발매 6주년",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "이펙스 데뷔 5주년",
+        "category": "축하",
+        "unitId": 121
       }
     ],
     "2026-06-09": [
@@ -3824,6 +3879,11 @@
         "title": "HAPPY O.de DAY!",
         "category": "축하",
         "unitId": 109
+      },
+      {
+        "title": "HAPPY WISH DAY!",
+        "category": "축하",
+        "unitId": 121
       },
       {
         "title": "첫 뮤직뱅크 1위 기념일!",
@@ -6264,6 +6324,11 @@
     ],
     "2026-11-29": [
       {
+        "title": "<Last Fantasy> 발매 15주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "HAPPY MINAMI DAY!",
         "category": "축하",
         "unitId": 133
@@ -7555,7 +7620,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1258,
+    "total_events": 1271,
     "total_units": 119
   }
 }
