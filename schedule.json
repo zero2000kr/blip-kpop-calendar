@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-05T05:08:49.486621",
+  "updated_at": "2026-03-05T10:36:19.547870",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2571,6 +2571,11 @@
     ],
     "2026-04-02": [
       {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> ANXIETY",
+        "category": "기타",
+        "unitId": 48
+      },
+      {
         "title": "42 생일 축하해요 🎉",
         "category": "축하",
         "unitId": 125
@@ -2627,6 +2632,11 @@
     ],
     "2026-04-05": [
       {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> TRACKLIST",
+        "category": "기타",
+        "unitId": 48
+      },
+      {
         "title": "'LOVE DIVE' 발매 4주년",
         "category": "축하",
         "unitId": 85
@@ -2654,6 +2664,11 @@
     ],
     "2026-04-06": [
       {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> ALBUM PREVIEW",
+        "category": "발매",
+        "unitId": 48
+      },
+      {
         "title": "HAPPY MINGYU DAY!",
         "category": "축하",
         "unitId": 32
@@ -2662,6 +2677,11 @@
         "title": "HAPPY YUNA DAY!",
         "category": "축하",
         "unitId": 79
+      },
+      {
+        "title": "The 4th Mini Album Release",
+        "category": "발매",
+        "unitId": 146
       }
     ],
     "2026-04-07": [
@@ -2743,6 +2763,11 @@
       }
     ],
     "2026-04-11": [
+      {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> OFFICIAL MV TEASER",
+        "category": "기타",
+        "unitId": 48
+      },
       {
         "title": "<페르소나> 개봉 8주년",
         "category": "축하",
@@ -7620,7 +7645,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1271,
+    "total_events": 1276,
     "total_units": 119
   }
 }
