@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-05T10:36:19.547870",
+  "updated_at": "2026-03-05T18:10:33.619098",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1852,6 +1852,11 @@
         "title": "<LOVECHAPTER> Release",
         "category": "발매",
         "unitId": 114
+      },
+      {
+        "title": "이번 주 <M COUNTDOWN> 1위 🎉",
+        "category": "방송",
+        "unitId": 142
       }
     ],
     "2026-03-06": [
@@ -2488,6 +2493,11 @@
     ],
     "2026-03-29": [
       {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> HUNGER",
+        "category": "기타",
+        "unitId": 48
+      },
+      {
         "title": "HAPPY IRENE DAY!",
         "category": "축하",
         "unitId": 35
@@ -2536,6 +2546,11 @@
       }
     ],
     "2026-03-31": [
+      {
+        "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> TENSION",
+        "category": "기타",
+        "unitId": 48
+      },
       {
         "title": "<SIGN> 발매 1주년",
         "category": "축하",
@@ -7645,7 +7660,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1276,
+    "total_events": 1279,
     "total_units": 119
   }
 }
