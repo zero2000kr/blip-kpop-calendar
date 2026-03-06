@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T10:32:05.110294",
+  "updated_at": "2026-03-06T16:52:19.851655",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1889,6 +1889,11 @@
         "title": "희철 데뷔 21주년",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "이번 주 <Music Bank> 1위 🎉",
+        "category": "방송",
+        "unitId": 85
       }
     ],
     "2026-03-07": [
@@ -7665,7 +7670,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1280,
+    "total_events": 1281,
     "total_units": 119
   }
 }
