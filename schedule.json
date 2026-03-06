@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T05:05:26.388303",
+  "updated_at": "2026-03-06T10:32:05.110294",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2979,6 +2979,11 @@
         "title": "HAPPY SARANG DAY!",
         "category": "축하",
         "unitId": 149
+      },
+      {
+        "title": "은지 솔로 데뷔 10주년",
+        "category": "축하",
+        "unitId": 69
       },
       {
         "title": "정우 SMROOKIES 공개 9주년",
@@ -7660,7 +7665,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 378,
-    "total_events": 1279,
+    "total_events": 1280,
     "total_units": 119
   }
 }
