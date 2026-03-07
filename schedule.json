@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-07T10:20:48.213131",
+  "updated_at": "2026-03-07T16:36:13.372893",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1923,6 +1923,13 @@
         "unitId": 60
       }
     ],
+    "2026-03-08": [
+      {
+        "title": "<REV> LYTRICS SPOILER",
+        "category": "기타",
+        "unitId": 36
+      }
+    ],
     "2026-03-09": [
       {
         "title": "<Ice Cream> TRACK LIST",
@@ -1962,6 +1969,11 @@
         "unitId": 38
       },
       {
+        "title": "<REV> 1ST LAP IMAGE",
+        "category": "기타",
+        "unitId": 36
+      },
+      {
         "title": "'동갑내기' 발매 1주년",
         "category": "축하",
         "unitId": 32
@@ -1984,6 +1996,11 @@
         "unitId": 38
       },
       {
+        "title": "<REV> 2ND LAP IMAGE",
+        "category": "기타",
+        "unitId": 36
+      },
+      {
         "title": "HAPPY DONGHWA DAY!",
         "category": "축하",
         "unitId": 146
@@ -2004,6 +2021,11 @@
         "title": "<Ice Cream> CONCEPT PHOTO",
         "category": "기타",
         "unitId": 38
+      },
+      {
+        "title": "<REV> 3RD LAP IMAGE",
+        "category": "기타",
+        "unitId": 36
       },
       {
         "title": "'HICCUPS' 발매 1주년",
@@ -2051,6 +2073,11 @@
         "title": "<Ice Cream> CONCEPT PHOTO",
         "category": "기타",
         "unitId": 38
+      },
+      {
+        "title": "<REV> 4TH LAP IMAGE",
+        "category": "기타",
+        "unitId": 36
       },
       {
         "title": "HAPPY BEOMGYU DAY!",
@@ -2171,6 +2198,11 @@
         "unitId": 38
       },
       {
+        "title": "<REV> MUSIC SAMPLER",
+        "category": "기타",
+        "unitId": 36
+      },
+      {
         "title": "HAPPY JAEHEE DAY!",
         "category": "축하",
         "unitId": 82
@@ -2192,6 +2224,11 @@
       }
     ],
     "2026-03-19": [
+      {
+        "title": "<REV> MV TEASER",
+        "category": "기타",
+        "unitId": 36
+      },
       {
         "title": "HAPPY EUNSEOK DAY!",
         "category": "축하",
@@ -2374,6 +2411,11 @@
       }
     ],
     "2026-03-25": [
+      {
+        "title": "<열여덟 청춘> Release",
+        "category": "발매",
+        "unitId": 105
+      },
       {
         "title": "'Clé 1 : MIROH' 발매 7주년",
         "category": "축하",
@@ -2721,6 +2763,11 @@
         "unitId": 51
       },
       {
+        "title": "HAPPY SUMIN DAY!",
+        "category": "축하",
+        "unitId": 111
+      },
+      {
         "title": "악뮤 데뷔 12주년",
         "category": "축하",
         "unitId": 80
@@ -3043,6 +3090,11 @@
         "title": "제로베이스원 결성일",
         "category": "축하",
         "unitId": 112
+      },
+      {
+        "title": "<GREENGREEN> 타이틀 Release",
+        "category": "발매",
+        "unitId": 156
       }
     ],
     "2026-04-21": [
@@ -3302,6 +3354,11 @@
         "title": "클리키 생일",
         "category": "축하",
         "unitId": 104
+      },
+      {
+        "title": "<GREENGREEN> Release",
+        "category": "발매",
+        "unitId": 156
       }
     ],
     "2026-05-05": [
@@ -3640,6 +3697,11 @@
         "title": "HAPPY WONI DAY!",
         "category": "축하",
         "unitId": 133
+      },
+      {
+        "title": "HAPPY XINYU DAY!",
+        "category": "축하",
+        "unitId": 130
       },
       {
         "title": "샤이니 데뷔 18주년",
@@ -7669,8 +7731,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 378,
-    "total_events": 1281,
+    "days_with_events": 379,
+    "total_events": 1293,
     "total_units": 119
   }
 }
