@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-07T16:36:13.372893",
+  "updated_at": "2026-03-08T05:05:38.877429",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3845,6 +3845,11 @@
         "unitId": 92
       },
       {
+        "title": "HAPPY NIEN DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
         "title": "엘프 생일",
         "category": "축하",
         "unitId": 51
@@ -3991,6 +3996,11 @@
         "title": "HAPPY O.de DAY!",
         "category": "축하",
         "unitId": 109
+      },
+      {
+        "title": "HAPPY SEOAH DAY!",
+        "category": "축하",
+        "unitId": 130
       },
       {
         "title": "HAPPY WISH DAY!",
@@ -6023,6 +6033,11 @@
     ],
     "2026-10-24": [
       {
+        "title": "HAPPY LEE JIWOO DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
         "title": "에이티즈 데뷔 8주년",
         "category": "축하",
         "unitId": 63
@@ -6468,6 +6483,11 @@
         "unitId": 59
       },
       {
+        "title": "HAPPY SULLIN DAY!",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
         "title": "엔하이픈 데뷔 6주년",
         "category": "축하",
         "unitId": 55
@@ -6524,6 +6544,11 @@
         "title": "HAPPY JIN DAY!",
         "category": "축하",
         "unitId": 2
+      },
+      {
+        "title": "HAPPY KIM CHAEYEON DAY!",
+        "category": "축하",
+        "unitId": 130
       }
     ],
     "2026-12-05": [
@@ -7732,7 +7757,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1293,
+    "total_events": 1298,
     "total_units": 119
   }
 }
