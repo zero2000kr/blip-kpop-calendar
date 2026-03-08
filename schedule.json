@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-08T05:05:38.877429",
+  "updated_at": "2026-03-08T10:22:25.885650",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1625,6 +1625,11 @@
         "unitId": 114
       },
       {
+        "title": "<UNIQUE> Teaser",
+        "category": "기타",
+        "unitId": 160
+      },
+      {
         "title": "HAPPY HAEWON DAY!",
         "category": "축하",
         "unitId": 89
@@ -1662,6 +1667,11 @@
         "unitId": 114
       },
       {
+        "title": "<UNIQUE> Teaser",
+        "category": "기타",
+        "unitId": 160
+      },
+      {
         "title": "'MAMMA MIA' 발매 8주년",
         "category": "축하",
         "unitId": 34
@@ -1692,6 +1702,11 @@
         "title": "<LOVECHAPTER> Concept Photo",
         "category": "기타",
         "unitId": 114
+      },
+      {
+        "title": "<UNIQUE> Teaser",
+        "category": "기타",
+        "unitId": 160
       },
       {
         "title": "HAPPY SANG YEOP DAY!",
@@ -7757,7 +7772,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1298,
+    "total_events": 1301,
     "total_units": 119
   }
 }
