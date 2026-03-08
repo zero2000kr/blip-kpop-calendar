@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-08T10:22:25.885650",
+  "updated_at": "2026-03-08T16:37:45.361402",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1805,6 +1805,11 @@
         "unitId": 114
       },
       {
+        "title": "<UNIQUE> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 160
+      },
+      {
         "title": "HAPPY CHORONG DAY!",
         "category": "축하",
         "unitId": 69
@@ -1823,9 +1828,19 @@
         "title": "HAPPY SERIM DAY!",
         "category": "축하",
         "unitId": 59
+      },
+      {
+        "title": "<UNIQUE> CONCEPT FILM",
+        "category": "기타",
+        "unitId": 160
       }
     ],
     "2026-03-04": [
+      {
+        "title": "<UNIQUE> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 160
+      },
       {
         "title": "투모로우바이투게더 데뷔 7주년",
         "category": "축하",
@@ -1835,9 +1850,19 @@
         "title": "<ARIRANG> Tracklist",
         "category": "발매",
         "unitId": 2
+      },
+      {
+        "title": "<UNIQUE> CONCEPT FILM",
+        "category": "기타",
+        "unitId": 160
       }
     ],
     "2026-03-05": [
+      {
+        "title": "<UNIQUE> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 160
+      },
       {
         "title": "'JeLLo(힘숨찐)' 발매 1주년",
         "category": "축하",
@@ -1869,12 +1894,22 @@
         "unitId": 114
       },
       {
+        "title": "<UNIQUE> CONCEPT FILM",
+        "category": "기타",
+        "unitId": 160
+      },
+      {
         "title": "이번 주 <M COUNTDOWN> 1위 🎉",
         "category": "방송",
         "unitId": 142
       }
     ],
     "2026-03-06": [
+      {
+        "title": "<UNIQUE> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 160
+      },
       {
         "title": "'영웅' 발매 6주년",
         "category": "축하",
@@ -1904,6 +1939,11 @@
         "title": "희철 데뷔 21주년",
         "category": "축하",
         "unitId": 51
+      },
+      {
+        "title": "<UNIQUE> CONCEPT FILM",
+        "category": "기타",
+        "unitId": 160
       },
       {
         "title": "이번 주 <Music Bank> 1위 🎉",
@@ -1940,9 +1980,19 @@
     ],
     "2026-03-08": [
       {
+        "title": "'PLAY BACK - TV size' Release",
+        "category": "발매",
+        "unitId": 153
+      },
+      {
         "title": "<REV> LYTRICS SPOILER",
         "category": "기타",
         "unitId": 36
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 85
       }
     ],
     "2026-03-09": [
@@ -1970,11 +2020,6 @@
         "title": "HAPPY TAEYEON DAY!",
         "category": "축하",
         "unitId": 62
-      },
-      {
-        "title": "The 4th Mini Album Pre-Release Single Release",
-        "category": "발매",
-        "unitId": 146
       }
     ],
     "2026-03-10": [
@@ -2754,11 +2799,6 @@
         "title": "HAPPY YUNA DAY!",
         "category": "축하",
         "unitId": 79
-      },
-      {
-        "title": "The 4th Mini Album Release",
-        "category": "발매",
-        "unitId": 146
       }
     ],
     "2026-04-07": [
@@ -2798,6 +2838,11 @@
         "title": "HAPPY JONGHYUN DAY!",
         "category": "축하",
         "unitId": 41
+      },
+      {
+        "title": "HAPPY JUHYEON DAY!",
+        "category": "축하",
+        "unitId": 91
       },
       {
         "title": "슈퍼주니어-M 유닛 데뷔 18주년",
@@ -7772,7 +7817,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1301,
+    "total_events": 1310,
     "total_units": 119
   }
 }
