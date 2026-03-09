@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-09T05:15:56.770552",
+  "updated_at": "2026-03-09T10:42:24.911777",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -808,6 +808,11 @@
         "unitId": 85
       },
       {
+        "title": "<TOUGH LOVE> Timetable",
+        "category": "기타",
+        "unitId": 41
+      },
+      {
         "title": "<Unloved Echo>",
         "category": "기타",
         "unitId": 68
@@ -873,6 +878,11 @@
         "title": "엔플라잉 일본 데뷔 10주년",
         "category": "축하",
         "unitId": 75
+      },
+      {
+        "title": "<TOUGH LOVE> Concept Photo",
+        "category": "기타",
+        "unitId": 41
       },
       {
         "title": "<You Give Me Butterflies> MV Release",
@@ -1566,6 +1576,11 @@
         "unitId": 125
       },
       {
+        "title": "<LOVE CATCHER> PROMOTION SCHEDULE",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
         "title": "<BOTH SIDES> Release",
         "category": "발매",
         "unitId": 152
@@ -1577,6 +1592,11 @@
       }
     ],
     "2026-02-24": [
+      {
+        "title": "<LOVE CATCHER> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 93
+      },
       {
         "title": "<LOVECHAPTER> Concept Photo",
         "category": "기타",
@@ -1661,6 +1681,11 @@
       }
     ],
     "2026-02-26": [
+      {
+        "title": "<LOVE CATCHER> TRACK LIST",
+        "category": "기타",
+        "unitId": 93
+      },
       {
         "title": "<LOVECHAPTER> Concept Photo",
         "category": "기타",
@@ -7822,7 +7847,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1311,
+    "total_events": 1316,
     "total_units": 119
   }
 }
