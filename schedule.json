@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-09T10:42:24.911777",
+  "updated_at": "2026-03-09T17:01:24.877319",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -1798,6 +1798,11 @@
     ],
     "2026-03-02": [
       {
+        "title": "<LOVE CATCHER> Teaser",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
         "title": "<LOVECHAPTER> ALBUM COVER",
         "category": "발매",
         "unitId": 114
@@ -1966,6 +1971,11 @@
         "unitId": 51
       },
       {
+        "title": "<LOVE CATCHER> HIGHLIGHT MEDLEY",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
         "title": "<UNIQUE> CONCEPT FILM",
         "category": "기타",
         "unitId": 160
@@ -2001,6 +2011,16 @@
         "title": "유니버스 생일",
         "category": "축하",
         "unitId": 60
+      },
+      {
+        "title": "<LOVE CATCHER> Teaser",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 85
       }
     ],
     "2026-03-08": [
@@ -2015,12 +2035,22 @@
         "unitId": 36
       },
       {
+        "title": "'오늘은 그냥 GO!' Release",
+        "category": "발매",
+        "unitId": 112
+      },
+      {
         "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
         "category": "방송",
         "unitId": 85
       }
     ],
     "2026-03-09": [
+      {
+        "title": "<Biggest Fan> Teaser",
+        "category": "기타",
+        "unitId": 35
+      },
       {
         "title": "<Ice Cream> TRACK LIST",
         "category": "기타",
@@ -2045,6 +2075,16 @@
         "title": "HAPPY TAEYEON DAY!",
         "category": "축하",
         "unitId": 62
+      },
+      {
+        "title": "<LOVE CATCHER> MV TEASER",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
+        "title": "<TOUGH LOVE> Release",
+        "category": "발매",
+        "unitId": 41
       }
     ],
     "2026-03-10": [
@@ -2274,6 +2314,11 @@
         "title": "<SEVEN : CRIMSON HORIZON> Release",
         "category": "발매",
         "unitId": 57
+      },
+      {
+        "title": "<Love All> Release",
+        "category": "발매",
+        "unitId": 149
       }
     ],
     "2026-03-18": [
@@ -2675,6 +2720,11 @@
         "title": "올리비아 혜 데뷔 8주년",
         "category": "축하",
         "unitId": 44
+      },
+      {
+        "title": "<Biggest Fan> Release",
+        "category": "발매",
+        "unitId": 35
       }
     ],
     "2026-03-31": [
@@ -2895,6 +2945,21 @@
         "title": "HAPPY DONGSUNG DAY!",
         "category": "축하",
         "unitId": 75
+      },
+      {
+        "title": "HAPPY TOWA DAY!",
+        "category": "축하",
+        "unitId": 164
+      },
+      {
+        "title": "HAPPY U-KWON DAY!",
+        "category": "축하",
+        "unitId": 71
+      },
+      {
+        "title": "HAPPY YECHAN DAY!",
+        "category": "축하",
+        "unitId": 158
       },
       {
         "title": "NCT 데뷔 10주년",
@@ -7847,7 +7912,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1316,
+    "total_events": 1329,
     "total_units": 119
   }
 }
