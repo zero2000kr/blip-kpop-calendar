@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-08T16:37:45.361402",
+  "updated_at": "2026-03-09T05:15:56.770552",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -6992,6 +6992,11 @@
     ],
     "2027-01-12": [
       {
+        "title": "HAPPY D.O. DAY!",
+        "category": "축하",
+        "unitId": 10
+      },
+      {
         "title": "알파 드라이브 원 데뷔 1주년",
         "category": "축하",
         "unitId": 159
@@ -7817,7 +7822,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 379,
-    "total_events": 1310,
+    "total_events": 1311,
     "total_units": 119
   }
 }
