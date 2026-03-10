@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-10T10:36:32.609153",
+  "updated_at": "2026-03-10T17:01:04.266888",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2296,6 +2296,11 @@
     ],
     "2026-03-16": [
       {
+        "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
+        "category": "기타",
+        "unitId": 35
+      },
+      {
         "title": "<Ice Cream> MV TEASER",
         "category": "기타",
         "unitId": 38
@@ -2319,6 +2324,13 @@
         "title": "<Love All> Release",
         "category": "발매",
         "unitId": 149
+      }
+    ],
+    "2026-03-17": [
+      {
+        "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
+        "category": "기타",
+        "unitId": 35
       }
     ],
     "2026-03-18": [
@@ -2482,6 +2494,11 @@
       }
     ],
     "2026-03-23": [
+      {
+        "title": "<Biggest Fan>  ALBUM DETAILS",
+        "category": "발매",
+        "unitId": 35
+      },
       {
         "title": "HAPPY RENJUN DAY!",
         "category": "축하",
@@ -2725,6 +2742,11 @@
         "title": "<Biggest Fan> Release",
         "category": "발매",
         "unitId": 35
+      },
+      {
+        "title": "<Unpiltered> Release",
+        "category": "발매",
+        "unitId": 58
       }
     ],
     "2026-03-31": [
@@ -2747,6 +2769,11 @@
         "title": "HAPPY MUN JUNG HYUN DAY!",
         "category": "축하",
         "unitId": 123
+      },
+      {
+        "title": "<CRACK CODE> Release",
+        "category": "발매",
+        "unitId": 86
       }
     ],
     "2026-04-01": [
@@ -7911,8 +7938,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 379,
-    "total_events": 1329,
+    "days_with_events": 380,
+    "total_events": 1334,
     "total_units": 119
   }
 }
