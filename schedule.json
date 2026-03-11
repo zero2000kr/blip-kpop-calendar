@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-11T10:36:17.918275",
+  "updated_at": "2026-03-11T17:01:24.654886",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2126,6 +2126,11 @@
         "unitId": 36
       },
       {
+        "title": "<Unpiltered> Concept Film",
+        "category": "기타",
+        "unitId": 58
+      },
+      {
         "title": "HAPPY DONGHWA DAY!",
         "category": "축하",
         "unitId": 146
@@ -2139,6 +2144,11 @@
         "title": "<LOVE CATCHER> Release",
         "category": "발매",
         "unitId": 93
+      },
+      {
+        "title": "이번 주 <Show Champion> 1위 🎉",
+        "category": "방송",
+        "unitId": 7
       }
     ],
     "2026-03-12": [
@@ -2228,6 +2238,11 @@
         "title": "이달의 소녀 1/3 유닛 데뷔 9주년",
         "category": "축하",
         "unitId": 44
+      },
+      {
+        "title": "<Unpiltered> TRACK LIST",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-14": [
@@ -2335,6 +2350,11 @@
     ],
     "2026-03-18": [
       {
+        "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
+        "category": "기타",
+        "unitId": 35
+      },
+      {
         "title": "<Ice Cream> MV TEASER",
         "category": "기타",
         "unitId": 38
@@ -2366,6 +2386,11 @@
       }
     ],
     "2026-03-19": [
+      {
+        "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
+        "category": "기타",
+        "unitId": 35
+      },
       {
         "title": "<REV> MV TEASER",
         "category": "기타",
@@ -2451,6 +2476,11 @@
     ],
     "2026-03-21": [
       {
+        "title": "<NEW ALBUM> Relase",
+        "category": "발매",
+        "unitId": 46
+      },
+      {
         "title": "HAPPY ANTON DAY!",
         "category": "축하",
         "unitId": 119
@@ -2521,6 +2551,11 @@
       }
     ],
     "2026-03-24": [
+      {
+        "title": "<Biggest Fan> HIGHLIGHT MEDLEY",
+        "category": "기타",
+        "unitId": 35
+      },
       {
         "title": "'밤편지' 발매 9주년",
         "category": "축하",
@@ -2623,6 +2658,11 @@
     ],
     "2026-03-27": [
       {
+        "title": "<Biggest Fan> MV TEASER",
+        "category": "기타",
+        "unitId": 35
+      },
+      {
         "title": "HAPPY LISA DAY!",
         "category": "축하",
         "unitId": 7
@@ -2683,6 +2723,11 @@
         "title": "미라클 생일",
         "category": "축하",
         "unitId": 43
+      },
+      {
+        "title": "<Unpiltered> MV TEASER",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-29": [
@@ -2690,6 +2735,11 @@
         "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> HUNGER",
         "category": "기타",
         "unitId": 48
+      },
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
       },
       {
         "title": "HAPPY IRENE DAY!",
@@ -2769,6 +2819,11 @@
         "title": "HAPPY MUN JUNG HYUN DAY!",
         "category": "축하",
         "unitId": 123
+      },
+      {
+        "title": "‘꽃(FLOWER)’ 발매 3주년",
+        "category": "축하",
+        "unitId": 7
       },
       {
         "title": "<CRACK CODE> Release",
@@ -7944,7 +7999,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1335,
+    "total_events": 1346,
     "total_units": 119
   }
 }
