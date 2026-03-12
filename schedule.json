@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-12T10:35:57.918121",
+  "updated_at": "2026-03-12T17:03:41.304544",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -74,6 +74,10 @@
     "36": {
       "ko": "마마무",
       "en": "MAMAMOO"
+    },
+    "37": {
+      "ko": "정세운",
+      "en": "JEONG SEWOON"
     },
     "38": {
       "ko": "ITZY",
@@ -2201,6 +2205,11 @@
         "title": "<UNIQUE> Release",
         "category": "발매",
         "unitId": 160
+      },
+      {
+        "title": "이번 주 <M COUNTDOWN> 1위 🎉",
+        "category": "방송",
+        "unitId": 7
       }
     ],
     "2026-03-13": [
@@ -2339,6 +2348,11 @@
         "title": "<Love All> Release",
         "category": "발매",
         "unitId": 149
+      },
+      {
+        "title": "<Unpiltered> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-17": [
@@ -2346,6 +2360,11 @@
         "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
         "category": "기타",
         "unitId": 35
+      },
+      {
+        "title": "<Unpiltered> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-18": [
@@ -2383,6 +2402,11 @@
         "title": "'MANIAC' 발매 4주년",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "<Unpiltered> CONCEPT PHOTO",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-19": [
@@ -2395,6 +2419,11 @@
         "title": "<REV> MV TEASER",
         "category": "기타",
         "unitId": 36
+      },
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS TEASER",
+        "category": "기타",
+        "unitId": 58
       },
       {
         "title": "HAPPY EUNSEOK DAY!",
@@ -2412,6 +2441,11 @@
         "title": "<Ice Cream> ALBUM SPOILER",
         "category": "발매",
         "unitId": 38
+      },
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
       },
       {
         "title": "'믿지(MIDZY)' 발매 5주년",
@@ -2476,9 +2510,9 @@
     ],
     "2026-03-21": [
       {
-        "title": "<NEW ALBUM> Relase",
-        "category": "발매",
-        "unitId": 46
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
       },
       {
         "title": "HAPPY ANTON DAY!",
@@ -2504,9 +2538,19 @@
         "title": "투문 생일",
         "category": "축하",
         "unitId": 64
+      },
+      {
+        "title": "<BTOB DIGITAL SINGLE> Relase",
+        "category": "기타",
+        "unitId": 46
       }
     ],
     "2026-03-22": [
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
       {
         "title": "'Burnin’ Tires (창빈 & 아이엔)' 공개 1주년",
         "category": "축하",
@@ -2530,6 +2574,11 @@
         "unitId": 35
       },
       {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
+      {
         "title": "HAPPY RENJUN DAY!",
         "category": "축하",
         "unitId": 33
@@ -2548,6 +2597,11 @@
         "title": "Album Release",
         "category": "발매",
         "unitId": 108
+      },
+      {
+        "title": "<Unpiltered> TRACK MANUAL",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-24": [
@@ -2555,6 +2609,11 @@
         "title": "<Biggest Fan> HIGHLIGHT MEDLEY",
         "category": "기타",
         "unitId": 35
+      },
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
       },
       {
         "title": "'밤편지' 발매 9주년",
@@ -2599,6 +2658,11 @@
         "unitId": 105
       },
       {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
+      {
         "title": "'Clé 1 : MIROH' 발매 7주년",
         "category": "축하",
         "unitId": 45
@@ -2625,6 +2689,11 @@
       }
     ],
     "2026-03-26": [
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
       {
         "title": "<Re:Scene> 발매 2주년",
         "category": "축하",
@@ -2663,6 +2732,11 @@
         "unitId": 35
       },
       {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
+      {
         "title": "HAPPY LISA DAY!",
         "category": "축하",
         "unitId": 7
@@ -2689,6 +2763,11 @@
       }
     ],
     "2026-03-28": [
+      {
+        "title": "<Unpiltered> UNPILTERED RECORDS",
+        "category": "기타",
+        "unitId": 58
+      },
       {
         "title": "'버퍼링' 발매 4주년",
         "category": "축하",
@@ -2755,6 +2834,11 @@
         "title": "HAPPY SEONGIL DAY!",
         "category": "축하",
         "unitId": 132
+      },
+      {
+        "title": "<Unpiltered> MV TEASER",
+        "category": "기타",
+        "unitId": 58
       }
     ],
     "2026-03-30": [
@@ -2829,6 +2913,11 @@
         "title": "<CRACK CODE> Release",
         "category": "발매",
         "unitId": 86
+      },
+      {
+        "title": "<Love in the Margins> Release",
+        "category": "발매",
+        "unitId": 37
       }
     ],
     "2026-04-01": [
@@ -5992,6 +6081,11 @@
         "title": "'Savage' 발매 5주년",
         "category": "축하",
         "unitId": 52
+      },
+      {
+        "title": "HAPPY BAEKSEUNG DAY!",
+        "category": "축하",
+        "unitId": 121
       }
     ],
     "2026-10-06": [
@@ -7999,7 +8093,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1346,
-    "total_units": 119
+    "total_events": 1364,
+    "total_units": 120
   }
 }
