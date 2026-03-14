@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T05:05:59.194468",
+  "updated_at": "2026-03-14T10:25:35.486390",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3014,6 +3014,11 @@
         "title": "더비 생일",
         "category": "축하",
         "unitId": 42
+      },
+      {
+        "title": "<We on Fire> Track Sampler",
+        "category": "발매",
+        "unitId": 129
       }
     ],
     "2026-04-04": [
@@ -3175,6 +3180,11 @@
     ],
     "2026-04-10": [
       {
+        "title": "<We on Fire> Official MV Teaser",
+        "category": "기타",
+        "unitId": 129
+      },
+      {
         "title": "'I AM' 발매 3주년",
         "category": "축하",
         "unitId": 85
@@ -3299,6 +3309,11 @@
         "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> Release",
         "category": "발매",
         "unitId": 48
+      },
+      {
+        "title": "<We on Fire> Pre-Release",
+        "category": "발매",
+        "unitId": 129
       }
     ],
     "2026-04-14": [
@@ -3306,6 +3321,11 @@
         "title": "HAPPY YOON DAY!",
         "category": "축하",
         "unitId": 56
+      },
+      {
+        "title": "블락비 바스타즈 데뷔 8주년",
+        "category": "축하",
+        "unitId": 71
       },
       {
         "title": "크래비티 데뷔 6주년",
@@ -3801,6 +3821,11 @@
       },
       {
         "title": "서아 데뷔 2주년",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
+        "title": "설린 데뷔 2주년",
         "category": "축하",
         "unitId": 130
       },
@@ -8133,7 +8158,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1372,
+    "total_events": 1377,
     "total_units": 120
   }
 }
