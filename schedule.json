@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T10:25:35.486390",
+  "updated_at": "2026-03-14T16:40:30.491532",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2157,6 +2157,11 @@
     ],
     "2026-03-12": [
       {
+        "title": "'SEVEN : CRIMSON HORIZON'  OFFICIAL PREVIEW",
+        "category": "기타",
+        "unitId": 57
+      },
+      {
         "title": "<Ice Cream> CONCEPT PHOTO",
         "category": "기타",
         "unitId": 38
@@ -2213,6 +2218,11 @@
       }
     ],
     "2026-03-13": [
+      {
+        "title": "'BOTTOMS UP' M/V TEASER",
+        "category": "기타",
+        "unitId": 57
+      },
       {
         "title": "<Ice Cream> CONCEPT PHOTO",
         "category": "기타",
@@ -2281,6 +2291,11 @@
         "unitId": 153
       },
       {
+        "title": "'이렇게 좋아해 본 적이 없어요' 발매 1주년",
+        "category": "축하",
+        "unitId": 113
+      },
+      {
         "title": "<I NEVER DIE> 발매 4주년",
         "category": "축하",
         "unitId": 39
@@ -2314,6 +2329,21 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 79
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 142
+      },
+      {
+        "title": "<아기자기> Release",
+        "category": "발매",
+        "unitId": 32
+      },
+      {
+        "title": "OST <Two Faced> Release",
+        "category": "발매",
+        "unitId": 116
       }
     ],
     "2026-03-15": [
@@ -2568,6 +2598,11 @@
         "title": "<BTOB DIGITAL SINGLE> Relase",
         "category": "기타",
         "unitId": 46
+      },
+      {
+        "title": "<We on Fire> Mood Teaser",
+        "category": "기타",
+        "unitId": 129
       }
     ],
     "2026-03-22": [
@@ -2627,6 +2662,11 @@
         "title": "Album Release",
         "category": "발매",
         "unitId": 108
+      },
+      {
+        "title": "<We on Fire> Concept Clip",
+        "category": "기타",
+        "unitId": 129
       },
       {
         "title": "<Unpiltered> TRACK MANUAL",
@@ -8158,7 +8198,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1377,
+    "total_events": 1385,
     "total_units": 120
   }
 }
