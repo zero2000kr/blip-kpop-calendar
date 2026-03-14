@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-13T16:50:30.224790",
+  "updated_at": "2026-03-14T05:05:59.194468",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -5431,6 +5431,11 @@
     ],
     "2026-08-19": [
       {
+        "title": "HAPPY GEHLEE DAY!",
+        "category": "축하",
+        "unitId": 157
+      },
+      {
         "title": "HAPPY UMJI DAY!",
         "category": "축하",
         "unitId": 94
@@ -8128,7 +8133,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 380,
-    "total_events": 1371,
+    "total_events": 1372,
     "total_units": 120
   }
 }
