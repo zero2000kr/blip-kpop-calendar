@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-15T10:26:25.795716",
+  "updated_at": "2026-03-15T16:40:06.421506",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2264,7 +2264,7 @@
         "unitId": 2
       },
       {
-        "title": "<Free Falling> Concept Film : Fidget",
+        "title": "<Free Falling> Concept Film",
         "category": "기타",
         "unitId": 108
       },
@@ -2284,6 +2284,11 @@
         "title": "<桜色Yell> Pre-Release",
         "category": "발매",
         "unitId": 129
+      },
+      {
+        "title": "'LOVE DAY' 발매 14주년",
+        "category": "축하",
+        "unitId": 69
       },
       {
         "title": "'TOUCH' 발매 7주년",
@@ -2366,6 +2371,16 @@
         "title": "퍼플키스 데뷔 5주년!",
         "category": "축하",
         "unitId": 77
+      },
+      {
+        "title": "<Free Falling> Concept Photo",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 7
       }
     ],
     "2026-03-16": [
@@ -2654,14 +2669,14 @@
         "unitId": 63
       },
       {
+        "title": "<Free Falling> Release",
+        "category": "발매",
+        "unitId": 108
+      },
+      {
         "title": "<Ice Cream> Release",
         "category": "발매",
         "unitId": 38
-      },
-      {
-        "title": "Album Release",
-        "category": "발매",
-        "unitId": 108
       },
       {
         "title": "<We on Fire> Concept Clip",
@@ -8235,7 +8250,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 381,
-    "total_events": 1392,
+    "total_events": 1395,
     "total_units": 120
   }
 }
