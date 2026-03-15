@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-14T16:40:30.491532",
+  "updated_at": "2026-03-15T05:24:37.649838",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -5635,6 +5635,13 @@
         "unitId": 152
       }
     ],
+    "2026-08-28": [
+      {
+        "title": "HAPPY SEJEONG DAY!",
+        "category": "축하",
+        "unitId": 76
+      }
+    ],
     "2026-08-29": [
       {
         "title": "S.COUPS 반려견 꾸마 생일🐕",
@@ -6183,6 +6190,11 @@
     ],
     "2026-10-05": [
       {
+        "title": "'1 of 1' 발매 10주년",
+        "category": "축하",
+        "unitId": 41
+      },
+      {
         "title": "'Savage' 발매 5주년",
         "category": "축하",
         "unitId": 52
@@ -6634,6 +6646,11 @@
         "title": "찬성 배우 데뷔 20주년",
         "category": "축하",
         "unitId": 81
+      },
+      {
+        "title": "키 솔로 데뷔 8주년",
+        "category": "축하",
+        "unitId": 41
       }
     ],
     "2026-11-07": [
@@ -7002,6 +7019,11 @@
         "title": "엔피아 생일",
         "category": "축하",
         "unitId": 75
+      },
+      {
+        "title": "온유 솔로 데뷔 8주년",
+        "category": "축하",
+        "unitId": 41
       }
     ],
     "2026-12-06": [
@@ -7052,6 +7074,11 @@
         "unitId": 104
       },
       {
+        "title": "HAPPY MINHO DAY!",
+        "category": "축하",
+        "unitId": 41
+      },
+      {
         "title": "HAPPY NI-KI DAY!",
         "category": "축하",
         "unitId": 55
@@ -7084,6 +7111,11 @@
         "title": "HAPPY JIWOONG DAY!",
         "category": "축하",
         "unitId": 112
+      },
+      {
+        "title": "HAPPY ONEW DAY!",
+        "category": "축하",
+        "unitId": 41
       },
       {
         "title": "비밀스러운 소녀 츄가 찾아온 지 9주년",
@@ -7376,6 +7408,11 @@
         "title": "알파 드라이브 원 데뷔 1주년",
         "category": "축하",
         "unitId": 159
+      },
+      {
+        "title": "종현 솔로 데뷔 12주년",
+        "category": "축하",
+        "unitId": 41
       }
     ],
     "2027-01-13": [
@@ -8197,8 +8234,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 380,
-    "total_events": 1385,
+    "days_with_events": 381,
+    "total_events": 1392,
     "total_units": 120
   }
 }
