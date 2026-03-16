@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T10:51:23.832010",
+  "updated_at": "2026-03-16T17:10:49.042827",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2093,6 +2093,11 @@
     ],
     "2026-03-10": [
       {
+        "title": "<Free Falling> Teaser",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
         "title": "<Ice Cream> CONCEPT PHOTO",
         "category": "기타",
         "unitId": 38
@@ -2116,6 +2121,16 @@
         "title": "HAPPY PENIEL DAY!",
         "category": "축하",
         "unitId": 46
+      },
+      {
+        "title": "<UNIQUE> MV TEASER",
+        "category": "기타",
+        "unitId": 160
+      },
+      {
+        "title": "'Who's Real' Release",
+        "category": "발매",
+        "unitId": 46
       }
     ],
     "2026-03-11": [
@@ -2128,6 +2143,11 @@
         "title": "<REV> 2ND LAP IMAGE",
         "category": "기타",
         "unitId": 36
+      },
+      {
+        "title": "<UNIQUE> ALBUM SAMPLER",
+        "category": "발매",
+        "unitId": 160
       },
       {
         "title": "<Unpiltered> Concept Film",
@@ -2264,6 +2284,11 @@
         "unitId": 2
       },
       {
+        "title": "<Free Falling> Concept Photo",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
         "title": "<Free Falling> Concept Film",
         "category": "기타",
         "unitId": 108
@@ -2336,9 +2361,19 @@
         "unitId": 79
       },
       {
+        "title": "<Free Falling> Concept Photo",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
         "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
         "category": "방송",
         "unitId": 142
+      },
+      {
+        "title": "<Free Falling> Concept Film",
+        "category": "기타",
+        "unitId": 108
       },
       {
         "title": "<아기자기> Release",
@@ -2381,6 +2416,11 @@
         "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
         "category": "방송",
         "unitId": 7
+      },
+      {
+        "title": "<Free Falling> Concept Film",
+        "category": "기타",
+        "unitId": 108
       }
     ],
     "2026-03-16": [
@@ -2388,6 +2428,11 @@
         "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
         "category": "기타",
         "unitId": 35
+      },
+      {
+        "title": "<Ice Cream> M/V PHOTO",
+        "category": "기타",
+        "unitId": 38
       },
       {
         "title": "<Ice Cream> MV TEASER",
@@ -8262,7 +8307,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1397,
+    "total_events": 1406,
     "total_units": 120
   }
 }
