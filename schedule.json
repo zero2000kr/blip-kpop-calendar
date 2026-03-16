@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-16T05:45:39.640793",
+  "updated_at": "2026-03-16T10:51:23.832010",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3408,6 +3408,18 @@
         "title": "블락비 데뷔 12주년",
         "category": "축하",
         "unitId": 71
+      }
+    ],
+    "2026-04-16": [
+      {
+        "title": "HAPPY SEUNGSIK DAY!",
+        "category": "축하",
+        "unitId": 53
+      },
+      {
+        "title": "HAPPY YECHAN DAY!",
+        "category": "축하",
+        "unitId": 132
       }
     ],
     "2026-04-17": [
@@ -8249,8 +8261,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 381,
-    "total_events": 1395,
+    "days_with_events": 382,
+    "total_events": 1397,
     "total_units": 120
   }
 }
