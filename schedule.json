@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-17T10:48:54.060446",
+  "updated_at": "2026-03-17T17:11:03.856048",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2472,6 +2472,11 @@
         "unitId": 35
       },
       {
+        "title": "<swipe it out> Release",
+        "category": "발매",
+        "unitId": 74
+      },
+      {
         "title": "<Unpiltered> CONCEPT PHOTO",
         "category": "기타",
         "unitId": 58
@@ -3499,6 +3504,11 @@
         "unitId": 38
       },
       {
+        "title": "HAPPY WHEEIN DAY!",
+        "category": "축하",
+        "unitId": 36
+      },
+      {
         "title": "도재정 <Perfume> 발매 3주년",
         "category": "축하",
         "unitId": 33
@@ -3512,6 +3522,11 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 80
+      },
+      {
+        "title": "휘인 솔로 데뷔 8주년",
+        "category": "축하",
+        "unitId": 36
       }
     ],
     "2026-04-18": [
@@ -3569,6 +3584,11 @@
       }
     ],
     "2026-04-20": [
+      {
+        "title": "<첫 정규 앨범 전격 컴백>",
+        "category": "기타",
+        "unitId": 155
+      },
       {
         "title": "HAPPY JAY DAY!",
         "category": "축하",
@@ -8307,7 +8327,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1406,
+    "total_events": 1410,
     "total_units": 120
   }
 }
