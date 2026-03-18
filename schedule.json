@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-18T10:50:34.008380",
+  "updated_at": "2026-03-18T17:10:08.072487",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2484,6 +2484,11 @@
     ],
     "2026-03-18": [
       {
+        "title": "<BLAST OUT> Relese",
+        "category": "기타",
+        "unitId": 59
+      },
+      {
         "title": "<Biggest Fan> TEASER IMAGES & MOOD CLIP",
         "category": "기타",
         "unitId": 35
@@ -2504,6 +2509,16 @@
         "unitId": 142
       },
       {
+        "title": "<SWIM> Official Teaser 1",
+        "category": "기타",
+        "unitId": 2
+      },
+      {
+        "title": "'BEBE' 발매 1주년",
+        "category": "축하",
+        "unitId": 56
+      },
+      {
         "title": "HAPPY JAEHEE DAY!",
         "category": "축하",
         "unitId": 82
@@ -2519,9 +2534,19 @@
         "unitId": 45
       },
       {
-        "title": "'MANIAC' 발매 4주년",
+        "title": "<ODDINARY>  발매 4주년",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "<Who is she> KIOF Campaign Film #1 : COME FIND US!",
+        "category": "기타",
+        "unitId": 118
+      },
+      {
+        "title": "이번 주 <Show Champion> 1위 🎉",
+        "category": "방송",
+        "unitId": 160
       },
       {
         "title": "<Unpiltered> CONCEPT PHOTO",
@@ -2660,7 +2685,7 @@
         "unitId": 64
       },
       {
-        "title": "<BTOB DIGITAL SINGLE> Relase",
+        "title": "<우리 다시> Relase",
         "category": "기타",
         "unitId": 46
       },
@@ -8327,7 +8352,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1410,
+    "total_events": 1415,
     "total_units": 120
   }
 }
