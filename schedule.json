@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-18T17:10:08.072487",
+  "updated_at": "2026-03-19T05:19:04.630847",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3087,6 +3087,11 @@
     ],
     "2026-04-01": [
       {
+        "title": "<LIKE YOU BETTER (Japanese ver.)> Release",
+        "category": "발매",
+        "unitId": 74
+      },
+      {
         "title": "베이비몬스터 데뷔년 2주년",
         "category": "축하",
         "unitId": 122
@@ -3215,6 +3220,11 @@
         "title": "HAPPY YUNA DAY!",
         "category": "축하",
         "unitId": 79
+      },
+      {
+        "title": "<Who is she> Release",
+        "category": "발매",
+        "unitId": 118
       }
     ],
     "2026-04-07": [
@@ -3678,6 +3688,11 @@
       }
     ],
     "2026-04-22": [
+      {
+        "title": "HAPPY HYOJIN DAY!",
+        "category": "축하",
+        "unitId": 73
+      },
       {
         "title": "LOTI 생일",
         "category": "축하",
@@ -8352,7 +8367,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1415,
+    "total_events": 1418,
     "total_units": 120
   }
 }
