@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-19T10:37:31.441827",
+  "updated_at": "2026-03-19T17:03:37.648922",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2579,6 +2579,11 @@
         "title": "HAPPY SAKURA DAY!",
         "category": "축하",
         "unitId": 30
+      },
+      {
+        "title": "이번 주 <M COUNTDOWN> 1위 🎉",
+        "category": "방송",
+        "unitId": 142
       }
     ],
     "2026-03-20": [
@@ -8367,7 +8372,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1418,
+    "total_events": 1419,
     "total_units": 120
   }
 }
