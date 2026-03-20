@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-19T17:03:37.648922",
+  "updated_at": "2026-03-20T05:11:55.085461",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3456,6 +3456,11 @@
         "unitId": 48
       },
       {
+        "title": "<Caligo Pt.2> Release",
+        "category": "발매",
+        "unitId": 126
+      },
+      {
         "title": "<We on Fire> Pre-Release",
         "category": "발매",
         "unitId": 129
@@ -3643,6 +3648,11 @@
         "title": "제로베이스원 결성일",
         "category": "축하",
         "unitId": 112
+      },
+      {
+        "title": "첫 음악방송 1위 기념일!",
+        "category": "방송",
+        "unitId": 103
       },
       {
         "title": "<GREENGREEN> 타이틀 Release",
@@ -8372,7 +8382,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1419,
+    "total_events": 1421,
     "total_units": 120
   }
 }
