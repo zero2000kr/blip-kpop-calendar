@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-20T10:35:27.868475",
+  "updated_at": "2026-03-20T16:53:56.204561",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2656,6 +2656,11 @@
         "title": "<ARIRANG> Release",
         "category": "발매",
         "unitId": 2
+      },
+      {
+        "title": "<기억속 켜진불> Release",
+        "category": "발매",
+        "unitId": 48
       }
     ],
     "2026-03-21": [
@@ -2759,6 +2764,11 @@
         "unitId": 38
       },
       {
+        "title": "<MOVEURBODY (춤춰)> Release",
+        "category": "발매",
+        "unitId": 62
+      },
+      {
         "title": "<We on Fire> Concept Clip",
         "category": "기타",
         "unitId": 129
@@ -2848,12 +2858,22 @@
         "unitId": 143
       },
       {
+        "title": "<DEAD AND> Pre-Release",
+        "category": "발매",
+        "unitId": 109
+      },
+      {
         "title": "<REV> Release",
         "category": "발매",
         "unitId": 36
       }
     ],
     "2026-03-26": [
+      {
+        "title": "<Diary : Breaking Through> Release",
+        "category": "발매",
+        "unitId": 48
+      },
       {
         "title": "<Unpiltered> UNPILTERED RECORDS",
         "category": "기타",
@@ -8382,7 +8402,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1421,
+    "total_events": 1425,
     "total_units": 120
   }
 }
