@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T10:23:43.706517",
+  "updated_at": "2026-03-21T16:38:15.691034",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2661,6 +2661,11 @@
         "title": "<기억속 켜진불> Release",
         "category": "발매",
         "unitId": 48
+      },
+      {
+        "title": "이번주 <뮤직뱅크> 1위 🎉",
+        "category": "방송",
+        "unitId": 160
       }
     ],
     "2026-03-21": [
@@ -2695,6 +2700,11 @@
         "unitId": 64
       },
       {
+        "title": "<DEAD AND> Scheduler",
+        "category": "기타",
+        "unitId": 109
+      },
+      {
         "title": "<우리 다시> Relase",
         "category": "기타",
         "unitId": 46
@@ -2703,6 +2713,11 @@
         "title": "<We on Fire> Mood Teaser",
         "category": "기타",
         "unitId": 129
+      },
+      {
+        "title": "이번 주 <쇼! 음악중심(Show! MusicCore)> 1위 🎉",
+        "category": "방송",
+        "unitId": 142
       }
     ],
     "2026-03-22": [
@@ -8427,7 +8442,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1430,
+    "total_events": 1433,
     "total_units": 120
   }
 }
