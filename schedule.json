@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-20T16:53:56.204561",
+  "updated_at": "2026-03-21T05:02:27.891807",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3277,6 +3277,11 @@
         "title": "악뮤 데뷔 12주년",
         "category": "축하",
         "unitId": 80
+      },
+      {
+        "title": "<we don't go to bed tonight> Release",
+        "category": "발매",
+        "unitId": 127
       }
     ],
     "2026-04-08": [
@@ -3592,6 +3597,11 @@
         "title": "휘인 솔로 데뷔 8주년",
         "category": "축하",
         "unitId": 36
+      },
+      {
+        "title": "<DEAD AND> Album Release",
+        "category": "발매",
+        "unitId": 109
       }
     ],
     "2026-04-18": [
@@ -3854,6 +3864,11 @@
         "title": "HAPPY WOOYOUNG DAY!",
         "category": "축하",
         "unitId": 81
+      },
+      {
+        "title": "'MAMIHLAPINATAPAI' Release",
+        "category": "발매",
+        "unitId": 143
       }
     ],
     "2026-05-01": [
@@ -7531,6 +7546,11 @@
         "unitId": 43
       },
       {
+        "title": "베리베리 데뷔 8주년",
+        "category": "축하",
+        "unitId": 108
+      },
+      {
         "title": "세훈 데뷔 티저 공개일!",
         "category": "축하",
         "unitId": 10
@@ -7779,6 +7799,11 @@
         "title": "HAPPY JUNHO DAY!",
         "category": "축하",
         "unitId": 81
+      },
+      {
+        "title": "HAPPY KANGMIN DAY!",
+        "category": "축하",
+        "unitId": 108
       }
     ],
     "2027-01-26": [
@@ -8402,7 +8427,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1425,
+    "total_events": 1430,
     "total_units": 120
   }
 }
