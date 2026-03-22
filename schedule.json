@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-21T16:38:15.691034",
+  "updated_at": "2026-03-22T05:15:32.363381",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3748,6 +3748,11 @@
       }
     ],
     "2026-04-22": [
+      {
+        "title": "<청춘의 포말> 발매 2주년",
+        "category": "축하",
+        "unitId": 153
+      },
       {
         "title": "HAPPY HYOJIN DAY!",
         "category": "축하",
@@ -8442,7 +8447,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1433,
+    "total_events": 1434,
     "total_units": 120
   }
 }
