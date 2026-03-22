@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T10:24:46.219089",
+  "updated_at": "2026-03-22T16:38:52.638101",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2722,6 +2722,16 @@
     ],
     "2026-03-22": [
       {
+        "title": "'ITC TIC (feat. Pabllo Vittar)' M/V Teaser",
+        "category": "기타",
+        "unitId": 89
+      },
+      {
+        "title": "<Caligo Pt.2> Concept Film",
+        "category": "기타",
+        "unitId": 126
+      },
+      {
         "title": "<Unpiltered> UNPILTERED RECORDS",
         "category": "기타",
         "unitId": 58
@@ -2740,6 +2750,16 @@
         "title": "HAPPY WONJIN DAY!",
         "category": "축하",
         "unitId": 59
+      },
+      {
+        "title": "'명장면' Release",
+        "category": "발매",
+        "unitId": 32
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 142
       },
       {
         "title": "<We on Fire> Concept Photo",
@@ -8447,7 +8467,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1434,
+    "total_events": 1438,
     "total_units": 120
   }
 }
