@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-22T16:38:52.638101",
+  "updated_at": "2026-03-23T05:26:25.839670",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3169,6 +3169,11 @@
     ],
     "2026-04-02": [
       {
+        "title": "<Caligo Pt.2> Visual Sampler",
+        "category": "기타",
+        "unitId": 126
+      },
+      {
         "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> ANXIETY",
         "category": "기타",
         "unitId": 48
@@ -3267,6 +3272,11 @@
     ],
     "2026-04-06": [
       {
+        "title": "<Caligo Pt.2> Track List",
+        "category": "발매",
+        "unitId": 126
+      },
+      {
         "title": "<7TH YEAR: 가시덤불에 잠시 바람이 멈췄을 때> ALBUM PREVIEW",
         "category": "발매",
         "unitId": 48
@@ -3288,6 +3298,11 @@
       }
     ],
     "2026-04-07": [
+      {
+        "title": "<Caligo Pt.2> Physical Album Preview",
+        "category": "발매",
+        "unitId": 126
+      },
       {
         "title": "'사랑이 잘' 발매 9주년",
         "category": "축하",
@@ -3320,6 +3335,11 @@
       }
     ],
     "2026-04-08": [
+      {
+        "title": "<Caligo Pt.2> Highlight Medley",
+        "category": "발매",
+        "unitId": 126
+      },
       {
         "title": "'봄 사랑 벚꽃 말고' 발매 12주년",
         "category": "축하",
@@ -3384,6 +3404,11 @@
       }
     ],
     "2026-04-10": [
+      {
+        "title": "<Caligo Pt.2> MV Teaser",
+        "category": "기타",
+        "unitId": 126
+      },
       {
         "title": "<We on Fire> Official MV Teaser",
         "category": "기타",
@@ -3516,7 +3541,7 @@
         "unitId": 48
       },
       {
-        "title": "<Caligo Pt.2> Release",
+        "title": "<Caligo Pt.2> MV & Digital Release",
         "category": "발매",
         "unitId": 126
       },
@@ -3527,6 +3552,11 @@
       }
     ],
     "2026-04-14": [
+      {
+        "title": "<Caligo Pt.2> Album Release",
+        "category": "발매",
+        "unitId": 126
+      },
       {
         "title": "HAPPY YOON DAY!",
         "category": "축하",
@@ -3544,6 +3574,11 @@
       }
     ],
     "2026-04-15": [
+      {
+        "title": "<LE SSERAFIM VR CONCERT : INVITATION> Release",
+        "category": "발매",
+        "unitId": 95
+      },
       {
         "title": "<HOW?> 발매 2주년",
         "category": "축하",
@@ -3695,11 +3730,6 @@
     ],
     "2026-04-20": [
       {
-        "title": "<첫 정규 앨범 전격 컴백>",
-        "category": "기타",
-        "unitId": 155
-      },
-      {
         "title": "HAPPY JAY DAY!",
         "category": "축하",
         "unitId": 55
@@ -3723,6 +3753,11 @@
         "title": "<GREENGREEN> 타이틀 Release",
         "category": "발매",
         "unitId": 156
+      },
+      {
+        "title": "<Ode to Love> Release",
+        "category": "발매",
+        "unitId": 155
       }
     ],
     "2026-04-21": [
@@ -3814,6 +3849,11 @@
         "title": "HAPPY WOONGKI DAY!",
         "category": "축하",
         "unitId": 150
+      },
+      {
+        "title": "솔라 솔로 데뷔 6주년",
+        "category": "축하",
+        "unitId": 36
       }
     ],
     "2026-04-24": [
@@ -4977,6 +5017,11 @@
         "unitId": 51
       },
       {
+        "title": "HAPPY THEO DAY!",
+        "category": "축하",
+        "unitId": 160
+      },
+      {
         "title": "아홉 데뷔 1주년",
         "category": "축하",
         "unitId": 150
@@ -5895,6 +5940,11 @@
     ],
     "2026-08-31": [
       {
+        "title": "HAPPY INTAK DAY!",
+        "category": "축하",
+        "unitId": 160
+      },
+      {
         "title": "HAPPY WONYOUNG DAY!",
         "category": "축하",
         "unitId": 85
@@ -5915,6 +5965,11 @@
         "title": "HAPPY JUNGKOOK DAY!",
         "category": "축하",
         "unitId": 2
+      },
+      {
+        "title": "HAPPY YEONJUNG DAY!",
+        "category": "축하",
+        "unitId": 127
       },
       {
         "title": "HAPPY YUJIN DAY!",
@@ -6308,6 +6363,11 @@
     ],
     "2026-09-27": [
       {
+        "title": "HAPPY KEEHO DAY!",
+        "category": "축하",
+        "unitId": 160
+      },
+      {
         "title": "HAPPY TARZZAN DAY!",
         "category": "축하",
         "unitId": 151
@@ -6444,6 +6504,11 @@
         "title": "<MAXIDENT> 발매 4주년",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "HAPPY JIUNG DAY!",
+        "category": "축하",
+        "unitId": 160
       },
       {
         "title": "서현 <사생활> 방영 6주년",
@@ -6769,6 +6834,11 @@
         "title": "카리나 첫 공개 6주년",
         "category": "축하",
         "unitId": 52
+      },
+      {
+        "title": "피원하모니 데뷔 6주년",
+        "category": "축하",
+        "unitId": 160
       }
     ],
     "2026-10-29": [
@@ -7058,6 +7128,11 @@
       }
     ],
     "2026-11-19": [
+      {
+        "title": "HAPPY JONGSEOB DAY!",
+        "category": "축하",
+        "unitId": 160
+      },
       {
         "title": "첫 대상 수상 기념일!",
         "category": "축하",
@@ -7921,6 +7996,11 @@
         "title": "HAPPY JIHYO DAY!",
         "category": "축하",
         "unitId": 1
+      },
+      {
+        "title": "HAPPY SOUL DAY!",
+        "category": "축하",
+        "unitId": 160
       }
     ],
     "2027-02-02": [
@@ -8467,7 +8547,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1438,
+    "total_events": 1454,
     "total_units": 120
   }
 }
