@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-23T10:50:48.501046",
+  "updated_at": "2026-03-23T17:01:04.048690",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2450,6 +2450,11 @@
         "unitId": 73
       },
       {
+        "title": "'캐치 캐치' M/V (Performance ver.)",
+        "category": "기타",
+        "unitId": 93
+      },
+      {
         "title": "<SEVEN : CRIMSON HORIZON> Release",
         "category": "발매",
         "unitId": 57
@@ -2472,9 +2477,19 @@
         "unitId": 35
       },
       {
+        "title": "'Zig Zag' Release",
+        "category": "발매",
+        "unitId": 93
+      },
+      {
         "title": "<swipe it out> Release",
         "category": "발매",
         "unitId": 74
+      },
+      {
+        "title": "<우리 다시> Audio Teaser",
+        "category": "기타",
+        "unitId": 46
       },
       {
         "title": "<Unpiltered> CONCEPT PHOTO",
@@ -2539,6 +2554,11 @@
         "unitId": 45
       },
       {
+        "title": "<Free Falling> Official MV Teaser",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
         "title": "<Who is she> KIOF Campaign Film #1 : COME FIND US!",
         "category": "기타",
         "unitId": 118
@@ -2546,6 +2566,11 @@
       {
         "title": "이번 주 <Show Champion> 1위 🎉",
         "category": "방송",
+        "unitId": 160
+      },
+      {
+        "title": "'L.O.Y.L.' MV Teaser",
+        "category": "기타",
         "unitId": 160
       },
       {
@@ -2561,6 +2586,11 @@
         "unitId": 35
       },
       {
+        "title": "<Caligo Pt.2> Prologue",
+        "category": "기타",
+        "unitId": 126
+      },
+      {
         "title": "<REV> MV TEASER",
         "category": "기타",
         "unitId": 36
@@ -2569,6 +2599,11 @@
         "title": "<Unpiltered> UNPILTERED RECORDS TEASER",
         "category": "기타",
         "unitId": 58
+      },
+      {
+        "title": "‘L.O.Y.L.’ MV Release",
+        "category": "발매",
+        "unitId": 160
       },
       {
         "title": "HAPPY EUNSEOK DAY!",
@@ -2581,12 +2616,32 @@
         "unitId": 30
       },
       {
+        "title": "<Free Falling> Online Cover Image",
+        "category": "기타",
+        "unitId": 108
+      },
+      {
+        "title": "<Free Falling> Tracklist",
+        "category": "발매",
+        "unitId": 108
+      },
+      {
+        "title": "<우리 다시> Audio Teaser",
+        "category": "기타",
+        "unitId": 46
+      },
+      {
         "title": "이번 주 <M COUNTDOWN> 1위 🎉",
         "category": "방송",
         "unitId": 142
       }
     ],
     "2026-03-20": [
+      {
+        "title": "<Caligo Pt.2> Promotion Scheduler",
+        "category": "기타",
+        "unitId": 126
+      },
       {
         "title": "<Ice Cream> ALBUM SPOILER",
         "category": "발매",
@@ -2658,6 +2713,11 @@
         "unitId": 2
       },
       {
+        "title": "<Free Falling> Highlight Medley",
+        "category": "발매",
+        "unitId": 108
+      },
+      {
         "title": "<기억속 켜진불> Release",
         "category": "발매",
         "unitId": 48
@@ -2673,6 +2733,16 @@
         "title": "<Unpiltered> UNPILTERED RECORDS",
         "category": "기타",
         "unitId": 58
+      },
+      {
+        "title": "<we don't go to bed tonight> Teaser",
+        "category": "기타",
+        "unitId": 127
+      },
+      {
+        "title": "<나의 아저씨> 방영 8주년",
+        "category": "축하",
+        "unitId": 6
       },
       {
         "title": "HAPPY ANTON DAY!",
@@ -2710,6 +2780,11 @@
         "unitId": 46
       },
       {
+        "title": "‘NO SAVIOR’ Release",
+        "category": "발매",
+        "unitId": 148
+      },
+      {
         "title": "<We on Fire> Mood Teaser",
         "category": "기타",
         "unitId": 129
@@ -2740,6 +2815,11 @@
         "title": "'Burnin’ Tires (창빈 & 아이엔)' 공개 1주년",
         "category": "축하",
         "unitId": 45
+      },
+      {
+        "title": "'밤 산책' 발매 1주년",
+        "category": "축하",
+        "unitId": 6
       },
       {
         "title": "HAPPY SUNGWOON DAY!",
@@ -2774,9 +2854,24 @@
         "unitId": 35
       },
       {
+        "title": "<Ice Cream> SPECIAL PHOTO",
+        "category": "기타",
+        "unitId": 38
+      },
+      {
+        "title": "<Ode to Love> Teaser",
+        "category": "기타",
+        "unitId": 155
+      },
+      {
         "title": "<Unpiltered> UNPILTERED RECORDS",
         "category": "기타",
         "unitId": 58
+      },
+      {
+        "title": "<we don't go to bed tonight> Concept Trailer",
+        "category": "기타",
+        "unitId": 127
       },
       {
         "title": "HAPPY RENJUN DAY!",
@@ -2789,11 +2884,6 @@
         "unitId": 63
       },
       {
-        "title": "<Free Falling> Release",
-        "category": "발매",
-        "unitId": 108
-      },
-      {
         "title": "<Ice Cream> Release",
         "category": "발매",
         "unitId": 38
@@ -2802,6 +2892,11 @@
         "title": "<MOVEURBODY (춤춰)> Release",
         "category": "발매",
         "unitId": 62
+      },
+      {
+        "title": "<TIC TIC (feat. Pabllo Vittar)>  M/V Release",
+        "category": "발매",
+        "unitId": 89
       },
       {
         "title": "<We on Fire> Concept Clip",
@@ -2815,6 +2910,11 @@
       }
     ],
     "2026-03-24": [
+      {
+        "title": "<Caligo Pt.2> Concept Photo",
+        "category": "기타",
+        "unitId": 126
+      },
       {
         "title": "<Biggest Fan> HIGHLIGHT MEDLEY",
         "category": "기타",
@@ -2862,6 +2962,11 @@
       }
     ],
     "2026-03-25": [
+      {
+        "title": "<Caligo Pt.2> Concept Photo",
+        "category": "기타",
+        "unitId": 126
+      },
       {
         "title": "<열여덟 청춘> Release",
         "category": "발매",
@@ -2943,9 +3048,19 @@
         "title": "베러 생일",
         "category": "축하",
         "unitId": 108
+      },
+      {
+        "title": "<Free Falling> Release",
+        "category": "발매",
+        "unitId": 108
       }
     ],
     "2026-03-27": [
+      {
+        "title": "<Caligo Pt.2> Visual Sampler",
+        "category": "기타",
+        "unitId": 126
+      },
       {
         "title": "<Biggest Fan> MV TEASER",
         "category": "기타",
@@ -2955,6 +3070,11 @@
         "title": "<Unpiltered> UNPILTERED RECORDS",
         "category": "기타",
         "unitId": 58
+      },
+      {
+        "title": "'kitsch' 발매 3주년",
+        "category": "축하",
+        "unitId": 85
       },
       {
         "title": "HAPPY LISA DAY!",
@@ -8547,7 +8667,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1454,
+    "total_events": 1478,
     "total_units": 120
   }
 }
