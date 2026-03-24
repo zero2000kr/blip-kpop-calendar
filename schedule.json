@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-24T05:19:36.206326",
+  "updated_at": "2026-03-24T10:50:12.295003",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -5068,6 +5068,11 @@
         "unitId": 147
       },
       {
+        "title": "<Hello Future> 발매 5주년",
+        "category": "축하",
+        "unitId": 152
+      },
+      {
         "title": "<Hello Future> 발매 6주년",
         "category": "축하",
         "unitId": 33
@@ -8667,7 +8672,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1478,
+    "total_events": 1479,
     "total_units": 120
   }
 }
