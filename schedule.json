@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-24T10:50:12.295003",
+  "updated_at": "2026-03-24T17:07:59.736265",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2959,6 +2959,11 @@
         "title": "KiiiKiii 데뷔 1 주년",
         "category": "축하",
         "unitId": 144
+      },
+      {
+        "title": "<Who is she> KIOF Campaign Film #2 : Who is she?",
+        "category": "기타",
+        "unitId": 118
       }
     ],
     "2026-03-25": [
@@ -8672,7 +8677,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 382,
-    "total_events": 1479,
+    "total_events": 1480,
     "total_units": 120
   }
 }
