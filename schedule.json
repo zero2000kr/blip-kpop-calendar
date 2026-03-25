@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-25T05:19:36.560528",
+  "updated_at": "2026-03-25T10:46:10.549766",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3700,8 +3700,8 @@
     ],
     "2026-04-15": [
       {
-        "title": "<LE SSERAFIM VR CONCERT : INVITATION> Release",
-        "category": "발매",
+        "title": "<LE SSERAFIM VR CONCERT : INVITATION> 개봉",
+        "category": "행사",
         "unitId": 95
       },
       {
@@ -4052,6 +4052,13 @@
         "title": "이승협 데뷔 11주년",
         "category": "축하",
         "unitId": 75
+      }
+    ],
+    "2026-04-29": [
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Release",
+        "category": "발매",
+        "unitId": 67
       }
     ],
     "2026-04-30": [
@@ -8676,8 +8683,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 382,
-    "total_events": 1480,
+    "days_with_events": 383,
+    "total_events": 1481,
     "total_units": 120
   }
 }
