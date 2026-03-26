@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T10:50:52.796266",
+  "updated_at": "2026-03-26T17:11:20.129154",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3050,11 +3050,6 @@
         "unitId": 10
       },
       {
-        "title": "RESCENE 데뷔 1주년",
-        "category": "축하",
-        "unitId": 133
-      },
-      {
         "title": "데뷔 7주년",
         "category": "축하",
         "unitId": 67
@@ -3197,6 +3192,16 @@
       }
     ],
     "2026-03-30": [
+      {
+        "title": "<Caligo Pt.2> Concept Photo B",
+        "category": "기타",
+        "unitId": 126
+      },
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Concept Photo",
+        "category": "기타",
+        "unitId": 67
+      },
       {
         "title": "HAPPY EUNWOO DAY!",
         "category": "축하",
@@ -8704,7 +8709,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 383,
-    "total_events": 1485,
+    "total_events": 1486,
     "total_units": 120
   }
 }
