@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T05:27:59.272373",
+  "updated_at": "2026-03-26T10:50:52.796266",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3337,6 +3337,11 @@
         "title": "호시 'Spider' 발매 5주년",
         "category": "축하",
         "unitId": 32
+      },
+      {
+        "title": "<UNVEIL> Release",
+        "category": "발매",
+        "unitId": 131
       }
     ],
     "2026-04-03": [
@@ -8699,7 +8704,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 383,
-    "total_events": 1484,
+    "total_events": 1485,
     "total_units": 120
   }
 }
