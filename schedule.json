@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-27T05:29:03.715945",
+  "updated_at": "2026-03-27T10:44:33.015961",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3297,6 +3297,11 @@
         "unitId": 74
       },
       {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Concept Photo",
+        "category": "기타",
+        "unitId": 67
+      },
+      {
         "title": "베이비몬스터 데뷔년 2주년",
         "category": "축하",
         "unitId": 122
@@ -3432,6 +3437,11 @@
         "unitId": 48
       },
       {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Concept Photo",
+        "category": "기타",
+        "unitId": 67
+      },
+      {
         "title": "HAPPY MINGYU DAY!",
         "category": "축하",
         "unitId": 32
@@ -3489,6 +3499,11 @@
         "title": "<Caligo Pt.2> Highlight Medley",
         "category": "발매",
         "unitId": 126
+      },
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Concept Photo",
+        "category": "기타",
+        "unitId": 67
       },
       {
         "title": "'봄 사랑 벚꽃 말고' 발매 12주년",
@@ -3563,6 +3578,11 @@
         "title": "<We on Fire> Official MV Teaser",
         "category": "기타",
         "unitId": 129
+      },
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Track List",
+        "category": "발매",
+        "unitId": 67
       },
       {
         "title": "'I AM' 발매 3주년",
@@ -3661,6 +3681,11 @@
     ],
     "2026-04-13": [
       {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> MV Teaser",
+        "category": "기타",
+        "unitId": 67
+      },
+      {
         "title": "Apink YOS 유닛 데뷔 6주년",
         "category": "축하",
         "unitId": 69
@@ -3751,6 +3776,11 @@
       }
     ],
     "2026-04-16": [
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Highlight Medley",
+        "category": "발매",
+        "unitId": 67
+      },
       {
         "title": "HAPPY SEUNGSIK DAY!",
         "category": "축하",
@@ -3953,6 +3983,11 @@
       }
     ],
     "2026-04-22": [
+      {
+        "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> MV Teaser",
+        "category": "기타",
+        "unitId": 67
+      },
       {
         "title": "<청춘의 포말> 발매 2주년",
         "category": "축하",
@@ -8719,7 +8754,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 383,
-    "total_events": 1488,
+    "total_events": 1495,
     "total_units": 120
   }
 }
