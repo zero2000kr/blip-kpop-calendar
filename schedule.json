@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-27T10:44:33.015961",
+  "updated_at": "2026-03-27T17:01:13.504247",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3050,6 +3050,11 @@
         "unitId": 10
       },
       {
+        "title": "RESCENE 데뷔 2주년",
+        "category": "축하",
+        "unitId": 133
+      },
+      {
         "title": "데뷔 7주년",
         "category": "축하",
         "unitId": 67
@@ -3110,6 +3115,16 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 35
+      },
+      {
+        "title": "<iScreaM Vol.39: Hearts2Hearts - RUDE! (Remixes)> Release",
+        "category": "발매",
+        "unitId": 142
+      },
+      {
+        "title": "이번주 <뮤직뱅크> 1위 🎉",
+        "category": "방송",
+        "unitId": 2
       }
     ],
     "2026-03-28": [
@@ -8754,7 +8769,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 383,
-    "total_events": 1495,
+    "total_events": 1498,
     "total_units": 120
   }
 }
