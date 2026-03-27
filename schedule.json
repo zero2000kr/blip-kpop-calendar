@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-26T17:11:20.129154",
+  "updated_at": "2026-03-27T05:29:03.715945",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -6566,7 +6566,7 @@
     ],
     "2026-10-01": [
       {
-        "title": "'Ruined my life' 발매 1 주년",
+        "title": "'Ruin My Life' 발매 1 주년",
         "category": "축하",
         "unitId": 113
       },
@@ -7982,6 +7982,11 @@
         "title": "첫 음악방송 1위 기념일!",
         "category": "방송",
         "unitId": 52
+      },
+      {
+        "title": "최예나 솔로 데뷔 5주년",
+        "category": "축하",
+        "unitId": 93
       }
     ],
     "2027-01-18": [
@@ -8303,6 +8308,11 @@
       },
       {
         "title": "이지우 데뷔 4주년",
+        "category": "축하",
+        "unitId": 130
+      },
+      {
+        "title": "트리플에스 데뷔 4주년",
         "category": "축하",
         "unitId": 130
       }
@@ -8709,7 +8719,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 383,
-    "total_events": 1486,
+    "total_events": 1488,
     "total_units": 120
   }
 }
