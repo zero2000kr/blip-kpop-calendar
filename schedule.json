@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T10:29:14.507069",
+  "updated_at": "2026-03-28T16:42:16.725445",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -3167,11 +3167,6 @@
         "title": "미라클 생일",
         "category": "축하",
         "unitId": 43
-      },
-      {
-        "title": "<Unpiltered> MV TEASER",
-        "category": "기타",
-        "unitId": 58
       }
     ],
     "2026-03-29": [
@@ -8791,7 +8786,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 384,
-    "total_events": 1502,
+    "total_events": 1501,
     "total_units": 120
   }
 }
