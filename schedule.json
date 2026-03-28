@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T05:17:39.285863",
+  "updated_at": "2026-03-28T10:29:14.507069",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -5017,6 +5017,13 @@
         "unitId": 2
       }
     ],
+    "2026-06-19": [
+      {
+        "title": "마마무 데뷔 12주년",
+        "category": "축하",
+        "unitId": 36
+      }
+    ],
     "2026-06-20": [
       {
         "title": "정우 SM 입사 12주년",
@@ -5333,6 +5340,11 @@
         "unitId": 129
       },
       {
+        "title": "무무 생일",
+        "category": "축하",
+        "unitId": 36
+      },
+      {
         "title": "믿지 생일",
         "category": "축하",
         "unitId": 38
@@ -5539,6 +5551,11 @@
         "title": "<Flower Bud> 발매 11주년",
         "category": "축하",
         "unitId": 47
+      },
+      {
+        "title": "HAPPY HWASA DAY!",
+        "category": "축하",
+        "unitId": 36
       },
       {
         "title": "HAPPY JAEHYUK DAY!",
@@ -8468,6 +8485,11 @@
         "unitId": 151
       },
       {
+        "title": "Hearts2Hearts 데뷔 2주년",
+        "category": "축하",
+        "unitId": 142
+      },
+      {
         "title": "필릭스 JYP 입사일",
         "category": "축하",
         "unitId": 45
@@ -8768,8 +8790,8 @@
   },
   "stats": {
     "months_scraped": 14,
-    "days_with_events": 383,
-    "total_events": 1498,
+    "days_with_events": 384,
+    "total_events": 1502,
     "total_units": 120
   }
 }
