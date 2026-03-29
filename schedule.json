@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T10:30:23.820278",
+  "updated_at": "2026-03-29T16:43:08.780486",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -2911,14 +2911,14 @@
     ],
     "2026-03-24": [
       {
-        "title": "<Caligo Pt.2> Concept Photo",
-        "category": "기타",
-        "unitId": 126
-      },
-      {
         "title": "<Biggest Fan> HIGHLIGHT MEDLEY",
         "category": "기타",
         "unitId": 35
+      },
+      {
+        "title": "<Caligo Pt.2> Concept Photo",
+        "category": "기타",
+        "unitId": 126
       },
       {
         "title": "<Unpiltered> UNPILTERED RECORDS",
@@ -2961,7 +2961,7 @@
         "unitId": 144
       },
       {
-        "title": "<Free Falling> Official MV Teaser 2",
+        "title": "<Free Falling> Official MV Teaser",
         "category": "기타",
         "unitId": 108
       },
@@ -2978,14 +2978,14 @@
     ],
     "2026-03-25": [
       {
-        "title": "<Caligo Pt.2> Concept Photo",
-        "category": "기타",
-        "unitId": 126
-      },
-      {
         "title": "<열여덟 청춘> Release",
         "category": "발매",
         "unitId": 105
+      },
+      {
+        "title": "<Caligo Pt.2> Concept Photo",
+        "category": "기타",
+        "unitId": 126
       },
       {
         "title": "<Unpiltered> UNPILTERED RECORDS",
@@ -3072,14 +3072,14 @@
     ],
     "2026-03-27": [
       {
-        "title": "<Caligo Pt.2> Visual Sampler",
-        "category": "기타",
-        "unitId": 126
-      },
-      {
         "title": "<Biggest Fan> MV TEASER",
         "category": "기타",
         "unitId": 35
+      },
+      {
+        "title": "<Caligo Pt.2> Visual Sampler",
+        "category": "기타",
+        "unitId": 126
       },
       {
         "title": "<Unpiltered> UNPILTERED RECORDS",
@@ -3196,6 +3196,16 @@
         "unitId": 132
       },
       {
+        "title": "'Bitter Sweet (Addiction)' Release",
+        "category": "발매",
+        "unitId": 153
+      },
+      {
+        "title": "이번 주 <인기가요(Inkigayo)> 1위 🎉",
+        "category": "방송",
+        "unitId": 2
+      },
+      {
         "title": "<Unpiltered> MV TEASER",
         "category": "기타",
         "unitId": 58
@@ -3206,6 +3216,11 @@
         "title": "<Caligo Pt.2> Concept Photo B",
         "category": "기타",
         "unitId": 126
+      },
+      {
+        "title": "<Ode to Love> Trailer",
+        "category": "기타",
+        "unitId": 155
       },
       {
         "title": "<𝗥𝗘:𝗙𝗟𝗘𝗖𝗧-𝟭𝘀𝘁 𝗦𝗶𝗻𝗴𝗹𝗲 𝗔𝗹𝗯𝘂𝗺> Concept Photo",
@@ -8796,7 +8811,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 384,
-    "total_events": 1503,
+    "total_events": 1506,
     "total_units": 120
   }
 }
