@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-29T05:39:44.095085",
+  "updated_at": "2026-03-29T10:30:23.820278",
   "range": {
     "start": "2026-02-01",
     "end": "2027-03-31"
@@ -7341,6 +7341,11 @@
     ],
     "2026-11-18": [
       {
+        "title": "<Love poem> 발매 7주년",
+        "category": "축하",
+        "unitId": 6
+      },
+      {
         "title": "HAPPY SAKUYA DAY!",
         "category": "축하",
         "unitId": 33
@@ -7368,6 +7373,11 @@
         "title": "HAPPY KIM JUNSEO DAY!",
         "category": "축하",
         "unitId": 159
+      },
+      {
+        "title": "드라마 <예쁜 남자> 방송 12주년",
+        "category": "축하",
+        "unitId": 6
       }
     ],
     "2026-11-21": [
@@ -8786,7 +8796,7 @@
   "stats": {
     "months_scraped": 14,
     "days_with_events": 384,
-    "total_events": 1501,
+    "total_events": 1503,
     "total_units": 120
   }
 }
